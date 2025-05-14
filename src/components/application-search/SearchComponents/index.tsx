@@ -1,23 +1,23 @@
+import classNames from 'classnames';
 import { useEffect, useState } from 'react';
 import { FieldValues, FormProvider, useForm } from 'react-hook-form';
-import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import classNames from 'classnames';
+import { useSearchParams } from 'react-router-dom';
 
 import { Button, Text } from '@pentabd/ui';
 
 import { CandidateTypeSearch } from './candidateType';
 
-import { FORM_FIELDS } from '@constants/forms';
-import { ADMIN_SEARCH } from './form';
 import { ElectionTypeSearch } from '@components/application-search/SearchComponents/electionType';
-import { RefreshDataType, SearchComponentProps, StructTypes } from './types';
+import { FORM_FIELDS } from '@constants/forms';
 import {
-  displayInput,
   areRequiredKeysDefined,
-  removeUndefinedProperties,
   convertArrayValuesToCommaSeparated,
+  displayInput,
+  removeUndefinedProperties,
 } from '../utils';
+import { ADMIN_SEARCH } from './form';
+import { RefreshDataType, SearchComponentProps, StructTypes } from './types';
 export const APPLICATION_SEARCH = FORM_FIELDS.APPLICATION_SEARCH;
 
 export const SearchComponents = ({
@@ -119,7 +119,6 @@ export const SearchComponents = ({
                     struct={item}
                     resetData={resetData}
                     emptyBelowData={emptyBelowData}
-                    setValue={setValue}
                   />
                 ) : null}
 

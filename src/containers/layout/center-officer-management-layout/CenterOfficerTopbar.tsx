@@ -1,22 +1,16 @@
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
-import { TopBar } from '@pentabd/ui';
 import { IconHomeLine } from '@pentabd/icons';
+import { TopBar } from '@pentabd/ui';
 
 import RightSideNavMenu from '@components/RightSideNavMenu';
 
 import { ROUTES } from '@constants/routes';
 import Logo from '@images/eclogo.svg';
-import useFiltersRedux from '@hooks/miscellaneous/custom-hook/useFiltersRedux';
-import useRoReportFiltersNew from '@hooks/candidate-info-management/report/useRoReportFiltersNew';
 
 const CenterOfficerTopbar = () => {
   const { t } = useTranslation();
-
-  const { roReportFilters } = useRoReportFiltersNew(true);
-  const { isAdmin, setFiltersInRedux } = useFiltersRedux();
 
   const leftNavMenu = [
     {
@@ -36,13 +30,6 @@ const CenterOfficerTopbar = () => {
     email: 'olivia@pentabd.com',
     component: <RightSideNavMenu />,
   };
-
-  useEffect(() => {
-    if (!isAdmin) {
-      setFiltersInRedux(roReportFilters);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [roReportFilters]);
 
   return (
     <>
