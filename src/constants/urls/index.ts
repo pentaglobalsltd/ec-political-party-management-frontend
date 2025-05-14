@@ -5,36 +5,17 @@ import {
 import { CandidateInfoReportUrlType } from '@type/url-type';
 
 import { AUTH } from './auth/auth';
-import { CANDIDATE_INFO_MANAGEMENT } from './candidate-info-management/candidate-info-management';
 import { CENTER_OFFICER_MANAGEMENT } from './center-officer-management/center-officer-management';
-import { ELECTION_DECLARATION_MANAGEMENT } from './election-declaration-management/election-declaration-management';
-import { RESULT_MANAGEMENT } from './result-management/result-management';
 import { USER_MANAGEMENT } from './user-management/user-management';
-import { VOTE_CENTER_MANAGEMENT } from './vote-center-management/vote-center-management';
-import { UpazilaThanaConstituenciesParams } from '@api/miscellaneous/core-api/constituency/constituencies-by-upazila-thana';
+import { DownloadFileIdType } from '@type/documents/attach-file';
 
 export const URLS = {
   // Auth URLs
   ...AUTH,
 
-  // Election Declaration Management URLs
-  ...ELECTION_DECLARATION_MANAGEMENT,
-
-  // Vote Center Management URLs
-  ...VOTE_CENTER_MANAGEMENT,
-
   // Center Officer Management URLs
   ...CENTER_OFFICER_MANAGEMENT,
-
-  // Candidate Info Management URLs
-  ...CANDIDATE_INFO_MANAGEMENT,
-
-  // Result Management URLs
-  ...RESULT_MANAGEMENT,
-
-  // User Management URLs
   ...USER_MANAGEMENT,
-
   ADD_NEW_CANDIDATE_NOMINATION: 'candidate/register',
 
   GET_PDF_DATA: '/generate/pdf',
@@ -93,6 +74,8 @@ export const URLS = {
   GET_VOTER_TYPES: '/voter-types',
 
   GET_CANDIDATE_TYPES_ONS: '/candidate-types',
+  GET_IMAGE_BASE64: ({ documentId, fileId }: DownloadFileIdType) =>
+    `/document/${documentId}/file/${fileId}/base64`,
 
   GET_ELECTION_CANDIDATE_TYPES: (electionId: string | number) =>
     `/election-types/${electionId}/candidate-types`,
@@ -195,15 +178,6 @@ export const URLS = {
     municipalityId: string | number;
   }) =>
     `/election-schedules/${electionScheduleId}/candidate-types/${candidateTypeId}/zillas/${zillaId}/municipalities/${municipalityId}/upazilas-or-thanas`,
-
-  GET_UPAZILA_OR_THANA_CONSTITUENCIES: ({
-    electionScheduleId,
-    candidateTypeId,
-    zillaId,
-    municipalityId,
-    upazilaThanaId,
-  }: UpazilaThanaConstituenciesParams) =>
-    `/election-schedules/${electionScheduleId}/candidate-types/${candidateTypeId}/zillas/${zillaId}/municipalities/${municipalityId}/upazilas-or-thanas/${upazilaThanaId}/constituencies`,
 
   GET_UNION_BY_UPAZILA: (id: string | number) =>
     `/upazilas/${id}/union-or-wards`,

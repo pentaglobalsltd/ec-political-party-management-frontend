@@ -1,1 +1,0 @@
-export const DATA_TIME_FORMAT = 'DD-MM-YY';

@@ -12,7 +12,7 @@ export const useDocumentService = () => {
 
   const onUploadProgress = (progressEvent: any) => {
     const { loaded, total } = progressEvent;
-    let percent = Math.floor((loaded * 100) / total);
+    const percent = Math.floor((loaded * 100) / total);
     setPercent(percent);
   };
 

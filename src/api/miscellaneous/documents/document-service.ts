@@ -37,8 +37,12 @@ export const createDocumentService = (() => {
     const formData = new FormData();
     formData.append('file', document);
     formData.append('docType', '1');
-    pathId && formData.append('pathId', pathId.toString());
-    category && formData.append('category', category);
+    if (pathId) {
+      formData.append('pathId', pathId.toString());
+    }
+    if (category) {
+      formData.append('category', category);
+    }
     let url = privateUrl;
     if (usePublicUrl) {
       url = publicUrl;

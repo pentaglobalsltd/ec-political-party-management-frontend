@@ -6,7 +6,7 @@ export const useGetUserProfileFromRedux = () => {
     getUserProfileForElectionSettingsId,
   );
 
-  let userProfileDetails: any = {};
+  const userProfileDetails: any = {};
   if (Object.keys(userProfileForSelect).length > 0) {
     userProfileDetails.electionScheduleId =
       userProfileForSelect.electionScheduleId;

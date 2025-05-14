@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 import { APPLICATION_SEARCH } from '@components/application-search/SearchComponents';
 import { IconChevronDown } from '@pentabd/icons';
 import Select from '@components/inputs/Select';
-import useElectionTypesCore from '@hooks/miscellaneous/core-hook/election-type/useElectionTypesCore';
-import useElectionTypesMaster from '@hooks/miscellaneous/master-hook/election-type/useElectionTypesMaster';
 import { RefreshDataType, StructTypes } from '../types';
 import useFiltersRedux from '@hooks/miscellaneous/custom-hook/useFiltersRedux';
+import useElectionTypesCore from '@hooks/miscellaneous/election-type/useElectionTypesCore';
+import useElectionTypesMaster from '@hooks/miscellaneous/election-type/useElectionTypesMaster';
 
 export const ElectionTypeSearch = ({
   struct,
