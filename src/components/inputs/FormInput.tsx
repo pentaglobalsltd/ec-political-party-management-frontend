@@ -79,7 +79,9 @@ const FormInput = ({
                   disabled={disabled}
                   value={field.value || ''}
                   onChange={(data) => {
-                    onchange && onchange(data);
+                    if (onchange) {
+                      onchange(data);
+                    }
                     if (formattedValue) {
                       if (formattedValue.test(data.target.value)) {
                         field.onChange(data);

@@ -1,12 +1,8 @@
 export const CENTER_OFFICER_MANAGEMENT_ROUTES = {
-  CENTER_OFFICER_MANAGEMENT: '/center-officer-management',
-
   // Political Party
   POLITICAL_PARTY: 'political-party',
-  CREATE_POLITICAL_PARTY:
-    '/center-officer-management/political-party/create-political-party',
-  EDIT_POLITICAL_PARTY: (id: string | number) =>
-    `/center-officer-management/political-party/${id}`,
+  CREATE_POLITICAL_PARTY: '/political-party/create-political-party',
+  EDIT_POLITICAL_PARTY: (id: string | number) => `/political-party/${id}`,
 
   // Vote Establishment List
   VOTE_ESTABLISHMENT_LIST: 'vote-establishment-list',

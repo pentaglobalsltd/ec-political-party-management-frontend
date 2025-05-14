@@ -23,24 +23,17 @@ const useCandidateTypes = (): UseElectionCandidateTypesPropsTypes => {
     SelectOptionArray[]
   >([]);
 
-  const getElectionCandidateTypesData = async (
-    params: {
-      [key: string]: string | number;
-    },
-    nonVisibleCandidateType?: number[],
-  ) => {
+  const getElectionCandidateTypesData = async (params: {
+    [key: string]: string | number;
+  }) => {
     try {
       const response = await getElectionCandidateTypes(params);
       if (response?.data?.status === 200) {
         const dataArray =
-          response?.data?.data?.candidateTypes
-            ?.filter(
-              (item: any) => !nonVisibleCandidateType?.includes(item?.id),
-            )
-            ?.map((item: any) => ({
-              label: language === LANGUAGE.BANGLA ? item.nameBn : item.nameEn,
-              value: item.id,
-            })) || [];
+          response?.data?.data?.candidateTypes?.map((item: any) => ({
+            label: language === LANGUAGE.BANGLA ? item.nameBn : item.nameEn,
+            value: item.id,
+          })) || [];
         setElectionCandidateTypes(dataArray);
       }
     } catch (error) {

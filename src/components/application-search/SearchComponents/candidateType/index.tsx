@@ -15,7 +15,6 @@ interface Props {
   resetData?: any;
   emptyBelowData?: (data: any) => void;
   setValue?: any;
-  nonVisibleCandidateType?: number[];
 }
 
 export const CandidateTypeSearch = ({
@@ -24,7 +23,6 @@ export const CandidateTypeSearch = ({
   resetData,
   emptyBelowData,
   setValue,
-  nonVisibleCandidateType,
 }: Props) => {
   const { watch } = useFormContext();
 
@@ -43,14 +41,14 @@ export const CandidateTypeSearch = ({
       ) &&
       isAdmin
     )
-      getElectionCandidateTypesData(watchList, nonVisibleCandidateType);
+      getElectionCandidateTypesData(watchList);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [JSON.stringify(watchList)]);
 
   useEffect(() => {
     if (struct?.dependentDefaultValue) {
-      for (const item of struct?.dependentDefaultValue) {
+      for (const item of struct?.dependentDefaultValue ?? []) {
         const data: any = watch(item.dependentOn);
 
         if (data === item.dependentOnValue) {

@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 export interface allDataProps {
   [key: string]: any;
 }
@@ -40,36 +38,8 @@ export interface SearchComponentProps {
     value?: string[] | number[];
     watchId?: string;
   }[];
-  isActiveElectionSchedule?: boolean;
   userType?: string;
   allSelectedData?: RefreshDataType;
-  submitButtonDisabled?: boolean;
-  nominationStatusCodes?: string;
-  paymentType?: string;
   title?: string;
-  customClass?: string;
   loading?: boolean;
-  selectAny?: boolean;
-  isSetSearchParams?: boolean;
-  isPublishButton?: boolean;
-  getElectionSettingsIdForAdmin?: boolean;
-  isDetailedButton?: boolean;
-  isBriefButton?: boolean;
-  showSubmitButton?: boolean;
-  isBriefButtonOptions?: any;
-  isDetailedButtonOptions?: any;
-  nonVisibleCandidateType?: number[];
-  defaultFromDate?: string;
-  defaultToDate?: string;
-  titleElement?: string | React.ReactNode;
-  isBriefButtonLabel?: string;
-  isDetailedButtonLabel?: string;
-  ignoreOnlineDraft?: boolean;
-  children?: ReactNode;
-  userTypeCodesIncludingAll?: boolean;
-  isGetWatch?: boolean;
-  getScheduleDate?: boolean;
-  handleSearchWatch?: (data: any) => void;
-  defaultYear?: string;
-  defaultMonth?: number;
 }

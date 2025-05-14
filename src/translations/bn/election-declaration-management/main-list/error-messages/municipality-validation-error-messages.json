@@ -1,9 +1,0 @@
-{
-  "DISTRICT": "জেলা নাম আবশ্যক",
-  "SUB_DISTRICT": "উপজেলা নাম আবশ্যক",
-  "MUNICIPALITY_BN": "পৌরসভা নাম বাংলায় আবশ্যক",
-  "MUNICIPALITY_EN": "পৌরসভা নাম ইংরেজিতে আবশ্যক",
-  "MUNICIPALITY_GO_CODE": "পৌরসভা জিও কোড আবশ্যক",
-  "MUNICIPALITY_GEO_CODE_POSITIVE": "জিও কোড সংখ্যা হতে হবে",
-  "RMO": "আরএমও আবশ্যক"
-}

@@ -16,7 +16,6 @@
     "build:production": "vite build --mode production",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "cypress:open": "cypress open",
     "doc": "typedoc --plugin typedoc-plugin-missing-exports --out docs src/index.ts"
   },
   "dependencies": {
@@ -70,8 +69,6 @@
     "@typescript-eslint/eslint-plugin": "^8.5.0",
     "@typescript-eslint/parser": "^8.5.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "cypress": "^13.14.2",
-    "cypress-keycloak": "^2.0.2",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
