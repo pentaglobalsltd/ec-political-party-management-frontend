@@ -41,7 +41,7 @@ export const useUserProfileLogInId = (): Props => {
           })) || [];
         setUserProfileLogInId(data);
       }
-    } catch (error) {
+    } catch {
       console.log('error');
     }
   };

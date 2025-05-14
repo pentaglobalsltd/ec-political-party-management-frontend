@@ -29,7 +29,7 @@ const useUpdateUserResetPassword = () => {
         setUpdateSuccess(true);
         toast.success(t('TOAST_MESSAGE.UPDATE_SUCCESS_MESSAGE'));
       }
-    } catch (error) {
+    } catch {
       setUpdateLoading(false);
       toast.error(t('TOAST_MESSAGE.UPDATE_ERROR_MESSAGE'));
     }

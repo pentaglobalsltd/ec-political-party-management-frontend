@@ -14,12 +14,12 @@ import {
   createSymbolValidation,
 } from '@validations/center-officer-management/controller-list/symbol/symbol-validation';
 import { addSymbolBreadcrumbs } from '../../constants';
-import { useGetAllCandidateType } from '@hooks/election-schedule-management/other/candidate-type/useGetAllCandidateType';
 import ImageInput from '@components/inputs/ImageInput';
 import { useCreateSymbol } from '@hooks/center-officer-management/controller-list/symbol/useCreateSymbol';
 import { useUpdateSymbol } from '@hooks/center-officer-management/controller-list/symbol/useUpdateSymbol';
 import { useGetSymbol } from '@hooks/center-officer-management/controller-list/symbol/useGetSymbol';
 import { FILE_CATEGORY } from '@constants/file';
+import { useGetAllCandidateType } from '@hooks/miscellaneous/candidate-type/useGetAllCandidateType';
 
 const CREATE_SYMBOL =
   FORM_FIELDS.CENTER_OFFICER_MANAGEMENT.CONTROLLER_LIST.SYMBOL.CREATE_SYMBOL;

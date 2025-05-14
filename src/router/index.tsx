@@ -15,7 +15,6 @@ import { postRefreshToken } from '@api/miscellaneous/auth/auth';
 export const AppRouter = () => {
   const { keycloak } = useAuthWrapper();
   const permissionsArray = keycloak.realmAccess?.roles;
-  const userType = keycloak.tokenParsed?.userType;
   const { logout, isSuccess } = keycloak;
 
   const { decodeJwtToken } = useUserInfo();
@@ -111,9 +110,7 @@ export const AppRouter = () => {
   return (
     <Routes>
       {permissionsArray
-        ? routes(permissionsArray, userType).map((route: RouteType) =>
-            buildRoute(route),
-          )
+        ? routes().map((route: RouteType) => buildRoute(route))
         : null}
     </Routes>
   );
