@@ -1,7 +1,0 @@
-{
-  "DISTRICT": "District name is required",
-  "SUB_DISTRICT_BN": "Sub-district name in Bengali is required",
-  "SUB_DISTRICT_EN": "Sub-district name in English is required",
-  "GO_CODE": "Geo code is required",
-  "SUB_DISTRICT_GEO_CODE_POSITIVE": "Geo code must be a number"
-}

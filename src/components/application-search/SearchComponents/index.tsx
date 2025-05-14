@@ -4,25 +4,20 @@ import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames';
 
-import { Button, Dropdown, Text } from '@pentabd/ui';
+import { Button, Text } from '@pentabd/ui';
 
 import { CandidateTypeSearch } from './candidateType';
 
 import { FORM_FIELDS } from '@constants/forms';
 import { ADMIN_SEARCH } from './form';
-import { USER_TYPE_CODE_ALL } from '../constants';
 import { ElectionTypeSearch } from '@components/application-search/SearchComponents/electionType';
 import { RefreshDataType, SearchComponentProps, StructTypes } from './types';
 import {
   displayInput,
-  SelectedOneField,
-  hasUndefinedValues,
   areRequiredKeysDefined,
   removeUndefinedProperties,
-  areConditionalRequiredKeysDefined,
   convertArrayValuesToCommaSeparated,
 } from '../utils';
-export const ADVANCE_SEARCH = ADMIN_SEARCH.ADVANCE_SEARCH;
 export const APPLICATION_SEARCH = FORM_FIELDS.APPLICATION_SEARCH;
 
 export const SearchComponents = ({
@@ -31,29 +26,9 @@ export const SearchComponents = ({
   totalCol = 'grid-cols-lg-12',
   colSpan = 'col-span-3',
   requiredField,
-  userType,
   allSelectedData,
-  submitButtonDisabled,
-  nominationStatusCodes,
-  paymentType,
   title,
-  customClass,
   loading,
-  selectAny,
-  isSetSearchParams = true,
-  isDetailedButton = false,
-  isBriefButton = false,
-  showSubmitButton = true,
-  isBriefButtonOptions,
-  isDetailedButtonOptions,
-  isPublishButton,
-  conditionalRequiredField,
-  nonVisibleCandidateType,
-  isBriefButtonLabel = 'SEARCH.BRIEF_REPORT',
-  isDetailedButtonLabel = 'SEARCH.DETAILED_REPORT',
-  children,
-  isGetWatch,
-  handleSearchWatch,
 }: SearchComponentProps) => {
   const [formData, setFormData] = useState<FieldValues>();
 
@@ -65,7 +40,7 @@ export const SearchComponents = ({
 
   const methods = useForm();
 
-  const { watch, handleSubmit, setValue, getValues } = methods;
+  const { watch, handleSubmit, setValue } = methods;
 
   const getWatchList = (fieldStruct: any) => {
     const watchList: any = {};
@@ -90,60 +65,15 @@ export const SearchComponents = ({
   };
 
   const onSubmit = (data: any) => {
-    if (data.isCaseAvailable === 'yes') {
-      data.isCaseAvailable = 'true';
-    } else if (data.isCaseAvailable === 'no') {
-      data.isCaseAvailable = 'false';
-    }
-    if (userType) {
-      data.type = userType;
-    }
-    if (data?.userTypeCode === USER_TYPE_CODE_ALL) {
-      delete data.userTypeCode;
-    }
-
-    if (
-      nominationStatusCodes &&
-      (!data?.nominationStatusCodes ||
-        (Array.isArray(data?.nominationStatusCodes) &&
-          data?.nominationStatusCodes?.length === 0))
-    ) {
-      data = { ...data, nominationStatusCodes };
-    }
-    if (paymentType) {
-      data = { paymentType, ...data };
-    }
-    if (Array.isArray(data?.agencyTypeIds)) {
-      data.agencyTypeIds = data?.agencyTypeIds.join(',');
-    }
-
     data = convertArrayValuesToCommaSeparated(data);
 
     if (onSubmitHandler) {
       const newData: any = removeUndefinedProperties(data);
 
-      if (requiredField || conditionalRequiredField) {
-        onSubmitHandler(newData);
-        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-        isSetSearchParams && setSearchParams({ ...newData, page: 0 });
-      } else if (!selectAny && hasUndefinedValues(data) && !requiredField) {
-        onSubmitHandler(newData);
-        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-        isSetSearchParams && setSearchParams({ ...newData, page: 0 });
-      } else if (selectAny && !SelectedOneField(data)) {
-        onSubmitHandler(newData);
-        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-        isSetSearchParams && setSearchParams({ ...newData, page: 0 });
-      } else if (isPublishButton) onSubmitHandler(data);
+      onSubmitHandler(newData);
+      setSearchParams({ ...newData, page: 0 });
     }
   };
-
-  useEffect(() => {
-    if (isGetWatch && handleSearchWatch) {
-      handleSearchWatch(watch());
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isGetWatch, JSON.stringify(watch())]);
 
   useEffect(() => {
     setFormData(watch());
@@ -154,7 +84,7 @@ export const SearchComponents = ({
     <div className="bg-light mb-10 rounded-5">
       <FormProvider {...methods}>
         <form
-          className={classNames(' p-10 box-ex rounded-5', customClass)}
+          className={classNames(' p-10 box-ex rounded-5')}
           onSubmit={handleSubmit(onSubmit)}
         >
           {title ? (
@@ -184,7 +114,7 @@ export const SearchComponents = ({
                 }}
               >
                 {/* নির্বাচনের ধরন */}
-                {item?.fieldName === ADVANCE_SEARCH.ELECTION_TYPE ? (
+                {item?.fieldName === ADMIN_SEARCH.ELECTION_TYPE ? (
                   <ElectionTypeSearch
                     struct={item}
                     resetData={resetData}
@@ -194,87 +124,34 @@ export const SearchComponents = ({
                 ) : null}
 
                 {/* প্রার্থীর ধরন */}
-                {item?.fieldName === ADVANCE_SEARCH.CANDIDATE_TYPE ? (
+                {item?.fieldName === ADMIN_SEARCH.CANDIDATE_TYPE ? (
                   <CandidateTypeSearch
                     struct={item}
                     watchList={getWatchList(item?.pathParamsDependency)}
                     resetData={resetData}
                     emptyBelowData={emptyBelowData}
                     setValue={setValue}
-                    nonVisibleCandidateType={nonVisibleCandidateType}
                   />
                 ) : null}
               </div>
             ))}
-            {showSubmitButton ? (
-              <div className="col-span-1">
-                <Button
-                  type="primary"
-                  htmlType="submit"
-                  className="w-100"
-                  size="lg"
-                  loading={loading}
-                  disabled={
-                    submitButtonDisabled ||
-                    (requiredField &&
-                      !areRequiredKeysDefined(watch(), requiredField)) ||
-                    (conditionalRequiredField &&
-                      !areConditionalRequiredKeysDefined(
-                        watch(),
-                        conditionalRequiredField,
-                      ))
-                  }
-                >
-                  <Text weight="semibold">{t('SEARCH.SEARCH')}</Text>
-                </Button>
-              </div>
-            ) : null}
-            {isDetailedButton && (
-              <div className="col-span-1">
-                <Dropdown
-                  buttonLabelName={t(`${isDetailedButtonLabel}`)}
-                  buttonType="button"
-                  listItem={isDetailedButtonOptions.map((item: any) => {
-                    const { data, ...restData } = item;
-                    return {
-                      ...restData,
-                      disabled: requiredField
-                        ? !areRequiredKeysDefined(watch(), requiredField)
-                        : false,
-                      onClick: () =>
-                        onSubmit({
-                          ...getValues(),
-                          ...data,
-                        }),
-                    };
-                  })}
-                />
-              </div>
-            )}
-            {isBriefButton && (
-              <div className="col-span-1">
-                <Dropdown
-                  buttonLabelName={t(`${isBriefButtonLabel}`)}
-                  buttonType="button"
-                  listItem={isBriefButtonOptions.map((item: any) => {
-                    const { data, ...restData } = item;
-                    return {
-                      ...restData,
-                      disabled: requiredField
-                        ? !areRequiredKeysDefined(watch(), requiredField)
-                        : false,
-                      onClick: () =>
-                        onSubmit({
-                          ...getValues(),
-                          ...data,
-                        }),
-                    };
-                  })}
-                />
-              </div>
-            )}
+
+            <div className="col-span-1">
+              <Button
+                type="primary"
+                htmlType="submit"
+                className="w-100"
+                size="lg"
+                loading={loading}
+                disabled={
+                  requiredField &&
+                  !areRequiredKeysDefined(watch(), requiredField)
+                }
+              >
+                <Text weight="semibold">{t('SEARCH.SEARCH')}</Text>
+              </Button>
+            </div>
           </div>
-          {children}
         </form>
       </FormProvider>
     </div>

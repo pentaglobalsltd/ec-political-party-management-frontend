@@ -40,17 +40,6 @@ export function displayInput({ struct, formData }: FindFieldsProps) {
   }
 }
 
-export function hasUndefinedValues(data: any) {
-  for (const key in data) {
-    if (Object.prototype.hasOwnProperty.call(data, key)) {
-      if (typeof data[key] === 'undefined' || !data[key]) {
-        return false;
-      }
-    }
-  }
-  return true;
-}
-
 export function areRequiredKeysDefined(data: any, requiredField: string[]) {
   for (const key of requiredField) {
     if (
@@ -77,27 +66,6 @@ export function areQueriesOptional(data?: allDataProps, watch?: any) {
   return false;
 }
 
-export function areConditionalRequiredKeysDefined(
-  data: any,
-  requiredField: any[],
-) {
-  for (const field of requiredField) {
-    if (!field.watchId || !field.value) {
-      if (field.fieldName && !data[field.fieldName]) {
-        return false;
-      }
-    } else {
-      const watchedValue = data[field.watchId];
-      if (field.value.includes(watchedValue)) {
-        if (field.fieldName && !data[field.fieldName]) {
-          return false;
-        }
-      }
-    }
-  }
-  return true;
-}
-
 export function removeUndefinedProperties(data: any) {
   const newObj: any = {};
   for (const key in data) {
@@ -111,13 +79,6 @@ export function removeUndefinedProperties(data: any) {
     }
   }
   return newObj;
-}
-
-export function SelectedOneField(data: any) {
-  const checkSubmittedData = Object.values(data).every(
-    (item) => item === undefined,
-  );
-  return checkSubmittedData;
 }
 
 export const convertArrayValuesToCommaSeparated = (data: any) => {

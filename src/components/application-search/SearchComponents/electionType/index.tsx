@@ -4,7 +4,6 @@ import { IconChevronDown } from '@pentabd/icons';
 import Select from '@components/inputs/Select';
 import { RefreshDataType, StructTypes } from '../types';
 import useFiltersRedux from '@hooks/miscellaneous/custom-hook/useFiltersRedux';
-import useElectionTypesCore from '@hooks/miscellaneous/election-type/useElectionTypesCore';
 import useElectionTypesMaster from '@hooks/miscellaneous/election-type/useElectionTypesMaster';
 
 export const ElectionTypeSearch = ({
@@ -18,8 +17,6 @@ export const ElectionTypeSearch = ({
   emptyBelowData?: (data: any) => void;
   setValue: any;
 }) => {
-  const { getElectionTypesCoreData, electionTypesCore } =
-    useElectionTypesCore();
   const { electionTypesMaster, getElectionTypesMasterData } =
     useElectionTypesMaster();
 
@@ -28,9 +25,7 @@ export const ElectionTypeSearch = ({
 
   //get election Type
   useEffect(() => {
-    // IF admin
-    if (struct?.apiService === 'core') getElectionTypesCoreData();
-    else if (struct?.apiService === 'master') getElectionTypesMasterData();
+    getElectionTypesMasterData();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -47,22 +42,8 @@ export const ElectionTypeSearch = ({
 
   const getOptions = () => {
     if (isAdmin) {
-      // if ADMIN
-
-      switch (struct?.apiService) {
-        case 'core':
-          return electionTypesCore;
-
-        case 'master':
-          return electionTypesMaster;
-
-        default:
-          return [];
-      }
-    }
-
-    // Redux
-    else {
+      return electionTypesMaster;
+    } else {
       return electionTypesRedux;
     }
   };

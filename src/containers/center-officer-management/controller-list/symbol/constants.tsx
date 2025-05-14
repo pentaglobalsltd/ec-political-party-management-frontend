@@ -2,12 +2,9 @@ import { TFunction } from 'i18next';
 import { IconHomeLine } from '@pentabd/icons';
 
 import ImageViewer from '@components/ImageViewer';
-import {
-  ADVANCE_SEARCH,
-  APPLICATION_SEARCH,
-} from '@components/application-search/SearchComponents';
-import { API_SERVICE } from '@components/application-search/constants';
+import { APPLICATION_SEARCH } from '@components/application-search/SearchComponents';
 import Actions from './components/Actions';
+import { ADMIN_SEARCH } from '@components/application-search/SearchComponents/form';
 
 export const symbolBreadcrumbs = (t: TFunction<'translation', undefined>) => [
   {
@@ -113,8 +110,7 @@ const clearElectionSchedule = {
 };
 export const inputs = [
   {
-    fieldName: ADVANCE_SEARCH.ELECTION_TYPE,
-    apiService: API_SERVICE.MASTER,
+    fieldName: ADMIN_SEARCH.ELECTION_TYPE,
     refreshData: { ...clearElectionSchedule },
     nonRefreshData: {
       electionType: false,
@@ -123,7 +119,7 @@ export const inputs = [
     },
   },
   {
-    fieldName: ADVANCE_SEARCH.CANDIDATE_TYPE,
+    fieldName: ADMIN_SEARCH.CANDIDATE_TYPE,
     pathParamsDependency: {
       'election-types': APPLICATION_SEARCH.ELECTION_TYPE,
     },

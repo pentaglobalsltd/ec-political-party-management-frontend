@@ -1,9 +1,0 @@
-{
-  "DIVISION": "বিভাগ আবশ্যক",
-  "DISTRICT_BN": "জেলা নাম বাংলায় আবশ্যক",
-  "DISTRICT_EN": "জেলা নাম ইংরেজিতে আবশ্যক",
-  "DISTRICT_GO_CODE": "জেলা জিও কোড আবশ্যক",
-  "SERIAL_NO": "ক্রমিক নং আবশ্যক",
-  "DISTRICT_GEO_CODE_POSITIVE": "জেলা জিও কোড সংখ্যা হতে হবে",
-  "SERIAL_NO_POSITIVE": "ক্রমিক নং সংখ্যা হতে হবে"
-}
