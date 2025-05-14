@@ -1,0 +1,19 @@
+{
+  "SUPPORTER_NID_NUMBER_MIN": "NID number should have a minimum of 10 digits",
+  "SUPPORTER_NID_NUMBER_MAX": "NID number should have a maximum of 17 digits",
+  "SUPPORTER_NID_NUMBER": "NID number is required",
+  "SUPPORTER_NID_NUMBER_FORMAT": "NID number is not in the correct format",
+  "SUPPORTER_VOTER_NUMBER_MIN": "Voter number should have a minimum of 10 digits",
+  "SUPPORTER_VOTER_NUMBER_MAX": "Voter number should have a maximum of 17 digits",
+  "SUPPORTER_VOTER_NUMBER": "Voter number is required",
+  "SUPPORTER_VOTER_NUMBER_FORMAT": "Voter number is not in the correct format",
+  "SUPPORTER_SERIAL_NUMBER": "Serial number is required",
+  "SUPPORTER_BIRTH_DATE": "Date of birth is required",
+  "SUPPORTER_ZILLA_ID": "District is required",
+  "SUPPORTER_CONSTITUENCY_ID": "Constituency is required",
+  "SUPPORTER_UPAZILA_ID": "Upazila/Thana is required",
+  "SUPPORTER_RMO_EN": "Name of Municipality/City Corporation/Cantonment Board/Union is required",
+  "SUPPORTER_RMO": "RMO is required",
+  "SUPPORTER_UNION_OR_WARD_ID": "Union/Ward is required",
+  "SUPPORTER_VOTER_AREA_ID": "Voter area is required"
+}

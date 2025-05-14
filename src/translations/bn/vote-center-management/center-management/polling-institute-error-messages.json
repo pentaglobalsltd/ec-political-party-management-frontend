@@ -1,0 +1,25 @@
+{
+  "DIVISION_ERROR_MSG": "বিভাগ আবশ্যক।",
+  "ZILA_ERROR_MSG": "জেলা আবশ্যক।",
+  "UPAZILA_ERROR_MSG": "উপজেলা আবশ্যক।",
+  "RMO_ERROR_MSG": "আর এম ও আবশ্যক।",
+  "UNION_WARD_ERROR_MSG": "ইউনিয়ন/ওয়ার্ড আবশ্যক।",
+  "UNION_WARD_TYPE_ERROR_MSG": "ইউনিয়ন/ওয়ার্ড আবশ্যক।",
+  "UP_WARD_ERROR_MSG": "ইউনিয়ন পরিষদ ওয়ার্ড আবশ্যক।",
+  "UP_WARD_TYPE_ERROR_MSG": "ইউনিয়ন পরিষদ ওয়ার্ড আবশ্যক।",
+  "INSTITUTE_NAME_BN_ERROR_MSG": "প্রতিষ্ঠানের নাম (বাংলায়) আবশ্যক।",
+  "INSTITUTE_NAME_EN_ERROR_MSG": "প্রতিষ্ঠানের নাম (ENGLISH) আবশ্যক।",
+  "INSTITUTE_TYPE_ERROR_MSG": "প্রতিষ্ঠানের ধরণ আবশ্যক।",
+  "HEAD_NAME_DESIGNATION_ERROR_MSG": "প্রতিষ্ঠানের প্রধানের নাম(পদবী সহ) আবশ্যক।",
+
+  "BUILDING_TYPE_ERROR_MSG": "ভবনের ধরণ আবশ্যক।",
+  "INSTITUTE_ADDRESS_BANGLA_ERROR_MSG": "প্রতিষ্ঠানের ঠিকানা (বাংলায়) আবশ্যক।",
+  "INSTITUTE_ADDRESS_ENGLISH_ERROR_MSG": "প্রতিষ্ঠানের ঠিকানা (ENGLISH) আবশ্যক।",
+  "HEAD_CONTACT_NO_ERROR_MSG": "প্রতিষ্ঠানের প্রধানের সাথে যোগাযোগের নম্বর আবশ্যক।",
+  "INSTITUTE_EMPLOYEE_AMOUNT_ERROR_MSG": "প্রতিষ্ঠানে কয়জন কর্মকর্তা/কর্মচারী আছে আবশ্যক।",
+  "INSTITUTE_EMPLOYEE_AMOUNT_TYPE_ERROR_MSG": "প্রতিষ্ঠানে কয়জন কর্মকর্তা/কর্মচারী আছে সংখ্যা হতে হবে।",
+  "BUILDING_FLOORS_ERROR_MSG": "কয় তলা বিশিষ্ট ভবন আবশ্যক।",
+  "BUILDING_FLOORS_TYPE_ERROR_MSG": "কয় তলা বিশিষ্ট ভবন সংখ্যা হতে হবে।",
+  "TOTAL_ROOM_AMOUNT_ERROR_MSG": "মোট কক্ষের সংখ্যা আবশ্যক।",
+  "TOTAL_ROOM_AMOUNT_TYPE_ERROR_MSG": "মোট কক্ষ সংখ্যা হতে হবে।"
+}

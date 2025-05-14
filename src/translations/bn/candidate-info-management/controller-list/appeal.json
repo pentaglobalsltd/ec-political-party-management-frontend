@@ -1,0 +1,14 @@
+{
+  "APPEAL": "আপিল",
+  "SERIAL": "ক্রমিক",
+  "CANDIDATE_NAME": "প্রার্থীর নাম",
+  "NID": "জাতীয় পরিচয় পত্র (NID) নম্বর",
+  "SEAT_NAME": "পদের নাম",
+  "CONSTITUENCY_SEAT": "আসন",
+  "APPEAL_TYPE": "আপিলের প্রকার",
+  "DETAILS": "বিস্তারিত বিবরণী",
+  "ATTACHMENT": "সংযুক্তি",
+  "FILE": "ফাইল",
+  "OPERATION": "পদক্ষেপ",
+  "NO_DATA": "তথ্য নাই"
+}

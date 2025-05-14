@@ -1,0 +1,58 @@
+{
+  "BREADCRUMBS": {
+    "SCHEDULE_INFO_ADD": "Add Schedule Info",
+    "SEAT": "Dhaka 1"
+  },
+
+  "SECTION_HEADER": {
+    "SCHEDULE_INFO_ADD": "Add Schedule Info",
+    "SEAT": "Dhaka 1"
+  },
+
+  "ADVANCE_SEARCH": "Advance Search",
+
+  "TABLE_COLUMN": {
+    "ELECTION_NAME": "Election Name",
+    "DISTRICT": "District",
+    "ELECTORAL_SEAT": "Electoral Seat",
+    "CANDIDATE_TYPE": "Candidate Type",
+
+    "ELECTION_DATE": "Election Date",
+    "RESULT_GAZATTE_DATE": "Result Gazatte Date",
+    "OATH_DATE": "Oath Date",
+    "FIRST_MEETING_DATE": "First Meeting Date",
+
+    "LATEST_CASE_DETAIL": "Latest Case Detail",
+    "REARRANGE_SEAT": "Rearrange Seat",
+    "NEXT_ELECTION_DATE": "Next Election Date",
+    "NEXT_GENERAL_ELECTION_DATE": "Next General Election Date"
+  },
+
+  "CREATE_ELECTION_INFO": {
+    "ELECTION_DATE": "Election Date",
+
+    "RESULT_GAZETTE_DATE": "Result Gazette Date",
+    "RESULT_GAZETTE_FILE": "Result Gazette File",
+
+    "OATH_DATE": "Oath Date",
+    "OATH_FILE": "Oath File",
+
+    "FIRST_MEETING_DATE": "First Meeting Date",
+    "FIRST_MEETING_FILE": "First Meeting File",
+
+    "LATEST_CASE_DETAIL": "Latest Case Detail",
+    "LATEST_CASE_FILE": "Latest Case File",
+
+    "ELECTORAL_SEAT_FULL_CONFIG": "Electoral Seat Full Config",
+    "NEXT_ELECTION_DATE": "Next Election Date (System Generated)",
+    "NEXT_GENERAL_ELECTION_DATE": "Next General Election Date (Officer will fill up)",
+
+    "RESET_BUTTON": "Reset",
+    "SAVE_BUTTON": "Save"
+  },
+  "ERROR_MESSAGE": {
+    "RESULT_GAZATTE_DATE_REQUIRED": "ফলাফল গেজেটের তারিখ আবশ্যক",
+    "OATH_DATE_REQUIRED": "শপথ গ্রহণের তারিখ আবশ্যক",
+    "FIRST_MEETING_DATE_REQUIRED": "প্রথম সভার তারিখ আবশ্যক"
+  }
+}

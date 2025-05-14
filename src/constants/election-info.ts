@@ -1,0 +1,46 @@
+export const ELECTION_INFO = {
+  NATIONAL: {
+    ID: 1,
+    NAME: 'NATIONAL_ELECTION',
+  },
+
+  UPAZILLA: {
+    ID: 2,
+    NAME: 'UPAZILLA_ELECTION',
+  },
+
+  UNION_PARISHAD: {
+    ID: 3,
+    NAME: 'UNION_PARISHAD_ELECTION',
+  },
+
+  CITY_CORPORATION: {
+    ID: 4,
+    NAME: 'CITY_CORPORATION_ELECTION',
+  },
+
+  MUNICIPALITY: {
+    ID: 5,
+    NAME: 'MUNICIPALITY_ELECTION',
+  },
+
+  PRESIDENT: {
+    ID: 6,
+    NAME: 'PRESIDENT_ELECTION',
+  },
+
+  BY: {
+    ID: 7,
+    NAME: 'BY_ELECTION',
+  },
+
+  NATIONAL_RESERVE_SEAT: {
+    ID: 8,
+    NAME: 'NATIONAL_RESERVE_SEAT_ELECTION',
+  },
+
+  ZILLA_PARISHAD: {
+    ID: 9,
+    NAME: 'ZILLA_PARISHAD_ELECTION',
+  },
+};

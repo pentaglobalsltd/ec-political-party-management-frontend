@@ -1,0 +1,16 @@
+{
+  "CANDIDACY_WITHDRAWAL": "Candidacy Withdrawal",
+  "CANDIDACY_NOT_WITHDRAWAL": "No withdrawal of candidature",
+  "SERIAL": "Serial",
+  "CANDIDATE_NAME": "Candidate Name",
+  "NID": "National ID",
+  "SEAT_NAME": "Seat Name",
+  "PRESENT_NOMINATION_STATUS": "Present status",
+  "DISTRICT": "District",
+  "CONSTITUENCY_SEAT": "Constituency Seat",
+  "POLITICAL_PARTY": "Political Party",
+  "DETAILS": "Details",
+  "ATTACHMENT": "Attachment",
+  "FILE": "File",
+  "OPERATION": "Operation"
+}

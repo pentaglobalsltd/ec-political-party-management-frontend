@@ -1,0 +1,9 @@
+{
+  "CANDIDATE_IMAGE": "Candidate image is required",
+
+  "IMAGE_TYPE": "Image type should be JPG/JPEG",
+  "IMAGE_HEIGHT_WIDTH": "Image size has to be 300*300 pixels (width*height) or less",
+  "MAX_FILE_SIZE": "File size should not be greater than {{MAX_SIZE}} MB",
+
+  "FILE_TYPE": "File format has to be PDF"
+}

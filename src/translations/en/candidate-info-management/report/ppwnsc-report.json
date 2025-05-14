@@ -1,0 +1,12 @@
+{
+  "PPWNSC_REPORT_TITLE": "Political Party Wise Nomination Status Count Report",
+  "PPWNSC_REPORT_COLUMN": {
+    "NAME": "Party Name",
+    "ONLINE_SUBMISSION": "Online Submission",
+    "ACCEPTANCE": "Acceptance",
+    "SELECTION_CANCELLATION": "Selection Cancellation",
+    "WITHDRAWAL": "Withdrawal",
+    "CANDIDATE_CONFIRMATION": "Candidate Confirmation"
+  },
+  "PPWNSC_REPORT_DOWNLOAD_BUTTON_TEXT": "Download"
+}

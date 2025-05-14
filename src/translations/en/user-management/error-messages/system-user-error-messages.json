@@ -1,0 +1,5 @@
+{
+  "PASSWORD": "Password is required",
+  "CONFIRM_PASSWORD": "Confirm password is required",
+  "PASSWORD_MATCH": "Password and confirm password must match"
+}

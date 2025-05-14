@@ -1,0 +1,19 @@
+{
+  "ASSETS_EXCEPT_TOTAL_AMOUNT": "মোট পরিমাণ আবশ্যক",
+  "ASSETS_EXCEPT_LOCATION": "অবস্থান আবশ্যক",
+  "ASSETS_EXCEPT_ESTIMATED_VALUE": "আনুমানিক মূল্য আবশ্যক",
+
+  "HOUSE_ASSET_NATURE": "গৃহের প্রকৃতি ও সংখ্যা আবশ্যক",
+  "HOUSE_ASSET_LOCATION": "অবস্থান আবশ্যক",
+  "HOUSE_ASSET_ESTIMATED_VALUE": "আনুমানিক মূল্য আবশ্যক",
+
+  "OTHER_ASSETS_ASSETS": "সিকিউরিটি, বন্ড, ব্যাংকের আমানত ইত্যাদি আবশ্যক",
+  "OTHER_ASSETS_ESTIMATED_VALUE": "আনুমানিক মূল্য আবশ্যক",
+
+  "YEARLY_INCOME_ANNUAL_INCOME": "মোট আনুমানিক বাৎসরিক আয় আবশ্যক",
+  "YEARLY_INCOME_ANNUAL_COST": "মোট আনুমানিক বাৎসরিক ব্যয় আবশ্যক",
+
+  "ASSET_LIABILITY_ELECTION_AREA_NAME_NUMBER": "নির্বাচনী এলাকার নাম ও নম্বর আবশ্যক",
+  "ASSET_LIABILITY_CANDIDATE_NAME": "প্রার্থীর নাম আবশ্যক",
+  "ASSET_LIABILITY_CANDIDATE_ADDRESS": "প্রার্থীর ঠিকানা আবশ্যক"
+}

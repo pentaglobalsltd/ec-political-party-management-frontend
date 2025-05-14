@@ -1,0 +1,46 @@
+{
+  "FORM_SUBTITLE": "(To be filled out by the supporter)",
+  "FIND_SUPPORTER": "Identification Letter/Voter Number",
+  "SUPPORTER_NAME": "Supporter's Name",
+  "SERIAL_NUMBER": "Serial Number",
+  "SERIAL_NUMBER_SUBTITLE": "(Serial number in the voter list)",
+  "DEPARTMENT": "Department Name",
+  "DEPARTMENT_SUBTITLE": "(Supporter's department name)",
+  "DISTRICT_NAME": "District Name",
+  "DISTRICT_NAME_SUBTITLE": "(Supporter's district name)",
+  "CONSTITUENCY": "Constituency Seat",
+  "CONSTITUENCY_SUBTITLE": "(Supporter's constituency seat name)",
+  "UPAZILA": "Upazila/Thana",
+  "UPAZILA_SUBTITLE": "(Supporter's Upazila/Thana name)",
+  "MUNICIPALITY": "Municipality/City corporation",
+  "MUNICIPALITY_SUBTITLE": "(Supporter's municipality/city corporation name)",
+  "CITY_CORPORATION": "City Corporation/Municipality/Cantonment Board/Union Name",
+  "CITY_CORPORATION_SUBTITLE": "(Supporter's City Corporation/Municipality/Cantonment Board/Union name)",
+  "MUNICIPALITY_CITY_CORPORATION": "City Corporation/Municipality",
+  "BIRTH_DATE": "Date of Birth",
+  "BIRTH_DATE_SUBTITLE": "(Supporter's date of birth)",
+  "UNION_WARD": "Union/Ward",
+  "UNION_WARD_SUBTITLE": "(Supporter's Union/Ward name)",
+  "CONSTITUENCY_AREA": "Constituency Area",
+  "CONSTITUENCY_AREA_SUBTITLE": "(Supporter's constituency area name)",
+  "CONSENT": {
+    "NATIONAL_ELECTION": {
+      "MEMBER_OF_PARLIAMENT": "<div>(1) I hereby endorse the candidacy of <text>{{CANDIDATE_NAME}}</text> for the <text>{{ELECTION_NAME}}</text> election in the <text>{{ELECTION_PLACE}}</text> constituency. Candidate's address: <text>{{CANDIDATE_ADDRESS}}</text>. Voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>.</div> <div>(2) I hereby certify that I have not signed any other endorsement letter as a proposer or supporter.</div> I affirm my consent. <span> * </span>"
+    },
+    "CITY_CORPORATION_ELECTION": {
+      "MAYOR": "<div>(1) I hereby support the candidacy of <text>{{CANDIDATE_NAME}}</text> for the <text>{{ELECTION_NAME}}</text> election in <text>{{ELECTION_PLACE}}</text>. Candidate's address: <text>{{CANDIDATE_ADDRESS}}</text>. Voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>.</div> <div>(2) I hereby certify that I have not signed any other endorsement letter as a proposer or supporter. <span> * </span> </div>",
+      "COUNSILOR": "<div>(1) I hereby endorse the candidacy of <text>{{CANDIDATE_NAME}}</text> for the <text>{{ELECTION_NAME}}</text> election in <text>{{ELECTION_PLACE}}</text>. Candidate's address: <text>{{CANDIDATE_ADDRESS}}</text>. Voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>.</div> <div>(2) I hereby certify that I have not signed any other endorsement letter as a proposer or supporter. <span> * </span> </div>",
+      "WOMAN_COUNSILOR": "<div>(1) I hereby endorse the candidacy of <text>{{CANDIDATE_NAME}}</text> for the <text>{{ELECTION_NAME}}</text> election in <text>{{ELECTION_PLACE}}</text>. Candidate's address: <text>{{CANDIDATE_ADDRESS}}</text>. Voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>.</div> <div>(2) I hereby certify that I have not signed any other endorsement letter as a proposer or supporter. <span> * </span> </div>"
+    },
+    "UPAZILLA_ELECTION": {
+      "CHAIRMAN": "<div>(1) I hereby support the nomination of <text>{{CANDIDATE_NAME}}</text>, address: <text>{{CANDIDATE_ADDRESS}}</text>, voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>, as a candidate for the <text>{{CANDIDATE_TYPE}}</text> election of <text>{{ELECTION_PLACE}}</text> Upazila Parishad.</div>  <div>(2) I hereby declare that I have not signed any other nomination paper as a proposer or supporter. <span> * </span> </div>",
+      "VICE_CHAIRMAN": "<div>(1) I hereby support the nomination of <text>{{CANDIDATE_NAME}}</text>, address: <text>{{CANDIDATE_ADDRESS}}</text>, voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>, as a candidate for the <text>{{CANDIDATE_TYPE}}</text> election of <text>{{ELECTION_PLACE}}</text> Upazila Parishad.</div>  <div>(2) I hereby declare that I have not signed any other nomination paper as a proposer or supporter. <span> * </span> </div>",
+      "WOMEN_VICE_CHAIRMAN": "<div>(1) I hereby support the nomination of <text>{{CANDIDATE_NAME}}</text>, address: <text>{{CANDIDATE_ADDRESS}}</text>, voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>, as a candidate for the <text>{{CANDIDATE_TYPE}}</text> election of <text>{{ELECTION_PLACE}}</text> Upazila Parishad.</div>  <div>(2) I hereby declare that I have not signed any other nomination paper as a proposer or supporter. <span> * </span> </div>"
+    },
+    "MUNICIPALITY_ELECTION": {
+      "MAYOR": "<div>(1) I hereby support the nomination of <text>{{CANDIDATE_NAME}}</text>, address: <text>{{CANDIDATE_ADDRESS}}</text>, voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>, as a candidate for the <text>{{ELECTION_NAME}}</text> election of <text>{{ELECTION_PLACE}}</text>.</div>  <div>(2) I hereby declare that I have not signed any other nomination paper as a proposer or supporter. <span> * </span> </div>",
+      "COUNSILOR": "<div>(1) I hereby support the nomination of <text>{{CANDIDATE_NAME}}</text>, address: <text>{{CANDIDATE_ADDRESS}}</text>, voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>, as a candidate for the <text>{{ELECTION_PLACE}}</text> election of <text>{{ELECTION_NAME}}</text>.</div>  <div>(2) I hereby declare that I have not signed any other nomination paper as a proposer or supporter. <span> * </span> </div>",
+      "WOMAN_COUNSILOR": "<div>(1) I hereby support the nomination of <text>{{CANDIDATE_NAME}}</text>, address: <text>{{CANDIDATE_ADDRESS}}</text>, voter number: <text>{{CANDIDATE_VOTER_NUMBER}}</text>, as a candidate for the <text>{{ELECTION_PLACE}}</text> election of <text>{{ELECTION_NAME}}</text>.</div>  <div>(2) I hereby declare that I have not signed any other nomination paper as a proposer or supporter. <span> * </span> </div>"
+    }
+  }
+}

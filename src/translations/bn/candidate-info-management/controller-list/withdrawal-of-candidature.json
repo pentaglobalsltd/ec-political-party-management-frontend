@@ -1,0 +1,16 @@
+{
+  "CANDIDACY_WITHDRAWAL": "প্রার্থিতা প্রত্যাহার",
+  "CANDIDACY_NOT_WITHDRAWAL": "প্রত্যাহার হয়নি",
+  "SERIAL": "ক্রমিক",
+  "CANDIDATE_NAME": "প্রার্থীর নাম",
+  "NID": "জাতীয় পরিচয় পত্র (NID) নম্বর",
+  "SEAT_NAME": "পদের নাম",
+  "PRESENT_NOMINATION_STATUS": "বর্তমান স্ট্যাটাস",
+  "DISTRICT": "জেলা",
+  "CONSTITUENCY_SEAT": "নির্বাচনী আসন",
+  "POLITICAL_PARTY": "রাজনৈতিক দল",
+  "DETAILS": "বিস্তারিত বিবরণী",
+  "ATTACHMENT": "সংযুক্তি",
+  "FILE": "ফাইল",
+  "OPERATION": "পদক্ষেপ"
+}

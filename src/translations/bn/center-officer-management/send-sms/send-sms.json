@@ -1,0 +1,14 @@
+{
+  "SEND_SMS":"বার্তা প্রেরণ করুন",
+  "ELECTION_TYPE": "নির্বাচনের ধরণ",
+  "SCHEDULE_NAME": "নির্বাচনের নাম",
+  "SMS_FIELD":"মুঠোফোন বার্তা",
+
+  "CONFIRMATION_MODAL_TITLE": "আপনি কি নিশ্চিত ?",
+
+  "CONFIRMATION_MODAL_SUB_TITLE": "আপনার বার্তাটি {{dynamicValue}} জনের কাছে প্রেরণ করা হবে। ",
+
+  "GO_BACK": "ফিরে যান",
+  "SEND_SMS_CONFIRM": "বার্তা প্রেরণ করুন"
+
+}

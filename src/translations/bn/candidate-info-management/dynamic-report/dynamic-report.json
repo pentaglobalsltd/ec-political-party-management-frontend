@@ -1,0 +1,35 @@
+{
+  "DYNAMIC_REPORT": "ডাইনামিক রিপোর্ট",
+
+  "CREATE": "নতুন সংযোজন",
+  "EDIT": "সম্পাদন",
+
+  "NAME_BN": "নাম",
+  "NAME_BN_REQUIRED": "নাম আবশ্যক",
+  "NAME_EN": "নাম (ইংরেজি)",
+  "NAME_EN_REQUIRED": "নাম ইংরেজিতে আবশ্যক",
+  "TAG": "ট্যাগ",
+  "TAG_REQUIRED": "ট্যাগ আবশ্যক",
+  "QUERY": "ডেটাবেস কুয়েরি",
+  "QUERY_REQUIRED": "কুয়েরি আবশ্যক",
+
+  "NOT_PERMITTED": "আপনার সংশোধন করার অনুমতি নেই।",
+
+  "EXCEL": "Excel",
+  "JSON": "JSON",
+  "CSV": "CSV",
+
+  "COL_SERIAL": "ক্রমিক",
+  "COL_NAME": "রিপোর্টের নাম",
+  "COL_DESC": "রিপোর্টের বর্ণনা",
+  "COL_DOWNLOAD": "ডাউনলোড",
+  "COL_ACTION": "প্রক্রিয়া",
+
+  "MODAL_TITLE": "আইডি লিখে ফাইল ডাউনলোড করুন।",
+  "MODAL_INPUT_WHERE": "WHERE clause",
+  "MODAL_INPUT_VALUE": "value",
+  "MODAL_RETURN": "ফিরে যান",
+  "MODAL_DOWNLOAD": "ডাউনলোড করুন",
+
+  "SUBMIT": "দাখিল করুন"
+}

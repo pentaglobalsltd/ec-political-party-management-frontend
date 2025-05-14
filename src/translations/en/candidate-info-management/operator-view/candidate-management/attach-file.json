@@ -1,0 +1,50 @@
+{
+  "ATTACH_FILE": "ATTACH FILE",
+
+  "PAGE_TITLE": "Candidate's File Attachment",
+  "PAGE_SUBTITLE": "Complete your application for submission",
+  "CANDIDATE_NAME": "Candidate Name",
+  "COMPLETE": "Complete",
+  "NID": "NID",
+  "POST_NAME": "Post Name",
+  "DISTRICT": "District",
+  "ELECTION_SEAT": "Election Seat",
+  "PROCESS": "Process",
+  "UPDATE_AFFIDAVIT_BUTTON": "Update Affidavit",
+
+  "ADD_NEW": "Add New",
+  "INCOMPLETE": "Incomplete",
+  "NOMINATION_CANCELLATION": "Nomination Cancellation",
+  "NOMINATION_CANCELLATION_CONFIRM_MSG": "Confirm if you want to cancel the nomination",
+  "BACK": "Back",
+  "CONFIRM": "Confirm",
+
+  "CANDIDATE_TITLE": "Candidate's Picture",
+  "INCOME_TAX_TITLE": "Income Tax Return Copy",
+  "POLITICAL_PARTY_NOMINATION": "Political Party Nomination (if applicable)",
+  "TREASURY_CHALLAN": "Treasury Invoice/Pay Order/Bank Receipt",
+  "AFFIDAVIT_TITLE": "Affidavit",
+  "ATTESTED_NOMINATION": "Attested Nomination Paper:",
+
+  "SIGNATURE_TITLE": {
+    "NATIONAL_ELECTION": "List with signatures of one percent voters in support: (if applicable)",
+    "UPAZILLA_ELECTION": "List with signatures of one percent voters in support: (if applicable)",
+    "CITY_CORPORATION_ELECTION": "List with signatures of voters in support: (if applicable)"
+  },
+  "FUNDS_TITLE": "Details of Possible Sources of Income and Expenditure for Election Expenditure",
+  "EDUCATION_LEVEL_TITLE": "Attested Certificate of the Highest Educational Qualification",
+  "UTILITY_BILL_TITLE": "Utility Bill",
+  "BUY_CD": "Receipt for Buying Voter List CD",
+  "OTHERS_DOCUMENT_TITLE": "Other Documents",
+
+  "IMAGE_FIELD_SUBTITLE": "Upload only images",
+  "FILE_FIELD_SUBTITLE": "Upload only PDF files",
+  "IMAGE_FIELD_ADDITIONAL_TEXT": "Image size should be 300x300 pixels, and the file size should be below 5 megabytes.",
+
+  "SUBMIT_TEXT": "Save and Continue",
+  "INDEPENDENT_CANDIDATE_ADDITIONAL_TEXT": {
+    "NATIONAL_ELECTION": "If you are an independent candidate and have not been elected as a Member of Parliament in any previous national parliamentary election, you must scan and upload the first and last pages with the signatures of one percent voters Additionally, the Assistant Returning Officer or the Returning Officer must receive the submission before the end of the last day for filing nominations for subsequent approval.",
+    "UPAZILLA_ELECTION": "If you are an independent candidate and have not been elected as a Member of Parliament in any previous national parliamentary election, you must scan and upload the first and last pages with the signatures of one percent voters Additionally, the Assistant Returning Officer or the Returning Officer must receive the submission before the end of the last day for filing nominations for subsequent approval.",
+    "CITY_CORPORATION_ELECTION": "If you are an independent candidate you have to scan and upload the first page and the last page of the list with signatures of 300 (three hundred) voters of the concerned city corporation."
+  }
+}

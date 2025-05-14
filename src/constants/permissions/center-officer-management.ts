@@ -1,0 +1,21 @@
+export const CENTER_OFFICER_MANAGEMENT = {
+  CONTROLLER_LIST_VIEW: 'v_polling_personnel_controller_list',
+  POLITICAL_PARTY_VIEW: 'f_main_list',
+  SYMBOL_VIEW: 'f_main_list',
+  AGENCY_VIEW: 'v_agency_menu',
+  AGENCY_FULL_PERMISSION: 'f_agency',
+  AGENCY_CREATE_EDIT_PERMISSION: 'e_agency',
+  AGENCY_DELETE_PERMISSION: 'd_agency',
+  POLLING_PERSONNEL_VIEW: 'v_polling_personnel_menu',
+  POLLING_PERSONNEL_FULL_PERMISSION: 'f_polling_personnel',
+  POLLING_PERSONNEL_CREATE_EDIT_PERMISSION: 'e_polling_personnel',
+  POLLING_PERSONNEL_DELETE_PERMISSION: 'd_polling_personnel',
+  POLLING_PERSONNEL_ALLOCATE_VIEW: 'v_polling_personnel_allocate_menu',
+  POLLING_PERSONNEL_ALLOCATE_FULL_PERMISSION: 'f_polling_personnel_allocate',
+  CENTER_WISE_POLLING_PERSONNEL_VIEW: 'v_center_wise_polling_personnels_menu',
+  CENTER_WISE_POLLING_PERSONNEL_FULL_PERMISSION:
+    'f_center_wise_polling_personnels',
+  CENTER_OFFICER_CONTACT_DETAILS: 'f_polling_personnel_center',
+  ELECTION_CHANGE: 'v_center_office_ec_change_menu',
+  C_BULK_SMS_POLLING_PERSONNEL: 'c_bulk_sms_polling_personnel',
+};

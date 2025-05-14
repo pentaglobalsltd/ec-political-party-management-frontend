@@ -1,0 +1,44 @@
+{
+  "CENTER_BASED_OFFICER_ALLOCATION": "Center-Based Officer Allocation",
+  "SAVE": "Save",
+  "BULK_SAVE": "Bulk Save",
+  "ADD_NEW": "Add New",
+
+  "SELECT_CENTER": "Select Center",
+  "TOTAL_BOOTH": "Total Booth",
+  "PRESIDING_OFFICER": "Presiding Officer",
+  "ASSISTANT_PRESIDING_OFFICER": "Assistant Presiding Officer",
+  "POLLING_OFFICER": "Polling Officer",
+  "ACTING_PRESIDING_OFFICER": "Acting Presiding Officer",
+
+  "CENTER_NAME": "Center Name: ",
+  "NAME": "Name",
+  "INSTITUTE_NAME": "Institute Name",
+  "ASSIGNED_POSITION": "Assigned Position",
+  "ELECTION_SCHEDULE": "Election Name",
+  "BOOTH": "Booth",
+  "PROCESS": "Process",
+
+  "DISCHARGE_OF_POSITION": "Discharge of Position",
+  "SEND_SMS": "Send sms",
+  "RESEND_SMS": "Resend Sms",
+  "SELECT_INSTITUTE": "Select Institute",
+  "SERIAL": "Serial",
+  "DESIGNATION": "Designation",
+  "GRADE": "Grade",
+  "BASIC_SALARY": "Basic Salary",
+  "RESPONSIBILITY_ALLOCATION": "Responsibility Allocation",
+
+  "CANCEL": "Cancel",
+  "SUBMIT": "Submit",
+  "DELETE_MODAL_TITLE": "Are you sure you want to remove?",
+  "GO_BACK": "Go Back",
+  "REMOVE": "Delete",
+
+  "CANCEL_MODAL_TITLE": "Suspend Polling Center",
+  "CANCEL_MODAL_COMMENT": "Comment",
+  "CANCEL_MODAL_BACK_BUTTON": "Go Back",
+  "CANCEL_MODAL_CONFIRM_BUTTON": "Confirm",
+
+  "TOTAL_CENTERS": "Total centers"
+}

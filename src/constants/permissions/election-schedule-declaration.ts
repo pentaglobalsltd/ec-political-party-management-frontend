@@ -1,0 +1,15 @@
+export const ELECTION_SCHEDULE_DECLARATION = {
+  ELECTION: 'v_election_menu',
+  ELECTION_FULL_PERMISSION: 'f_election',
+  ELECTION_PROCESS: 'v_ec_process',
+  ELECTION_PROCESS_FULL_PERMISSION: 'f_ec_process',
+  MAIN_LIST: 'v_main_list_menu',
+  MAIN_LIST_FULL_PERMISSION: 'f_main_list',
+  OTHERS: 'v_others_menu',
+  OTHERS_FULL_PERMISSION: 'f_others',
+  REPORT: 'v_schedule_reports_menu',
+  REPORT_FULL_PERMISSION: 'f_schedule_reports',
+  ELECTION_CHANGE: 'v_ec_change_menu',
+  ELECTION_CHANGE_FULL_PERMISSION: 'f_ec_change',
+  CREATE_MIGRATE_SETTINGS: 'c_migrate_settings',
+};

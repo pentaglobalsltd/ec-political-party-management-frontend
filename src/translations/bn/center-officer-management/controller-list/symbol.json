@@ -1,0 +1,23 @@
+{
+  "SYMBOL_LIST": "প্রতীকের তালিকা",
+  "ADD_NEW_BUTTON": "নতুন সংযোজন",
+  "RESET": "রিসেট",
+  "SUBMIT": "দাখিল করুন",
+  "RETURN": "ফিরে যান",
+  "ADD_SYMBOL": "প্রতীক সংযোজন",
+  "CHANGE_SYMBOL": "প্রতীক পরিবর্তন",
+  "SYMBOL": "প্রতীক",
+  "IMAGE": "ছবি",
+  "OPERATIONS": "প্রক্রিয়া",
+  "BANGLA": "বাংলা",
+  "ENGLISH": "English",
+  "UPLOAD_SYMBOL_IMAGE": "প্রতীকের ছবি আপলোড",
+  "ELECTION_TYPE":"নির্বাচনের ধরন",
+  "CANDIDATE_TYPE":"প্রার্থীর ধরন",
+  "SYMBOL_TYPE_ERROR_MSG": {
+    "SYMBOL_TYPE_BN": "প্রতীকের নাম প্রয়োজন বাংলায়",
+    "SYMBOL_TYPE_EN": "প্রতীকের নাম প্রয়োজন ইংরেজিতে",
+    "SYMBOL_TYPE_CANDIDATE_TYPE": "প্রার্থীর ধরণ প্রয়োজন",
+    "SYMBOL_TYPE_SYMBOL_IMAGE": "প্রতীকের ছবি প্রয়োজন"
+}
+}

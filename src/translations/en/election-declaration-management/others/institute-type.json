@@ -1,0 +1,17 @@
+{
+  "INSTITUTION_TYPE": "Institution Type",
+  "ADD_NEW": "Add New",
+  "ID": "ID",
+  "INSTITUTION_TYPE_BANGLA": "Institution Type (Bangla)",
+  "INSTITUTION_TYPE_ENGLISH": "Institution Type (English)",
+  "ACTION": "Action",
+  "ADD_NEW_INSTITUTE_TITLE": "Add New Institute",
+  "EDIT_INSTITUTE_TITLE": "Edit Institute",
+  "INSTITUTE_ID": "Institute ID",
+  "INSTITUTE_TYPE": "Institute Type",
+  "INSTITUTE_TYPE_BN": "Bangla",
+  "INSTITUTE_TYPE_EN": "English",
+  "SUBMISSION_BUTTON_TEXT": "Submit",
+  "RESET_BUTTON_TEXT": "Reset",
+  "GO_BACK_TEXT":"Go Back"
+}

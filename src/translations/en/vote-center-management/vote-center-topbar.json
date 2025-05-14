@@ -1,0 +1,14 @@
+{
+  "HOME": "Home",
+  "MAIN_LIST": "Main List",
+  "REPORT": "Report",
+  "CENTER_MANAGEMENT": "Center Management",
+  "ELECTION_CHANGE": "Change Election",
+
+  "UNION_WARD": "Union Ward",
+  "UNION_RESERVED_SEAT": "Union Ward Reserved Seat",
+  "VOTER_AREA": "Voter Area",
+  "VOTE_CENTER_ADDITION": "Vote Center Addition",
+  "POLLING_INSTITUTE": "Institute Addition",
+  "POLLING_CENTER_DETAILS": "Polling Center Details"
+}

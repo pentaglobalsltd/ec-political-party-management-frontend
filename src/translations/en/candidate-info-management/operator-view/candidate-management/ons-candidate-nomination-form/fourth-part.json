@@ -1,0 +1,17 @@
+{
+  "FORM_TITLE": "Independent Candidate Declaration",
+  "FORM_SUBTITLE": "(Declaration by the nominated candidate)",
+  "SELECTED_BEFORE": "Have you previously been elected as a Member of Parliament in any national election?",
+  "RADIO_YES": "Yes",
+  "RADIO_NO": "No",
+  "SELECTED_YES_TITLE": "If yes, by the independent candidate",
+  "SELECTED_YES_ANNOUNCEMENT_FIRST_PART": "I, {{CANDIDATE_NAME}}, hereby declare that I have previously been elected as a Member of Parliament in the",
+  "ELECTION_NAME": "Name of the Election",
+  "ELECTION_AREA_NAME_NUMBER": "Election Area Number and Name",
+  "SELECTED_YES_ANNOUNCEMENT_LAST_PART": "electoral area to the position of Member of Parliament.",
+  "SAVE_NEXT": "Save and Next",
+  "SELECTED_NO_TITLE": "If no, by the independent candidate",
+  "SELECTED_NO_ANNOUNCEMENT_FIRST_PART": "(1) I, {{CANDIDATE_NAME}}, hereby declare with this statement that I have submitted a list of signatures, signed by one hundred percent of voters, along with the",
+  "ELECTION_AREA": "Election Area",
+  "SELECTED_NO_ANNOUNCEMENT_LAST_PART": "attached list. <br /><br /> (2) I further declare that all the signatures provided in the attached list have been voluntarily given by the voters and the names of all the signatories have been registered in the voter list."
+}

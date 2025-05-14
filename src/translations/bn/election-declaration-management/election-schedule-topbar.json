@@ -1,0 +1,42 @@
+{
+  "HOME": "হোম",
+  "ELECTION": "নির্বাচন",
+  "ELECTION_PROCESS": "নির্বাচন প্রক্রিয়া",
+  "MAIN_LIST": "প্রধান তালিকা",
+  "OTHERS": "অন্যান্য",
+  "REPORT": "রিপোর্ট",
+  "CHANGE_ELECTION": "নির্বাচন পরিবর্তন",
+
+  "SCHEDULE_DECLARATION": "তফসিল ঘোষণা",
+  "ELECTION_SETTINGS_GROUP": "নির্বাচন সেটিংস গ্রূপ",
+  "ELECTION_SETTINGS": "নির্বাচন সেটিংস",
+  "NOMINATION_FORM": "মনোনয়ন পত্র",
+  "ELECTION_CALENDAR": "নির্বাচনী ক্যালেন্ডার",
+  "PROBABLE_ELECTION": "সম্ভাব্য নির্বাচন",
+  "ELECTION_TRANSFER": "নির্বাচন স্থানান্তর",
+
+  "ADD_SCHEDULE_INFO": "তফসিল তথ্য সংযোজন",
+  "DATA_PROVIDER_INFO": "অ্যাপ্লিকেশনে তথ্য প্রকাশ",
+
+  "DIVISON": "বিভাগ",
+  "DISTRICT": "জেলা",
+  "SUB_DISTRICT": "উপজেলা",
+  "UNION": "ইউনিয়ন",
+  "MUNICIPALITY": "পৌরসভা",
+  "MOUZA": "মৌজা ",
+  "RESERVED_SEAT_LIST": "সংরক্ষিত আসন তালিকা",
+  "MESSAGE_LIST": "বার্তা তালিকা",
+  "PARLIAMENTARY_SEAT": "সংসদীয় আসন",
+  "DISTRICT_WARD": "জেলা ওয়ার্ড",
+  "DISTRICT_RESERVED_SEAT": "জেলা সংরক্ষিত আসন",
+  "UNION_RESERVED_SEAT": "ইউনিয়ন পরিষদ সংরক্ষিত আসন",
+
+  "ELECTION_TYPE": "নির্বাচন প্রকার",
+  "CANDIDATE_TYPE": "প্রার্থীর ধরন",
+  "INSTITUTION_BUILDING_TYPE": "প্রতিষ্ঠান ভবনের ধরন",
+  "INSTITUTION_TYPE": "প্রতিষ্ঠানের ধরন",
+
+  "DETAILS_OF_ELECTION_PROCESS": "নির্বাচন অনুষ্ঠানের তথ্য বিবরণী",
+  "ELECTION_PROCEDURES_REPORT": "নির্বাচন পদ্ধতি প্রতিবেদন",
+  "ELECTION_CEREMONY_INFORMATION": "নির্বাচন অনুষ্ঠানের তথ্য বিবরণী"
+}

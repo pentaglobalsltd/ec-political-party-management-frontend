@@ -1,0 +1,58 @@
+{
+  "BREADCRUMBS": {
+    "SCHEDULE_INFO_ADD": "তফসিল তথ্য সংযোজন",
+    "SEAT": "ঢাকা ১"
+  },
+
+  "SECTION_HEADER": {
+    "SCHEDULE_INFO_ADD": "তফসিল তথ্য সংযোজন",
+    "SEAT": "ঢাকা ১"
+  },
+
+  "ADVANCE_SEARCH": "উন্নত অনুসন্ধান",
+
+  "TABLE_COLUMN": {
+    "ELECTION_NAME": "নির্বাচনের নাম",
+    "DISTRICT": "জেলা",
+    "ELECTORAL_SEAT": "নির্বাচনী আসন",
+    "CANDIDATE_TYPE": "প্রার্থীর ধরণ",
+
+    "ELECTION_DATE": "নির্বাচন অনুষ্ঠিত হবার তারিখ",
+    "RESULT_GAZATTE_DATE": "ফলাফল গেজেটের তারিখ",
+    "OATH_DATE": "শপথ গ্রহণের তারিখ",
+    "FIRST_MEETING_DATE": "প্রথম সভার তারিখ",
+
+    "LATEST_CASE_DETAIL": "সর্বশেষ মামলা সংকান্ত তথ্য",
+    "REARRANGE_SEAT": "নির্বাচনী আসন পুনর্বিন্যাস",
+    "NEXT_ELECTION_DATE": "পরবর্তী নির্বাচন অনুষ্ঠানের তারিখ",
+    "NEXT_GENERAL_ELECTION_DATE": "পরবর্তী পুনঃনির্বাচন তারিখ"
+  },
+
+  "CREATE_ELECTION_INFO": {
+    "ELECTION_DATE": "নির্বাচন অনুষ্ঠিত হবার তারিখ",
+
+    "RESULT_GAZETTE_DATE": "ফলাফল গেজেটের তারিখ",
+    "RESULT_GAZETTE_FILE": "ফলাফল গেজেটের ফাইল",
+
+    "OATH_DATE": "শপথ গ্রহণের তারিখ",
+    "OATH_FILE": "শপথ গ্রহণের ফাইল",
+
+    "FIRST_MEETING_DATE": "প্রথম সভার তারিখ",
+    "FIRST_MEETING_FILE": "প্রথম সভার ফাইল",
+
+    "LATEST_CASE_DETAIL": "সর্বশেষ মামলা সংকান্ত তথ্য",
+    "LATEST_CASE_FILE": "সর্বশেষ মামলা সংকান্ত তথ্য ফাইল",
+
+    "ELECTORAL_SEAT_FULL_CONFIG": "নির্বাচনী আসন পুনর্বিন্যাস",
+    "NEXT_ELECTION_DATE": "পরবর্তী নির্বাচন অনুষ্ঠানের তারিখ ( সিস্টেম তৈরিকৃত ) ",
+    "NEXT_GENERAL_ELECTION_DATE": "পরবর্তী পুনঃনির্বাচন তারিখ ( অফিসার পূরণ করবেন )",
+
+    "RESET_BUTTON": "রিসেট",
+    "SAVE_BUTTON": "সংরক্ষণ করুন"
+  },
+  "ERROR_MESSAGE": {
+    "RESULT_GAZATTE_DATE_REQUIRED": "ফলাফল গেজেটের তারিখ আবশ্যক",
+    "OATH_DATE_REQUIRED": "শপথ গ্রহণের তারিখ আবশ্যক",
+    "FIRST_MEETING_DATE_REQUIRED": "প্রথম সভার তারিখ আবশ্যক"
+  }
+}

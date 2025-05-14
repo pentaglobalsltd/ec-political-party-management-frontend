@@ -1,0 +1,6 @@
+{
+  "NAME_BN": "Division name (Bengali) is required",
+  "NAME_EN": "Division name (English) is required",
+  "DIVISION_GO_CODE": "Division Geo code is required",
+  "DIVISION_GEO_CODE_POSITIVE": "Geo code must be a number"
+}

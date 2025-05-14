@@ -1,0 +1,28 @@
+{
+  "BREADCRUMB_MAIN_LIST": "Main List",
+  "BREADCRUMB_VOTER_AREA": "Voter Area",
+  "BREADCRUMB_CREATE_VOTER_AREA": "Create Voter Area",
+  "SECTION_HEADER": "Voter Area",
+  "CREATE_VOTER_AREA": "Create Voter Area",
+  "SECTION_HEADER_CHANGE": "Update Voter Area",
+  "ADD_NEW_VOTER_AREA": "Add New",
+
+  "CENTER_TYPE": "Center Type",
+  "DIVISION": "Division",
+  "DISTRICT": "District",
+  "UPAZILA": "Upazila",
+  "CITY_CORPORATION": "City Corporation/Municipality",
+  "UNION_OR_WARD": "Union/Ward",
+  "UNION_PARISHAD_WARD": "Union Parishad Ward",
+  "VOTER_AREA_CODE": "Voter Area Code",
+  "NAME_OF_VOTER_AREA_EN": "Name of Voter Area (English)",
+  "NAME_OF_VOTER_AREA_BN": "Name of Voter Area (Bangla)",
+  "MALE_VOTER": "Male Voter",
+  "FEMALE_VOTER": "Female Voter",
+  "TOTAL_VOTER": "Total Voter",
+  "THIRD_GENDER_VOTER": "Hijra Voter",
+  "SEARCH_BUTTON": "Search",
+
+  "SAVE": "Save",
+  "CANCEL": "Cancel"
+}

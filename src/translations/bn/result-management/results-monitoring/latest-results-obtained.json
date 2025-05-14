@@ -1,0 +1,13 @@
+{
+  "LATEST_RESULTS_OBTAINED": "সর্বশেষ প্রাপ্ত ফলাফল",
+
+  "CANDIDATE_TYPE_FILTER": "প্রার্থীর ধরণ",
+
+  "TOTAL_CENTER_AMOUNT": "মোট ভোটকেন্দ্রের সংখ্যা",
+  "RESULTS_OBTAINED_CENTER_AMOUNT": "ফলাফল প্রাপ্ত ভোটকেন্দ্রের সংখ্যা",
+
+  "SERIAL": "ক্রমিক",
+  "CANDIDATE_NAME": "প্রার্থীগণের নাম",
+  "CANDIDATE_SYMBOL": "প্রতীক",
+  "TOTAL_VOTE_AMOUNT": "প্রাপ্ত মোট ভোটের সংখ্যা"
+}

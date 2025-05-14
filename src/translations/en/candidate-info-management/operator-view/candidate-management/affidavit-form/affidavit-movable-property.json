@@ -1,0 +1,8 @@
+{
+  "DESCRIPTION": "6. (a) Details of the property owned by me, my dependent individuals/entities, and my spouse:",
+  "ID": "Serial",
+  "PROPERTY_TYPE": "Type of property as of the date of filing nomination",
+  "OWN": "In Own Name",
+  "HUSBAND_OR_WIFE": "In Spouse's Name",
+  "DEPENDENT": "In Dependent's Name"
+}

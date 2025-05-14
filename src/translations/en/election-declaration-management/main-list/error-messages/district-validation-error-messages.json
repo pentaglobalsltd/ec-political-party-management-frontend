@@ -1,0 +1,9 @@
+{
+  "DIVISION": "Division is required",
+  "DISTRICT_BN": "District name in Bengali is required",
+  "DISTRICT_EN": "District name in English is required",
+  "DISTRICT_GO_CODE": "District Geo code is required",
+  "SERIAL_NO": "Serial number is required",
+  "DISTRICT_GEO_CODE_POSITIVE": "District Geo code must be a number",
+  "SERIAL_NO_POSITIVE": "Serial no must be a number"
+}

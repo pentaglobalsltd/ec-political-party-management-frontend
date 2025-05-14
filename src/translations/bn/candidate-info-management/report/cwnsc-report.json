@@ -1,0 +1,14 @@
+{
+  "CWNSC_REPORT_TITLE": "নির্বাচনী এলাকা ভিত্তিক মনোনয়নের স্ট্যাটাস গণনা প্রতিবেদন",
+  "CWNSC_REPORT_COLUMN": {
+    "CONSTITUENCY": "আসন",
+    "ONLINE_SUBMISSION": "দাখিল",
+    "ACCEPTANCE": "বৈধ",
+    "SELECTION_CANCELLATION": "বাতিল",
+    "WITHDRAWAL": "প্রত্যাহার",
+    "APPEAL_VALID": "আপিল গ্রহণ",
+    "APPEAL_CANCELLATION": "আপিল বাতিল",
+    "CANDIDATE_CONFIRMATION": "চূড়ান্ত"
+  },
+  "CWNSC_REPORT_DOWNLOAD_BUTTON_TEXT": "ডাউনলোড"
+}

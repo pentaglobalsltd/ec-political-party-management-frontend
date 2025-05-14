@@ -1,0 +1,20 @@
+{
+  "PERSONAL_NAME": "প্রার্থীর নাম আবশ্যক",
+  "PERSONAL_FATHER_OR_HUSBAND_NAME": "পিতা/স্বামীর নাম আবশ্যক",
+  "PERSONAL_MOTHER_NAME": "মাতার নাম আবশ্যক",
+  "PERSONAL_CANDIDATE_ADDRESS": "প্রার্থীর ঠিকানা আবশ্যক",
+  "PERSONAL_CANDIDATES_HIGHER_DEGREE": "প্রার্থীর সর্বোচ্চ শিক্ষাগত যোগ্যতা আবশ্যক",
+  "PERSONAL_OCCUPATION": "প্রার্থীর পেশা আবশ্যক",
+
+  "PRESENT_ACCUSED_CASE": "অভিযুক্তের মামলার নাম আবশ্যক",
+  "PRESENT_COURT_NAME": "আদালতের নাম আবশ্যক",
+  "PRESENT_CASE_NUMBER": "মামলা নং আবশ্যক",
+  "PRESENT_CASE_STATUS": "মামলার বর্তমান অবস্থা আবশ্যক",
+  "PRESENT_CASE_FILE": "ফাইল আবশ্যক",
+
+  "PAST_ACCUSED_CASE": "অভিযুক্তের মামলার নাম আবশ্যক",
+  "PAST_COURT_NAME": "আদালতের নাম আবশ্যক",
+  "PAST_CASE_NUMBER": "মামলা নং আবশ্যক",
+  "PAST_CASE_STATUS": "মামলার বর্তমান অবস্থা আবশ্যক",
+  "PAST_CASE_FILE": "ফাইল আবশ্যক"
+}

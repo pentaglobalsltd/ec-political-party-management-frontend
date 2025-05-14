@@ -1,0 +1,50 @@
+{
+  "BREADCRUMBS": {
+    "DATA_PROVIDER_INFO": "অ্যাপ্লিকেশনে তথ্য প্রকাশ"
+  },
+  "SECTION_HEADER": {
+    "DATA_PROVIDER_INFO": "অ্যাপ্লিকেশনে তথ্য প্রকাশ"
+  },
+  "COLUMN": {
+    "NAME": "প্রক্রিয়ার নাম",
+    "PROCESS": "প্রক্রিয়া",
+    "LAST_UPDATED":"সর্বশেষ সংষ্করণ"
+  },
+  "HISTORY_TABLE_HEADER":"প্রকাশের ইতিহাস",
+  "HISTORY_TABLE_COLUMN":{
+    "STATUS":"প্রক্রিয়া",
+    "UPDATED_AT":"আপডেটের সময়",
+    "UPDATED_BY":"আপডেট কারি"
+  },
+  "ROW": {
+      "VOTING_CENTER": "নির্বাচনের ভোট কেন্দ্র - সমস্ত তথ্য",
+      "POLLING_CENTER": "নির্বাচনের ভোট কেন্দ্র",
+      "ELECTION_SETTING": "নির্বাচনের আসন",
+      "VOTE_COUNT": "সেটিংস অনুযায়ী ভোট গণনা",
+      "PRESIDING_OFFICER": "প্রিজাইডিং অফিসার",
+      "POLLING_CENTER_RESULT": "কেন্দ্রের ফলাফল",
+      "CANDIDATES": "নির্বাচনের প্রার্থী",
+      "ELECTION": "নির্বাচন",
+      "CANDIDATE_VOTE_COUNT": "প্রার্থীর ভোটের গণনা",
+      "UNCONTESTED_CANDIDATE_VOTE_COUNT": "বিনা প্রতিদ্বন্দ্বিতায় নির্বাচিত প্রার্থীর ভোটের গণনা",
+      "DIVISION_WISE_VOTER_COUNT": "বিভাগ ভিত্তিক ভোটার গণনা",
+      "SETTING_WISE_VOTER_COUNT":"নির্বাচন আসন ভিত্তিক ভোটার গণনা"
+  },
+  "ADVANCE_SEARCH": "Advance Search",
+  "CONFIRMATION_MODAL":{
+    "TITLE":"আপনি কি ডেটা অ্যাপ্লিকেশনে প্রকাশ করতে চান?",
+    "SUB_TITLE":"ডেটা পাঠানোর সংখ্যা: ",
+    "CANCEL_BUTTON":"বাতিল করুন",
+    "CONFIRM_BUTTON":"নিশ্চিত করুন"
+  },
+  "BUTTON_TEXT":{
+    "SUBMIT_TO_APP":"অ্যাপে প্রকাশ করুন",
+    "RESUBMIT_TO_APP":"অ্যাপে পুনরায় প্রকাশ করুন",
+    "PROCESS":"প্রক্রিয়াধীন",
+    "SEE_HISTORY":"প্রকাশের ইতিহাস দেখুন",
+    "LAST_UPDATE":"সর্বশেষ সংষ্করণ - "
+  },
+  "ERROR_MESSAGE":{
+    "BLOCK_DATA_PUBLISH_MESSAGE":"নির্বাচন এর দিন সকাল ১০ টা থেকে বিকাল ৫ টা পর্যন্ত তথ্য সমন্বয় বন্ধ থাকবে ।"
+  }
+}

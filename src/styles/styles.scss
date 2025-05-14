@@ -1,0 +1,32 @@
+@use './theme/project';
+@use './fonts';
+
+@use './globals';
+@use './graphicalObservation';
+@use './btnRotate';
+@use './results';
+
+@use '@pentabd/ui/build/globals/scss/_colors.scss' with (
+  $primary-25: project.$primary-25,
+  $primary-50: project.$primary-50,
+
+  $primary-100: project.$primary-100,
+  $primary-200: project.$primary-200,
+  $primary-300: project.$primary-300,
+  $primary-400: project.$primary-400,
+  $primary-500: project.$primary-500,
+  $primary-600: project.$primary-600,
+  $primary-700: project.$primary-700,
+  $primary-800: project.$primary-800,
+  $primary-900: project.$primary-900,
+  $primary-950: project.$primary-950
+);
+
+@use '@pentabd/ui/build/globals/scss/_variables.scss' with (
+  $base-font-family: project.$base-font-family,
+  $base-font-size: project.$base-font-size
+);
+
+@use './background';
+
+@use '@pentabd/ui/build/globals/scss/styles.scss';

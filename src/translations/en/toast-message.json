@@ -1,0 +1,15 @@
+{
+  "GET_ERROR_MESSAGE": "Get unsuccessful",
+  "CREATE_SUCCESS_MESSAGE": "Submitted successfully.",
+  "SEND_SMS_SUCCESS_MESSAGE": "Sms is send successfully",
+  "SEND_SMS_ERROR_MESSAGE": "Sms is not send",
+  "CREATE_ERROR_MESSAGE": "Submit unsuccessful.",
+  "UPDATE_SUCCESS_MESSAGE": "Updated successfully.",
+  "UPDATE_ERROR_MESSAGE": "Update unsuccessful.",
+  "DELETE_SUCCESS_MESSAGE": "Deleted successfully.",
+  "DELETE_ERROR_MESSAGE": "Delete unsuccessful.",
+  "VOTER_AREA_CODE_EXISTS": "Voter area code already exists in this distric",
+  "DATA_PUBLISHED_SUCCESS": "Data Published to Application",
+  "DATA_PUBLISHED_ERROR": "Data not send",
+  "DATA_PROVIDER_ERROR": "Something went wrong"
+}

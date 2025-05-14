@@ -1,0 +1,14 @@
+{
+  "HOME": "Home",
+  "CONTROLLER_LIST": "Controller List",
+  "CHANGE_ELECTION": "Change Election",
+  "POLITICAL_PARTY": "Political Party",
+  "VOTE_ESTABLISHMENT_LIST": "Voting Institute List",
+  "SYMBOL": "Symbol",
+  "ORGANIZATION_LIST": "Organization List",
+  "OFFICER_LIST": "Officer List",
+  "CENTER_BASED_OFFICER_DISTRIBUTION": "Center-Based Officer Distribution",
+  "CENTER_BASED_OFFICER_LIST": "Center-based Officer List",
+  "CENTER_OFFICER_CONTACT_DETAILS": "Center-based Officer Contact Details",
+  "SEND_SMS":"Send SMS"
+}

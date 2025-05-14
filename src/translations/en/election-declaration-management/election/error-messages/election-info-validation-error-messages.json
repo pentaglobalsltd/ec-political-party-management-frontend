@@ -1,0 +1,15 @@
+{
+  "MINIMUM_AGE_FORMAT": "Minimum age is required and must be a number",
+  "MINIMUM_AGE_POSITIVE": "Minimum age must be greater than zero",
+  "DATE_UPTO_WHICH_AGE_WILL_BE_CALCULATED": "Date up to which age will be calculated is required",
+  "TOTAL_REGIONS_FORMAT": "Total regions must be a number and greater than zero",
+  "TOTAL_REGIONS_POSITIVE": "Total regions must be greater than zero",
+  "TOTAL_DISTRICTS_FORMAT": "Total districts must be a number and greater than zero",
+  "TOTAL_DISTRICTS_POSITIVE": "Total districts must be greater than zero",
+  "POLLING_CENTER_FORMAT": "Polling center must be a number and greater than zero",
+  "POLLING_CENTER_POSITIVE": "Polling center must be greater than zero",
+  "POLLING_BOOTH_FORMAT": "Polling booth must be a number and greater than zero",
+  "POLLING_BOOTH_POSITIVE": "Polling booth must be greater than zero",
+  "SEAT_NUMBERS_FORMAT": "Seat numbers must be a number and greater than zero",
+  "SEAT_NUMBERS_POSITIVE": "Seat numbers must be greater than zero"
+}

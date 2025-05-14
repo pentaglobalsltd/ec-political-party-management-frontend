@@ -1,0 +1,6 @@
+{
+  "CANDIDATE_IS_ELECTED_BEFORE": "Whether the candidate has been elected in any previous national parliamentary election is required",
+  "CANDIDATE_ELECTION_NAME": "Election name is required",
+  "CANDIDATE_AREA_NO_ELECTION_NAME": "Area number and name of the election area are required",
+  "CANDIDATE_ELECTION_AREA": "Election area is required"
+}

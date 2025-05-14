@@ -1,0 +1,19 @@
+{
+  "CENTER_OFFICER_CONTACT_DETAILS": "Center Based Officer Contact Details",
+
+  "TABLE_COLUMNS": {
+    "SERIAL": "Serial Number",
+    "UPAZILA": "Upazila",
+    "UNION_OR_WARD": "Union/Ward",
+    "CENTER_NAME": "Center Name",
+    "CENTER_NO": "Center Number",
+    "NAME": "Center Officer Name",
+    "INSTITUTION_DESIGNATION": "Institution Designation",
+    "CENTER_DESIGNATION": "Center Designation",
+    "CONTACT_NO": "Contact Number",
+    "NID_NO": "National Identity Number",
+    "CREATED_AT": "Created At"
+  },
+
+  "TOTAL_CENTERS": "Total centers"
+}

@@ -1,0 +1,18 @@
+{
+  "CENTER_LIST": "List of Centers",
+  "SERIAL": "Serial",
+  "CENTER_NUMBER": "Center Number",
+  "CENTER_NAME": "Voting Center Name",
+  "ADDRESS": "Address",
+  "BOOTH_NUMBER": "Booth Number",
+  "MALE_VOTER_NUMBER": "Voter Count (Male)",
+  "FEMALE_VOTER_NUMBER": "Voter Count (Female)",
+  "THIRD_GENDER_VOTER_NUMBER": "Voter Count (Hijra)",
+  "TOTAL_VOTER": "Total Voters",
+  "TYPE": "Type",
+  "TIME": "Time",
+
+  "MALE": "Male",
+  "FEMALE": "Female",
+  "BOTH": "Both"
+}

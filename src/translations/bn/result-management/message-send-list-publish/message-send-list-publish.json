@@ -1,0 +1,50 @@
+{
+  "MESSAGE_SEND_LIST_PUBLISH": "বার্তা প্রেরণ শীট প্রকাশ",
+  "WAITING_MESSAGE": "অপেক্ষমান বার্তা প্রেরণ শীট",
+  "TESTED_MESSAGE": "পরীক্ষিত বার্তা প্রেরণ শীট ",
+
+  "MESSAGE_SEND_PUBLISH": "বার্তা প্রেরণ শীট প্রকাশ করুন ",
+  "RETURN_BUTTON": "ফিরে যান",
+  "PUBLISH_BUTTON": "প্রকাশ করুন",
+
+  "BARTA_SHEET": "বার্তা শীট",
+
+  "PREPARED": "তৈরী কারী",
+  "SHEET_NUMBER": "শিট নং",
+  "DISTRICT": "জেলা",
+  "NO_OF_CENTER": "অন্তর্ভুক্ত কেন্দ্রের সংখ্যা",
+  "SUB_DISTRICT": "উপজেলা",
+  "CONSTITUENCY": "নির্বাচনী আসন",
+  "UNION_PARISHAD_WARD": "ইউনিয়ন পরিষদ ওয়ার্ড ",
+  "MUNICIPALITY": "পৌরসভা / সিটি কর্পোরেশন",
+  "UNION_WARD": "ইউনিয়ন / ওয়ার্ড",
+  "CANDIDATE_TYPE": "প্রার্থীর ধরণ",
+  "SUBMISSION_DATE_TIME": "দাখিলের সময়",
+  "PUBLISH_DATE_TIME": "প্রকাশের সময়",
+  "PROCESS": "প্রক্রিয়া",
+  "PUBLISH": "প্রকাশ করুন",
+  "VIEW": "দেখুন",
+
+  "UPLOAD_WARNINGS": "শুধুমাত্র পিডিএফ ফাইল আপলোড করুন এবং ফাইল সাইজ ৫ মেগাবাইটের বেশি হওয়া যাবে না।",
+
+  "MODAL": {
+    "TITLE": "আপনি কি বার্তা প্রেরণ শীট প্রকাশ করতে চান?",
+    "FORM_CHECK": {
+      "TITLE": "চূড়ান্ত/সর্বশেষ ফলাফল হলে টিক দিন"
+    },
+    "FORM_FILE": {
+      "TITLE": "ফাইল আপলোড করুন"
+    },
+    "MESSAGE": "{{TOTAL_CENTER_COUNT}} টি কেন্দ্রের মাঝে {{APPROVED_CENTER_COUNT}} টি কেন্দ্রের ফলাফল বার্তা শিটে রয়েছে। {{CANCELLED_CENTER_COUNT}} টি কেন্দ্রের ফলাফল বাতিল করা হয়েছে। আপনি এই বার্তা শিট কে চূড়ান্ত ভাবে প্রকাশ করার পর আর নতুন কোন বার্তা শিট পাবেন না।",
+
+    "MESSAGE_NO_CHECKBOX": "{{TOTAL_CENTER_COUNT}} টি কেন্দ্রের মাঝে {{APPROVED_CENTER_COUNT}} টি কেন্দ্রের ফলাফল বার্তা শিটে রয়েছে। {{CANCELLED_CENTER_COUNT}} টি কেন্দ্রের ফলাফল বাতিল করা হয়েছে।",
+
+    "SUCCESS_TOAST": "বার্তা প্রেরণ শীট প্রকাশ সম্পন্ন হয়েছে।"
+  },
+
+  "VIEW_CENTER_MODAL": {
+    "VOTE_CENTER_LIST_CENTER": "কেন্দ্র",
+    "VOTE_CENTER_LIST_COL_SERIAL": "কেন্দ্র নং",
+    "VOTE_CENTER_LIST_COL_CENTER_NAME": "কেন্দ্রের নাম"
+  }
+}

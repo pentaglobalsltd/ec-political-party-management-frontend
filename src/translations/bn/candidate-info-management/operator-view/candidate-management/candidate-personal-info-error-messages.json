@@ -1,0 +1,23 @@
+{
+  "CHILDREN_NAME": "সন্তানের নাম আবশ্যক",
+  "CHILDREN_EDUCATIONAL_QUALIFICATION": "শিক্ষাগত যোগ্যতা আবশ্যক",
+  "CHILDREN_DATE_OF_BIRTH": "জন্ম তারিখ আবশ্যক",
+  "CHILDREN_INSTITUTE_ADDRESS": "পেশা ও কর্মস্থল/প্রতিষ্ঠানের ঠিকানা আবশ্যক",
+  "CHILDREN_MARITAL_STATUS": "বৈবাহিক অবস্থা আবশ্যক",
+
+  "PERSONAL_NAME": "প্রার্থীর নাম আবশ্যক",
+  "PERSONAL_NID": "জাতীয় পরিচয়পত্র আবশ্যক",
+  "PERSONAL_FATHER_NAME": "পিতার নাম আবশ্যক",
+  "PERSONAL_MOTHER_NAME": "মাতার নাম আবশ্যক",
+  "PERSONAL_DATE_OF_BIRTH": "জন্মতারিখ আবশ্যক",
+  "PERSONAL_ADDRESS_OF_PLACE_OF_BIRTH": "জন্মস্থানের ঠিকানা আবশ্যক",
+  "PERSONAL_GENDER": "লিঙ্গ আবশ্যক",
+  "PERSONAL_MARITAL_STATUS": "বৈবাহিক অবস্থা আবশ্যক",
+  "PERSONAL_OCCUPATION": "পেশা আবশ্যক",
+  "PERSONAL_CANDIDATE_TIN_NUMBER": "প্রার্থীর (TIN) নম্বর আবশ্যক",
+  "PERSONAL_PERMANENT_ADDRESS": "স্থায়ী ঠিকানা আবশ্যক",
+  "PERSONAL_PRESENT_ADDRESS": "বর্তমান ঠিকানা আবশ্যক",
+
+  "PERSONAL_WORKPLACE_NAME": "কর্মস্থলের নাম আবশ্যক",
+  "PERSONAL_WORKPLACE_ADDRESS": "কর্মস্থলের ঠিকানা আবশ্যক"
+}

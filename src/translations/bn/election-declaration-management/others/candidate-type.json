@@ -1,0 +1,11 @@
+{
+    "CANDIDATE_TYPE": "প্রার্থীর ধরন",
+    "ID": "আইডি",
+    "CANDIDATE_TYPE_BANGLA": "প্রার্থীর ধরন (বাংলা)",
+    "CANDIDATE_TYPE_ENGLISH": "প্রার্থীর ধরন (English)",
+    "ELECTION_TYPE": "নির্বাচন প্রকার",
+    "SYMBOL": "প্রতীক",
+    "SEAT_NAME_BANGLA": "আসন নাম (বাংলা)",
+    "SEAT_NAME_ENGLISH": "আসন নাম (English)",
+    "ENGLISH": "English"
+}

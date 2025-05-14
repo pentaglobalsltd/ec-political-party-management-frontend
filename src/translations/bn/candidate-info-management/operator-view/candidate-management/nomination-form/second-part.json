@@ -1,0 +1,27 @@
+{
+  "TITLE": "দ্বিতীয় অংশ",
+  "SUBTITLE": "(সমর্থনকারী কর্তৃক পূরণ করিতে হইবে)",
+
+  "SUPPORTER_PART": "সমর্থনকারীর অংশ",
+  "SUPPORTER_NID": "সমর্থনকারীর পরিচয় পত্র/ভোটার নম্বর",
+  "SUPPORTER_NAME": "সমর্থনকারীর নাম",
+  "SERIAL_NUMBER": "ক্রমিক নম্বর",
+  "SERIAL_NUMBER_SUBTEXT": "(ভোটার তালিকায় সমর্থনকারীর ক্রমিক নম্বর)",
+  "DISTRICT_NAME": "জেলার নাম",
+  "DISTRICT_NAME_SUBTEXT": "(সমর্থনকারীর জেলার নাম)",
+  "CONSTITUENCY": "নির্বাচনী আসন",
+  "CONSTITUENCY_SUBTEXT": "(সমর্থনকারীর নির্বাচনী আসনের নাম)",
+  "UPAZILA": "উপজেলা/থানা",
+  "UPAZILA_SUBTEXT": "(সমর্থনকারীর উপজেলা/থানার নাম)",
+  "RMO": "আর এম ও",
+  "UNION": "ইউনিয়ন/ওয়ার্ড",
+  "UNION_SUBTEXT": "(সমর্থনকারীর ইউনিয়ন/ওয়ার্ডের নাম)",
+  "VOTER_AREA": "ভোটার এলাকা",
+  "VOTER_AREA_SUBTEXT": "(সমর্থনকারীর ভোটার এলাকার নাম)",
+
+  "CANDIDATE_PART": "প্রার্থীর অংশ",
+  "CONSENT_TEXT": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> নির্বাচনী এলাকা হতে <text>{{ELECTION_NAME}}</text> নির্বাচনের জন্য প্রার্থীরুপে, <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> | ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি|</div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই</div>",
+
+  "SUBMIT_BUTTON": "দাখিল করুন",
+  "RESET_BUTTON": "রিসেট"
+}

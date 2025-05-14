@@ -1,0 +1,16 @@
+{
+  "UNOPPOSED_ELECTED": "Unopposed Elected",
+  "TABLE_COLUMNS": {
+    "CANDIDATE_NAME": "Candidate Name",
+    "NID": "NID",
+    "CANDIDATE_TYPE": "Candidate Type",
+    "ZILLA": "Zilla",
+    "WARD": "Ward",
+    "ACTION": "Action"
+  },
+  "UNOPPOSED_ELECTED_NOTIFICATION": "An unopposed election is not possible if there is more than one candidate.",
+  "ACTION_BUTTON_LABEL": {
+    "DELETE": "Delete",
+    "ELECT_CANDIDATE": "Elect Unopposed"
+  }
+}

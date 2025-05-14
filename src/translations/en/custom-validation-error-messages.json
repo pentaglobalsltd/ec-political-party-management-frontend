@@ -1,0 +1,21 @@
+{
+  "MOBILE_NUMBER": "Mobile number is required",
+  "MOBILE_NUMBER_FORMAT": "Mobile number is incorrect",
+  "TELEPHONE_NUMBER": "Telephone number is required",
+  "TELEPHONE_NUMBER_FORMAT": "Telephone number is incorrect",
+  "EMAIL": "Email is required",
+  "EMAIL_FORMAT": "Email is incorrect",
+  "NID_NUMBER_MIN": "NID number must be at least 10 digits",
+  "NID_NUMBER_MAX": "NID number cannot exceed 17 digits",
+  "NID_NUMBER": "NID number is required",
+  "NID_NUMBER_FORMAT": "NID number is incorrect",
+  "IMAGE": "Image is required",
+  "IMAGE_BIG": "Image is too large",
+  "IMAGE_FORMAT": "Image format is not acceptable",
+  "FILE": "File is required",
+  "FILE_BIG": "File is too large",
+  "FILE_FORMAT": "File format is not acceptable",
+  "AGE_LIMIT": "Age excedes limit",
+  "AGE_REQUIRED": "Age is required",
+  "AGE_TYPE": "Age must be a number"
+}

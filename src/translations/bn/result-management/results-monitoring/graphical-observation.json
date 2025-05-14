@@ -1,0 +1,33 @@
+{
+  "GRAPHICAL_OBSERVATION": "গ্রাফিকাল পর্যবেক্ষণ",
+  "CTG_ELECTION": "চট্টগ্রাম - ৮ শূন্য আসনের নির্বাচন ২৭-০৮-২৩",
+
+  "SERIAL": "নং",
+  "DISTRICT": "জেলা",
+  "CONSTITUENCY": "নির্বাচনী আসন",
+  "MUNICIPALITY": "পৌরসভা / সিটি কর্পোরেশন",
+  "UNION_OR_WARD": "ইউনিয়ন / ওয়ার্ড",
+  "UNION_WARD": "ইউনিয়ন ওয়ার্ড",
+  "SUB_DISTRICT": "উপজেলা",
+  "CANDIDATE_TYPE": "প্রার্থীর ধরণ",
+  "CREATOR": "তৈরিকারী",
+  "MESSAGE_SHEET_PREPARED_BY_ARO": "সহকারী রিটার্নিং অফিসার কর্তৃক প্রস্তুতকৃত বার্তাশীট",
+  "MESSAGE_SHEET_PUBLISHED_BY_RO": "রিটার্নিং অফিসার কর্তৃক প্রস্তুতকৃত বার্তাশীট",
+  "TOTAL_CENTERS": "মোট কেন্দ্র",
+  "MSG_BOARD_INCLUDED_CENTERS": "বার্তাশীট অন্তর্ভুক্ত কেন্দ্র",
+  "CONDITION": "অবস্থা",
+
+  "VOTE_CENTER_LIST_CENTER": "কেন্দ্র",
+  "VOTE_CENTER_LIST_COL_SERIAL": "কেন্দ্র নং",
+  "VOTE_CENTER_LIST_COL_CENTER_NAME": "কেন্দ্রের নাম",
+
+  "CREATED_BY": "তৈরিকারীর ID",
+  "UPDATED_BY": "হালনাগাদকারীর ID",
+  "NO_DATA_FOUND": "রিটার্নিং অফিসার কর্তৃক এই জেলার কোনো আসনের বার্তা শিট এখনো চূড়ান্ত হয় নি",
+
+  "NO_DATA_FOUND_SINGLE": "রিটার্নিং অফিসার কর্তৃক এই আসনে বার্তা শিট এখনো চূড়ান্ত হয় নি",
+  "CANDIDATE_VOTE_RATIO": "প্রার্থীর প্রাপ্ত শতকরা ভোট",
+  "CANDIDATE_VOTE_COUNT": "প্রার্থীর প্রাপ্ত ভোট",
+  "RATIO_OF_VOTES": "প্রদত্ত ভোটের অবস্থা",
+  "MESSAGE_SHEET_STATUS_RATION": "ভোট কেন্দ্রের ফলাফল অবস্থা"
+}

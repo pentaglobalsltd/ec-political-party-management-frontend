@@ -1,0 +1,162 @@
+{
+  "COMPLETE": "Complete",
+  "INCOMPLETE": "Incomplete",
+  "NID": "NID",
+  "POST_NAME": "Post Name",
+  "DISTRICT": "District",
+  "ELECTION_SEAT": "Election Seat",
+  "PROCESS": "Process",
+  "ROW_EDIT_BUTTON": "Edit Election Expenditure Source",
+
+  "HEADING": "Probable Sources of Income for Election Expenditure",
+  "SUBTITLE": "Complete your application for submission",
+  "SUBMIT": "Save and Continue",
+  "ADD_NEW_BUTTON": "Add New",
+
+  "VOTER_AREA_NAME_AND_NUMBER": "Name and Number of the Constituency",
+  "CANDIDATE_NAME": "Candidate's Name",
+  "CANDIDATE_ADDRESS": "Candidate's Address",
+
+  "POTENTIAL_EARNING_FROM_OWN_INCOME": "Section A: Potential earnings from own income",
+  "POTENTIAL_AMOUNT": "Potential Amount",
+  "EARNING_SOURCE": "Source of Earnings",
+
+  "POTENTIAL_EARNING_FROM_RELATIVES": "Section B: Potential earnings from loans or debts from relatives",
+  "RELATIVE_NAME": "Relative's Name",
+  "RELATIVE_ADDRESS": "Relative's Address",
+  "RELATION": "Relationship",
+  "RELATIVE_INCOME_SOURCE": "Relative's Income Source",
+
+  "POTENTIAL_EARNING_FROM_DONATION_BY_RELATIVES": "Section C: Potential earnings from voluntary donations by relatives",
+
+  "POTENTIAL_EARNING_FROM_OTHERS": "Section D: Potential earnings from loans or debts from individuals other than relatives",
+  "PERSON_NAME": "Person's Name",
+  "PERSON_ADDRESS": "Person's Address",
+
+  "POTENTIAL_EARNING_FROM_DONATION_BY_OTHERS": "Section E: Potential earnings from voluntary donations by individuals other than relatives",
+
+  "POTENTIAL_EARNING_FROM_MISCELLANEOUS": "Section F: Potential earnings from sources other than those mentioned in sections A, B, C, D, E and F",
+  "PERSON_OR_INSTITUTE_NAME": "Name of the Person/Organization",
+  "PERSON_OR_INSTITUTE_ADDRESS": "Address of the Person/Organization",
+  "UPDATE": "Update",
+  "DELETE": "Delete",
+  "POSTER_COST": {
+    "TITLE": "A. Cost of Posters (Each poster should mention name of printer, place of publication, number and date)",
+    "APPROXIMATE_NUMBER_OF_POSTER": "Possible number of posters",
+    "APPROXIMATE_TOTAL_COST": "Potential total cost"
+  },
+
+  "ELECTION_OFFICE_EXPENSE": {
+    "TITLE": "b. Election camp/office expenses",
+    "POSSIBLE_NUMBER_OF_OFFICE": "Possible number of election camps/offices",
+    "POSSIBLE_COST_OF_OFFICE": "Possible total cost for camp/office setup",
+    "POSSIBLE_COST_OF_OFFICE_STUFF": "Possible total cost for office staff"
+  },
+
+  "CANDIDATE_CENTRAL_OFFICE_EXPENSE": {
+    "TITLE": "c. Candidate's central camp/office expenses",
+    "POSSIBLE_COST_OF_CONSTRUCTION": "Possible total cost for central camp/office construction",
+    "POSSIBLE_COST_OF_STUFF": "Possible total cost for central camp/office staff",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "CANDIDATE_TRAVEL_EXPENSE": {
+    "TITLE": "d. Candidate's travel expenses",
+    "COST_OF_ELECTORAL_AGENT": "Possible total cost for own or electoral agent's travel",
+    "COST_OF_PERSONNEL": "Possible total cost for personnel",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "DOMESTIC_MEETING_EXPENSE": {
+    "TITLE": "e. Domestic meeting expenses",
+    "RENTAL_OF_VENUE": "Possible venue rental",
+    "LABOUR_COST": "Possible total labor cost for meeting organization",
+    "RENT_OF_FURNITURE": "Possible total furniture rental cost",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+  "LEAFLET_EXPENSE": {
+    "TITLE": "f. Leaflet expenses",
+    "NAME_OF_PRINTING_PRESS": "Name of printing press",
+    "LEAFLET_COUNT": "Possible number of leaflets",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "HANDBILL_EXPENSE": {
+    "TITLE": "g. Handbill expenses",
+    "NAME_OF_PRINTING_PRESS": "Name of printing press",
+    "HANDBILL_COUNT": "Possible number of handbills",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "BANNER_EXPENSE": {
+    "TITLE": "h. (1) Banner expenses",
+    "NUMBER_OF_BANNERS": "Possible number of banners",
+    "COST_OF_BANNER_CREATION": "Possible cost for banner creation",
+    "COST_OF_HANGING_BANNERS": "Possible cost for hanging banners",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "DIGITAL_BANNER_EXPENSE": {
+    "TITLE": "h. (2) Digital banner (where applicable) expenses",
+    "DIGITAL_BANNER_EXPENSE": "Possible cost for digital banners",
+    "COST_OF_DIGITAL_BANNER_CREATION": "Possible cost for digital banner creation",
+    "COST_OF_HANGING_DIGITAL_BANNERS": "Possible cost for hanging digital banners",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "ROAD_MEETING_EXPENSE": {
+    "TITLE": "i. Road meeting expenses",
+    "NUMBER_OF_MEETINGS": "Possible number of road meetings",
+    "COST_OF_MIC": "Possible cost for microphone/handheld mic",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+  "MIKING_EXPENSE": {
+    "TITLE": "j. Miking expenses",
+    "RENTAL_OF_VEHICLES": "Possible vehicle rental cost",
+    "MIKING_PERSON_COST": "Possible labor cost for miking work",
+    "MIKE_RENTAL_COST": "Possible cost for mike rental",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "PORTRAIT_EXPENSE": {
+    "TITLE": "k. Portrait (where applicable) expenses",
+    "COST_OF_PORTRAITS": "Possible cost for portraits",
+    "PORTRAIT_PRINTING_NAME": "Name of portrait printing establishment",
+    "COST_OF_PORTRAIT_MAKING": "Possible cost for portrait making",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "SYMBOL_EXPENSE": {
+    "TITLE": "l. Opposition candidate's election symbol expenses",
+    "NUMBER_OF_SYMBOLS": "Possible number of symbols",
+    "SYMBOL_CREATION_COST": "Possible cost for symbol or image creation",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "OFFICE_INVITATION_EXPENSE": {
+    "TITLE": "m. Opposition candidate's office inauguration expenses",
+    "NUMBER_OF_OFFICE": "Possible number of offices",
+    "COST_OF_DAILY_ENTERTAINMENT": "Possible cost for daily entertainment",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "STAFF_EXPENSE": {
+    "TITLE": "n. Opposition candidate's staff expenses",
+    "NUMBER_OF_STAFF": "Possible number of staff",
+    "PER_PERSON_COST": "Possible per person daily entertainment cost",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+
+  "ADVERTISEMENT_EXPENSE": {
+    "TITLE": "o. Advertisement on television or other electronic media (where applicable) expenses",
+    "COST_OF_TELEVISION_ADVERTISEMENT": "Possible cost for television advertisement",
+    "COST_OF_OTHER_MEDIA": "Possible cost for advertisement on other electronic media",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  },
+  "OTHER_EXPENSE": {
+    "TITLE": "p. Miscellaneous expenses",
+    "SECTOR_NAME": "Sector name",
+    "AMOUNT_OF_COST": "Possible amount of expenses",
+    "TOTAL_POSSIBLE_COST": "Total possible cost"
+  }
+}

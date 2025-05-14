@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "types": ["vite"],
+    "baseUrl": "./",
+    "paths": {
+      "@api/*": ["./src/api/*"],
+      "@actions/*": ["./src/redux/actions/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"],
+      "@reducers/*": ["./src/redux/reducers/*"],
+      "@middlewares/*": ["./src/redux/middlewares/*"],
+      "@selectors/*": ["./src/redux/selectors/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@translation/*": ["./src/translations/*"],
+      "@type/*": ["./src/types/*"],
+      "@validations/*": ["./src/validations/*"],
+      "@images/*": ["./src/images/*"]
+    }
+  },
+  "include": ["./src", "./cypress"],
+  "exclude": ["node_modules"],
+  "typedocOptions": {
+    "entryPoints": ["src/index.ts"],
+    "out": "docs"
+  }
+}

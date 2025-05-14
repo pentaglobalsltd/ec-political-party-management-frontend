@@ -1,0 +1,116 @@
+@use './theme/project';
+
+// Scrollbar
+$scrollbar-track-color: #f1f1f1 !default;
+$scrollbar-thumb-color: #888888 !default;
+$scrollbar-thumb-hover-color: #555555 !default;
+
+* {
+  margin: 0;
+}
+
+.p {
+  &t {
+    &-64 {
+      padding-top: 4rem;
+    }
+  }
+}
+
+.confirmation-candidate-image {
+  width: 13.938rem;
+  height: 13.938rem;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.election-symbol-container {
+  width: 3.375rem;
+  height: 3.375rem;
+}
+
+.allocated-symbol {
+  width: 40px;
+  height: 50px;
+}
+
+.pdf-viewer-modal {
+  max-height: 37.5rem;
+}
+
+.notification-container {
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.notification-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.notification-container.hidden {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.result-submission-table {
+  .table td {
+    padding: 0.125rem 0.5rem;
+  }
+}
+
+.pie-chart {
+  text-align: start !important;
+  line-height: normal !important;
+}
+
+.calender-card {
+  min-height: 300px;
+}
+
+.user-table-card {
+  min-width: 30px;
+  min-height: 400px;
+}
+
+.gap {
+  &-20 {
+    gap: 2.5rem;
+  }
+}
+
+.send-to-app-button {
+  min-width: 220px;
+}
+
+.embedded-message {
+  font-family: Consolas, 'courier new';
+  color: black;
+  font-size: 105%;
+}
+
+/* 
+  Scrollbar styling 
+    - Chrome, 
+    - Safari,
+    - Edge
+*/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: $scrollbar-track-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-thumb-color;
+  border-radius: 10px;
+  border: 3px solid $scrollbar-track-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $scrollbar-thumb-hover-color;
+}

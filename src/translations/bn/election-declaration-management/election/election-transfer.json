@@ -1,0 +1,28 @@
+{
+  "ELECTION_TRANSFER": "নির্বাচন স্থানান্তর",
+  "ADVANCED_SEARCH": "উন্নত অনুসন্ধান",
+
+  "TRANSFER": "স্থানান্তর",
+  "MODAL_MAKE_TRANSFER_BUTTON": "স্থানান্তর করুন",
+  "MODAL_CANCEL_BUTTON": "বাতিল করুন",
+  "ELECTION_TRANSFER_PROMPT": "নির্বাচন স্থানান্তর করুন",
+  "ELECTION_TRANSFER_CONFIRMATION_MESSAGE": "আপনি কি নির্বাচন স্থানান্তর করতে নিশ্চিত",
+  "CONFIRM": "নিশ্চিত",
+
+  "ELECTION_TYPE": "নির্বাচনের ধরন",
+  "ELECTION_NAME": "নির্বাচনের নাম",
+  "CANDIDATE_TYPE": "প্রার্থীর ধরন",
+  "DISTRICT": "জেলা",
+
+  "SUB_DISTRICT": "উপজেলা",
+  "ELECTION_SEAT_NO": "নির্বাচনী আসন নং",
+  "SEAT_NAME": "আসনের নাম",
+  "MUNICIPALITY": "পৌরসভা",
+  "UNION": "ইউনিয়ন",
+  "UNION_WARD": "ইউনিয়ন ওয়ার্ড",
+
+  "CANDIDATE": "প্রার্থী",
+  "CENTER": "কেন্দ্র",
+  "CENTER_OFFICER": "কেন্দ্রের কর্মকর্তা",
+  "ELECTION_NAME_ERROR_MSG": "নির্বাচনের নাম আবশ্যক"
+}

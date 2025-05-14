@@ -1,0 +1,17 @@
+{
+  "CIB_REPORT_TITLE": "CIB report",
+  "CIB_REPORT_COLUMN": {
+    "SERIAL_NO": "Serial Number",
+    "NOMINATION_NAME": "Full Name of Candidate (in Bengali and English)",
+    "HUSBAND_NAME": "Father's Name (in Bengali and English)",
+    "MOTHER_NAME": "Mother's Name (in Bengali and English)",
+    "SPOUSE_NAME": "Spouse's Name (for married women) (in Bengali and English)",
+    "NID_NO": "13/17 Digit National ID Card (NID) Number",
+    "TIN_NO": "Taxpayer Identification Number (TIN)",
+    "DATE_OF_BIRTH": "Date of Birth",
+    "PRESENT_ADDRESS": "Present Address",
+    "PERMANENT_ADDRESS": "Permanent Address",
+    "MOBILE_NUMBER": "Mobile Number"
+  },
+  "CIB_REPORT_DOWNLOAD_BUTTON_TEXT": "Download"
+}

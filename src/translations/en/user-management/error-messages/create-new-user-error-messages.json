@@ -1,0 +1,56 @@
+{
+  "USER_ROLE": "User role is required",
+  "NAME": "Name is required",
+  "EMAIL": "Email is required",
+  "LOGIN_ID": "Login ID is required",
+
+  "AGENCY_ADMIN_DEPARTMENT": "Department is required",
+  "AGENCY_ADMIN_DISTRICT": "District is required",
+  "AGENCY_ADMIN_UPAZILA": "Upazila is required",
+  "AGENCY_ADMIN_RMO": "RMO is required",
+  "AGENCY_ADMIN_MUNICIPALITY": "Municipality is required",
+  "AGENCY_ADMIN_UNION": "Union is required",
+  "AGENCY_ADMIN_AGENCY": "Agency is required",
+
+  "ARO_TYPE_OF_ELECTION": "Type of election is required",
+  "ARO_ELECTION_NAME": "Election name is required",
+  "ARO_DISTRICT": "District is required",
+  "ARO_CONSTITUENCY": "Constituency is required",
+  "ARO_MUNICIPALITY": "Municipality is required",
+  "ARO_UPAZILA": "Upazila is required",
+  "ARO_UNION": "Union is required",
+  "ARO_CENTER": "Center is required",
+
+  "DATA_ENTRY_OP_TYPE_OF_ELECTION": "Type of election is required",
+  "DATA_ENTRY_OP_ELECTION_NAME": "Election name is required",
+  "DATA_ENTRY_OP_DISTRICT": "District is required",
+  "DATA_ENTRY_OP_UPAZILA": "Upazila is required",
+  "DATA_ENTRY_OP_MUNICIPALITY": "Municipality is required",
+  "DATA_ENTRY_OP_MUNICIPALITY_ONLY": "Municipality is required",
+  "DATA_ENTRY_OP_UNION": "Reserved Union/Ward is required",
+  "DATA_ENTRY_OP_SETTINGS": "Election Settings is required",
+
+  "DISTRICT_ELECTION_OFFICER_DEPARTMENT": "Department is required",
+  "DISTRICT_ELECTION_OFFICER_DISTRICT": "District is required",
+
+  "PRESIDING_OFFICER_TYPE_OF_ELECTION": "Type of election is required",
+  "PRESIDING_OFFICER_ELECTION_NAME": "Election name is required",
+  "PRESIDING_OFFICER_DISTRICT": "District is required",
+  "PRESIDING_CONSTITUENCY": "Constituency is required",
+  "PRESIDING_UPAZILA": "Upazila is required",
+  "PRESIDING_UNION": "Union is required",
+  "PRESIDING_CENTER": "Center is required",
+
+  "REGIONAL_ELECTION_OFFICER_DEPARTMENT": "Department is required",
+
+  "RETURNING_OFFICER_TYPE_OF_ELECTION": "Type of election is required",
+  "RETURNING_OFFICER_ELECTION_NAME": "Election name is required",
+  "RETURNING_OFFICER_DISTRICT": "District is required",
+  "RETURNING_OFFICER_UPAZILA": "Upazila is required",
+  "RETURNING_OFFICER_CONSTITUENCY": "Constituency is required",
+  "RETURNING_OFFICER_MUNICIPALITY": "Municipality is required",
+
+  "UPAZILLA_THANA_EO_DEPARTMENT": "Department is required",
+  "UPAZILLA_THANA_EO_DISTRICT": "District is required",
+  "UPAZILLA_THANA_EO_UPAZILA": "Upazila is required"
+}

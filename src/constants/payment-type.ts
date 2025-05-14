@@ -1,0 +1,12 @@
+export enum PAYMENT_TYPE {
+  SPG = 'SONALI_PAY',
+  SSL = 'SSL_COMMERZ',
+  MANUAL = 'MANUAL',
+  A_CHALAN = 'A_CHALLAN',
+}
+
+export enum PAYMENT_STATUS {
+  PAID = 'PAID',
+  FAILED = 'FAILED',
+  CANCEL = 'CANCEL',
+}

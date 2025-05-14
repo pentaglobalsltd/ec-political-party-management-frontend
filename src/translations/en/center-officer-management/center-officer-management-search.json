@@ -1,0 +1,21 @@
+{
+  "REGION": "Division",
+  "DISTRICT": "District",
+  "SUB_DISTRICT": "Sub District",
+  "RMO": "R M O",
+  "MUNICIPALITY": "Municipality",
+  "CITYCORPORATION": "City Corporation",
+  "RURAL": "Rural",
+  "CITY": "City",
+  "CANTONMENT": "Cantonment",
+  "OTHER": "Other",
+  "UNION_OR_WARD": "Union/Ward",
+  "ELECTION_TYPE": "Election type",
+  "ELECTION_SCHEDULE": "Election name",
+  "CONSTITUENCY": "Constituency",
+  "POLLING_CENTER": "Polling Center",
+  "INSTITUTION_NAME": "Institution Name",
+  "DESIGNATION": "Designation",
+  "DISTRIBUTED_OFFICER": "Distributed Officer",
+  "CENTER_STATUS": "Status"
+}

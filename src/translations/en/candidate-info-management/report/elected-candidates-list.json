@@ -1,0 +1,21 @@
+{
+  "ELECTED_CANDIDATE_LIST": "Details of candidates elected unopposed",
+  "DOWNLOAD_BUTTON": "Download",
+  "ELECTED_CANDIDATE_LIST_COLUMN": {
+    "SERIAL_NO": "Serial No",
+    "CANDIDATE_NAME": "Candidate Name",
+    "HUSBAND_OR_SPOUSE_NAME": {
+      "NATIONAL_ELECTION": "Father/Husband's (for married women) Name",
+      "CITY_CORPORATION_ELECTION": "Father/Husband's (for married women) Name",
+      "UPAZILLA_ELECTION": "Husband's Name",
+      "MUNICIPALITY_ELECTION": "Father/Husband's (for married women) Name",
+      "UNION_PARISHAD_ELECTION": "Father/Husband's (for married women) Name"
+    },
+    "CANDIDATE_ADDRESS": "Address",
+    "PRESENT_ADDRESS": "Current Address",
+    "PERMANENT_ADDRESS": "Permanent Address",
+    "DOWNLOAD_BUTTON": "Download"
+  },
+
+  "NO_DOWNLOAD_REPORT_EXPLANATORY_TEXT_FOR_NATIONAL": "This report has not been formatted according to the approved guidelines for the national parliamentary election, hence the download is disable."
+}

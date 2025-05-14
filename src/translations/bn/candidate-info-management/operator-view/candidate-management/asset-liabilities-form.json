@@ -1,0 +1,40 @@
+{
+  "ASSET_LIABILITIES": "সম্পদ ও দায় এবং বাৎসরিক আয় ও ব্যয়ের বিবরণী",
+  "COMPLETE": "সম্পূর্ণ",
+  "INCOMPLETE": "অসম্পূর্ণ",
+  "CANDIDATE_NAME": "প্রার্থীর নাম",
+  "POST_NAME": "পদের নাম",
+  "DISTRICT": "জেলা",
+  "ELECTION_SEAT": "নির্বাচনী আসন",
+  "PROCESS": "প্রক্রিয়া",
+  "ROW_EDIT_BUTTON": "সম্পদ ও দায় পরিবর্তন",
+
+  "TITLE": "সম্পদ ও দায় এবং বাৎসরিক আয় ও ব্যয়ের বিবরণী",
+  "SUBTITLE": "জমা দেওয়ার জন্য আপনার আবেদনটি সম্পূর্ণ করুন",
+  "ELECTION_AREA_NAME_NUMBER": "নির্বাচনী এলাকার নাম ও নম্বর",
+  "CANDIDATE_ADDRESS": "প্রার্থীর ঠিকানা",
+
+  "PART_A_TITLE": "ক অংশ: সম্পদ",
+  "PART_A_SUBTITLE": "শ্রেনী ক - গৃহ সম্পত্তি ব্যাতিত অন্যান্য স্থাবর সম্পত্তি",
+  "TOTAL_AMOUNT": "মোট পরিমাণ",
+  "OTHER_LOCATION": "অবস্থান",
+  "OTHER_ESTIMATED_VALUE": "আনুমানিক মূল্য",
+
+  "PART_B_SUBTITLE": "শ্রেনী খ: গৃহ সম্পত্তি",
+  "HOUSE_TYPE_NUMBER": "গৃহের প্রকৃতি ও সংখ্যা",
+  "HOUSE_LOCATION": "অবস্থান",
+  "HOUSE_ESTIMATED_VALUE": "আনুমানিক মূল্য",
+
+  "PART_C_SUBTITLE": "শ্রেনী গ: অন্যান্য সম্পদ",
+  "OTHER_ASSET": "সিকিউরিটি, বন্ড, ব্যাংকের আমানত ইত্যাদি",
+  "OTHER_ASSET_ESTIMATED_VALUE": "আনুমানিক মূল্য",
+
+  "PART_C_TITLE": "খ অংশ: বাৎসরিক আয় ও ব্যয়",
+  "TOTAL_ESTIMATED_ANNUAL_INCOME": "মোট আনুমানিক বাৎসরিক আয়",
+  "TOTAL_ESTIMATED_ANNUAL_COST": "মোট আনুমানিক বাৎসরিক ব্যয়",
+
+  "ADD_ANOTHER_BUTTON": "যোগ করুন",
+  "SAVE_NEXT_BUTTON": "সংরক্ষণ ও পরবর্তী",
+  "UPDATE": "হালনাগাদ করুন",
+  "DELETE": "মুছে ফেলুন"
+}

@@ -1,0 +1,19 @@
+{
+  "CENTER_OFFICER_CONTACT_DETAILS": "কেন্দ্র ভিত্তিক কর্মকর্তার যোগাযোগ সংক্রান্ত তথ্য",
+
+  "TABLE_COLUMNS": {
+    "SERIAL": "ক্রম",
+    "UPAZILA": "উপজেলা",
+    "UNION_OR_WARD": "ইউনিয়ন/ওয়ার্ড",
+    "CENTER_NAME": "ভোটকেন্দ্রের নাম",
+    "CENTER_NO": "কেন্দ্র নং",
+    "NAME": "কেন্দ্র কর্মকর্তার নাম",
+    "INSTITUTION_DESIGNATION": "কর্মকর্তার পদবী",
+    "CENTER_DESIGNATION": "দায়িত্বপ্রাপ্ত পদ",
+    "CONTACT_NO": "যোগাযোগের নম্বর",
+    "NID_NO": "পরিচয়পত্র নং",
+    "CREATED_AT": "বন্টনের তারিখ ও সময়"
+  },
+
+  "TOTAL_CENTERS": "মোট কেন্দ্র"
+}

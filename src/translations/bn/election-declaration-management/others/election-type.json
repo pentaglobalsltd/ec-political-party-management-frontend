@@ -1,0 +1,17 @@
+{
+  "ELECTION_TYPE": "নির্বাচন প্রকার",
+  "ADD_NEW": "নতুন সংযোজন",
+  "ID": "আইডি",
+  "ELECTION_TYPE_BANGLA": "নির্বাচনের প্রকার (বাংলা)",
+  "ELECTION_TYPE_ENGLISH": "নির্বাচনের প্রকার (English)",
+  "ELECTION_CATEGORY": "নির্বাচনের ধরন",
+  "RESET": "রিসেট",
+  "FILED": "দাখিল করুন",
+  "BANGLA": "বাংলা",
+  "BACK": "ফিরে যান",
+  "ELECTION_TYPE_ADD": "নির্বাচন প্রকার সংযোজন",
+  "EDIT": "এডিট",
+  "NATIONAL_PERLAMENT_ELECTION": "জাতীয় সংসদ নির্বাচন",
+  "ELECTION_TYPE_EDIT_ADD": "নির্বাচন প্রকার এডিট সংযোজন",
+  "ENGLISH": "English"
+}

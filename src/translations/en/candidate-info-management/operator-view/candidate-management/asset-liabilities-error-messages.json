@@ -1,0 +1,19 @@
+{
+  "ASSETS_EXCEPT_TOTAL_AMOUNT": "Total amount is required",
+  "ASSETS_EXCEPT_LOCATION": "Location is required",
+  "ASSETS_EXCEPT_ESTIMATED_VALUE": "Estimated value is required",
+
+  "HOUSE_ASSET_NATURE": "Nature and quantity of the house asset is required",
+  "HOUSE_ASSET_LOCATION": "Location is required",
+  "HOUSE_ASSET_ESTIMATED_VALUE": "Estimated value is required",
+
+  "OTHER_ASSETS_ASSETS": "Securities, bonds, bank deposits, etc. are required",
+  "OTHER_ASSETS_ESTIMATED_VALUE": "Estimated value is required",
+
+  "YEARLY_INCOME_ANNUAL_INCOME": "Total estimated annual income is required",
+  "YEARLY_INCOME_ANNUAL_COST": "Total estimated annual cost is required",
+
+  "ASSET_LIABILITY_ELECTION_AREA_NAME_NUMBER": "Name and number of the election area are required",
+  "ASSET_LIABILITY_CANDIDATE_NAME": "Candidate's name is required",
+  "ASSET_LIABILITY_CANDIDATE_ADDRESS": "Candidate's address is required"
+}

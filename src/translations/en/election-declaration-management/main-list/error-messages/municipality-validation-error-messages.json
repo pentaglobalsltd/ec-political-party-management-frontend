@@ -1,0 +1,9 @@
+{
+  "DISTRICT": "District name is required",
+  "SUB_DISTRICT": "Sub District name is required",
+  "MUNICIPALITY_BN": "Municipality name in Bengali is required",
+  "MUNICIPALITY_EN": "Municipality name in English is required",
+  "MUNICIPALITY_GO_CODE": "Municipality Geo code is required",
+  "MUNICIPALITY_GEO_CODE_POSITIVE": "Municipality Geo code must be a number",
+  "RMO": "RMO is required"
+}

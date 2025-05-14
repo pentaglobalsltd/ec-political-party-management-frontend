@@ -1,0 +1,29 @@
+{
+  "GRAPHICAL_OBSERVATION": "Graphical Observation",
+  "CTG_ELECTION": "চট্টগ্রাম - ৮ শূন্য আসনের নির্বাচন ২৭-০৮-২৩",
+
+  "SERIAL": "Serial",
+  "DISTRICT": "District",
+  "CONSTITUENCY": "Constituency",
+  "CANDIDATE_TYPE": "Candidate Type",
+  "CREATOR": "Creator",
+  "MESSAGE_SHEET_PREPARED_BY_ARO": "Message Sheet Proposed by Assistant Returning Officer",
+  "MESSAGE_SHEET_PUBLISHED_BY_RO": "Message Sheet Published by Returning Officer",
+  "TOTAL_CENTERS": "Total Centers",
+  "MSG_BOARD_INCLUDED_CENTERS": "Centers Included in Message Sheet",
+  "CONDITION": "Condition",
+  "UNION_OR_WARD": "Union / Ward",
+  "UNION_WARD": "Union Ward",
+  "VOTE_CENTER_LIST_CENTER": "Center",
+  "VOTE_CENTER_LIST_COL_SERIAL": "Center No",
+  "VOTE_CENTER_LIST_COL_CENTER_NAME": "Center Name",
+  "CREATED_BY": "Created By",
+  "UPDATED_BY": "Updated By",
+  "NO_DATA_FOUND": "The message sheet for this seat in this district by the Returning Officer has not been finalized yet.",
+
+  "NO_DATA_FOUND_SINGLE": "The message sheet for this seat by the Returning Officer has not been finalized yet.",
+  "CANDIDATE_VOTE_RATIO": "Candidate Vote Ratio",
+  "CANDIDATE_VOTE_COUNT": "Candidate Vote Count",
+  "RATIO_OF_VOTES": "Ration Of Votes",
+  "MESSAGE_SHEET_STATUS_RATION": "Message Sheet Status Ration"
+}

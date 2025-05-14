@@ -1,0 +1,48 @@
+@use './theme/project';
+@use '@pentabd/ui/build/globals/scss/_colors.scss';
+
+.bg-info {
+  &-50 {
+    background-color: colors.$blue-50;
+  }
+}
+
+.bg-primary {
+  &-25 {
+    background-color: project.$primary-25;
+  }
+  &-50 {
+    background-color: project.$primary-50;
+  }
+}
+
+.bg-purple {
+  background-color: colors.$purple-500;
+  &-semi-midlight {
+    background-color: colors.$purple-400;
+  }
+  &-semi-middark {
+    background-color: colors.$purple-600;
+  }
+}
+
+.border-purple {
+  border-color: colors.$purple-500;
+  &-semi-middark {
+    border-color: colors.$purple-600;
+  }
+}
+
+.bg-pink {
+  background-color: colors.$pink-500;
+  &-semi-midlight {
+    background-color: colors.$pink-400;
+  }
+}
+
+.border-pink {
+  border-color: colors.$pink-500;
+  &-semi-middark {
+    border-color: colors.$pink-600;
+  }
+}

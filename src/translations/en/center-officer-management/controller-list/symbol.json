@@ -1,0 +1,23 @@
+{
+  "SYMBOL_LIST": "Symbol List",
+  "ADD_NEW_BUTTON": "Add New",
+  "RESET": "Reset",
+  "SUBMIT": "Submit",
+  "RETURN": "Return",
+  "ADD_SYMBOL": "Add Symbol",
+  "CHANGE_SYMBOL": "Change Symbol",
+  "SYMBOL": "Symbol",
+  "IMAGE": "Image",
+  "OPERATIONS": "Operations",
+  "BANGLA": "Bangla",
+  "ENGLISH": "English",
+  "UPLOAD_SYMBOL_IMAGE": "Upload Symbol Image",
+  "ELECTION_TYPE":"Election Type",
+  "CANDIDATE_TYPE":"Candidate Type",
+  "SYMBOL_TYPE_ERROR_MSG":{
+    "SYMBOL_TYPE_BN":"Symbol name is required in bangla",
+    "SYMBOL_TYPE_EN":"Symbol name is required in english",
+    "SYMBOL_TYPE_CANDIDATE_TYPE":"Candidate type is required",
+    "SYMBOL_TYPE_SYMBOL_IMAGE":"Symbol image is required"
+  }
+}

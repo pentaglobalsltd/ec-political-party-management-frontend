@@ -1,0 +1,11 @@
+{
+  "UNION_OR_WARD": "ইউনিয়ন/ওয়ার্ড আবশ্যক আবশ্যক",
+  "ORGANIZATION_TYPE": "প্রতিষ্ঠান/সংস্থার ধরন আবশ্যক",
+  "ORGANIZATION_NAME_BN": "প্রতিষ্ঠান/সংস্থার নাম (বাংলা) আবশ্যক",
+  "ORGANIZATION_NAME_EN": "প্রতিষ্ঠান/সংস্থার নাম (English) আবশ্যক",
+  "ORGANIZATION_ADDRESS_BN": "প্রতিষ্ঠান/সংস্থার ঠিকানা (বাংলা) আবশ্যক",
+  "ORGANIZATION_ADDRESS_EN": "প্রতিষ্ঠান/সংস্থার ঠিকানা (English) আবশ্যক",
+  "ORGANIZATION_EMAIL": "প্রতিষ্ঠান/সংস্থার ইমেইল আবশ্যক",
+  "CONTACT_NO": "যোগাযোগের নম্বর আবশ্যক",
+  "CONDITION": "অবস্থা আবশ্যক"
+}

@@ -1,0 +1,20 @@
+{
+  "RESULTS_RETURN_LOG": "Results Return Log",
+  "CENTER_BASED_RETURN_LOG": "Center-Based Results Return Log",
+  "DISTRICT": "District",
+  "SEAT": "Seat",
+  "CENTER_NO": "Center Number",
+  "VOTE_CENTER_NAME": "Vote Center Name",
+  "TOTAL_VOTER": "Total Voter",
+  "ACCEPT_VOTE": "Accept Vote",
+  "REJECT_VOTE": "Reject Vote",
+  "MALE_VOTER": "Male Voter",
+  "FEMALE_VOTER": "Female Voter",
+  "FILE": "File",
+  "RESULTS": "Results",
+  "RETURN": "Return",
+  "TIME": "Time",
+  "CAN_ID": "Can. ID",
+  "CAN_TYPE": "Can. Type",
+  "VOTE": "Vote"
+}

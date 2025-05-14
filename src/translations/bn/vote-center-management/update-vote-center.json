@@ -1,0 +1,105 @@
+{
+  "BREADCRUMBS": {
+    "VOTE_CENTER_LIST": "ভোটকেন্দ্রের তালিকা",
+    "ADD_VOTE_CENTER": "ভোটকেন্দ্র সংযোজন"
+  },
+
+  "CANCEL_BUTTON": "বাতিল",
+  "SAVE_BUTTON": "দাখিল করুন",
+
+  "INSTITUTION_REPORT": {
+    "TITLE": "প্রতিষ্ঠানের বিবরণী",
+    "ELECTION_NAME": "নির্বাচনের নাম",
+    "DISTRICT": "জেলা",
+    "UPAZILLA": "উপজেলা",
+    "UNION": "ইউনিয়ন",
+
+    "NAME_OF_THE_HEAD": "প্রধানের নাম",
+    "MOBILE_CONTACT_OF_HEAD": "প্রধানের মোবাইল",
+    "TOTAL_MEMBERS": "সদস্য সংখ্যা",
+
+    "NUMBER_OF_FLOORS": "ফ্লোর সংখ্যা",
+    "TOTAL_ROOM": "মোট রুম",
+    "TOILET": "টয়লেট",
+
+    "SURROUNDINGS": "পারিপার্শ্বিক অবস্থা",
+    "DISTANCE": "দূরত্ব",
+    "TRANSPORTATION_MEDIUM": "চলাচলের মাধ্যম",
+    "COMMENT": "কমেন্ট",
+    "IT_HAS": "আছে",
+    "IT_LACKS": "নেই"
+  },
+
+  "ADD_CENTER_INFO": {
+    "Header": "কেন্দ্রের তথ্য সংযোজন",
+    "SERIAL_NO": "ক্রমিক নং",
+    "INSTITUTE_NAME_BN": "প্রতিষ্ঠানের নাম (বাংলায়)",
+    "INSTITUTE_NAME_EN": "প্রতিষ্ঠানের নাম (In English)",
+
+    "CENTER_DESCRIPTION_BANGLA": "কেন্দ্রের বিবরণী (বাংলায়)",
+    "CENTER_DESCRIPTION_SUB_BANGLA": "প্রতিষ্ঠানের নাম বাদ দিয়ে গ্যাজেটের বাকি অংশ যোগ করুন",
+    "CENTER_DESCRIPTION_ENGLISH": "কেন্দ্রের বিবরণী (In English)",
+
+    "CENTER_TYPE": "কেন্দ্রের ধরণ",
+    "CENTER_ADDRESS_BANGLA": "কেন্দ্রের ঠিকানা (বাংলায়)",
+    "CENTER_ADDRESS_ENGLISH": "কেন্দ্রের ঠিকানা (ইংরেজি)",
+    "TOTAL_BOOTH": "মোট বুথ",
+
+    "NUMBER_OF_TEMPORARY_BOOTH": "অস্থায়ী বুথের সংখ্যা",
+    "TEMPORARY_CENTER": "অস্থায়ী কেন্দ্র",
+    "RADIO_OPTIONS_TEMPORARY": {
+      "ACTIVE": "অস্থায়ী",
+      "INACTIVE": "স্থায়ী"
+    },
+
+    "TAB_CENTER": "ট্যাব কেন্দ্র",
+    "EVM_RESULT": "ইভিএম ফলাফল",
+
+    "RADIO_OPTIONS_TAB": {
+      "ACTIVE": "হ্যাঁ",
+      "INACTIVE": "প্রযোজ্য নয়"
+    },
+
+    "RADIO_OPTIONS_EVM": {
+      "ACTIVE": "হ্যাঁ",
+      "INACTIVE": "প্রযোজ্য নয়"
+    }
+  },
+
+  "ADD_VOTER_AREA": {
+    "TITLE": "ভোটার এরিয়া সংযোজন",
+    "VOTER_ELAKA": "ভোটার এলাকা",
+    "AREA_CODE": "এরিয়া কোড",
+    "TOTAL_VOTE_ROW": "মোট",
+
+    "NUMBER_OF_VOTERS": {
+      "HEADING": "ভোটের সংখ্যা",
+      "COL_MALE": "পুরুষ ভোটার",
+      "COL_FEMALE": "মহিলা ভোটার",
+      "COL_THIRD_GENDER": "হিজড়া ভোটার"
+    },
+    "SERIAL_OF_VOTERS_MALE": {
+      "HEADING": "ভোটার ক্রম (পুরুষ)",
+      "COL_START": "শুরু",
+      "COL_FINISH": "শেষ"
+    },
+    "SERIAL_OF_VOTERS_FEMALE": {
+      "HEADING": "ভোটার ক্রম (মহিলা)",
+      "COL_START": "শুরু",
+      "COL_FINISH": "শেষ"
+    },
+
+    "SERIAL_OF_VOTERS_THIRD_GENDER": {
+      "HEADING": "ভোটার ক্রম (হিজড়া)",
+      "COL_START": "শুরু",
+      "COL_FINISH": "শেষ"
+    },
+
+    "FOOTER": {
+      "TOTAL_MALE_VOTE": "মোট পুরুষ ভোট ",
+      "TOTAL_FEMALE_VOTE": "মোট মহিলা ভোট",
+      "TOTAL_THIRD_GENDER_VOTE": "মোট হিজড়া ভোট",
+      "TOTAL_VOTE": "সর্বমোট ভোট"
+    }
+  }
+}

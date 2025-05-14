@@ -1,0 +1,112 @@
+{
+  "SUBMIT_RESULTS": "ফলাফল দাখিল",
+  "ELECTION": "নির্বাচন : জাতীয় সংসদ নির্বাচন",
+  "ELECTION_ONLY_TITLE": "নির্বাচন",
+  "ELECTION_SEAT": "নির্বাচনী আসন",
+  "WARD_NUMBER": "ওয়ার্ড নাম্বার",
+  "FOR_POST": "পদের জন্য",
+  "VOTE_CENTER_NAME_NO": "ভোটকেন্দ্রের নাম ও নম্বর",
+  "CENTER_STATISTICS": "কেন্দ্রের পরিসংখ্যান",
+  "TOTAL_CENTER_NUMBER": "মোট কেন্দ্রের সংখ্যা",
+  "POST_NAME": "পদের নাম",
+  "PARLIAMENT_MEMBER": "সংসদ সদস্য",
+  "UPAZILA": "উপজেলা",
+  "UNION_OR_WARD": "ইউনিয়ন/ওয়ার্ড",
+  "UNION_PARISHAD_WARD": "ইউনিয়ন পরিষদ ওয়ার্ড ",
+  "SUBMITTED_CENTER_NO": "দাখিলকৃত কেন্দ্রের সংখ্যা",
+  "CANDIDATE_SERIAL_NO": "ক্রম",
+  "CANDIDATE_NAME": "প্রার্থীর নাম",
+  "ELECTION_CANDIDATES": "প্রতিদ্বন্দ্বী প্রার্থী: ",
+  "CANDIDATE_SYMBOL": "প্রার্থীর প্রতীক",
+  "VALID_VOTER_NO": "বৈধ ভোটের সংখ্যা",
+  "OBJECTIONABLE_VALID_VOTER_NO": "আপত্তিকৃত বৈধ ভোটের সংখ্যা",
+  "ROW_TOTAL_VALID_VOTER_NO": "মোট বৈধ ভোটের সংখ্যা",
+
+  "VALID_VOTE_AMOUNT_ERROR_MSG": "মোট বৈধ ভোটের সংখ্যা ঋণাত্মক হতে পারবে না",
+  "VALID_VOTE_AMOUNT_REQUIRED_ERROR_MSG": "বৈধ ভোটের সংখ্যা আবশ্যক",
+  "OBJECTIONAL_VALID_VOTE_AMOUNT_REQUIRED_ERROR_MSG": "আপত্তিকর বৈধ ভোটের সংখ্যা আবশ্যক",
+  "TOTAL_ROW_VALID_VOTE_AMOUNT_REQUIRED_ERROR_MSG": "মোট বৈধ ভোটের সংখ্যা আবশ্যক",
+
+  "CANDIDATE_TOTAL_VOTE": {
+    "NATIONAL_ELECTION": "(১) প্রতিদ্বন্দ্বী প্রার্থীগণ কর্তৃক প্রাপ্ত ভোটের মোট সংখ্যা (আপত্তিকৃত ভোটসহ)",
+    "CITY_CORPORATION_ELECTION": "(১) প্রতিদ্বন্দ্বী প্রার্থীগণ কর্তৃক প্রাপ্ত বৈধ ভোটের মোট সংখ্যা",
+    "UPAZILLA_ELECTION": "(১) প্রতিদ্বন্দ্বী প্রার্থীগণ কর্তৃক প্রাপ্ত ভোটের মোট সংখ্যা (আপত্তিকৃত ভোটসহ)",
+    "MUNICIPALITY_ELECTION": "(১) প্রতিদ্বন্দ্বী প্রার্থীগণ কর্তৃক প্রাপ্ত বৈধ ভোটের মোট সংখ্যা",
+    "UNION_PARISHAD_ELECTION": "(১) প্রতিদ্বন্দ্বী প্রার্থীগণ কর্তৃক প্রাপ্ত বৈধ ভোটের মোট সংখ্যা"
+  },
+  "CANDIDATE_TOTAL_POSTAL_VOTE": "(১) প্রতিদ্বন্দ্বী প্রার্থীগণ কর্তৃক প্রাপ্ত ভোটের মোট সংখ্যা",
+  "TOTAL_VALID_VOTER_NO": "মোট বৈধ ভোটের সংখ্যা",
+  "TOTAL_VALID_VOTER_NO_ERROR_MSG": "মোট বৈধ ভোট ঋণাত্মক সংখ্যা হতে পারবে না",
+  "TOTAL_VALID_VOTER_NO_REQUIRED_ERROR_MSG": "মোট বৈধ ভোটের সংখ্যা আবশ্যক",
+  "TOTAL_ILLEGAL_VOTER_NO": {
+    "NATIONAL_ELECTION": "(২) গণনা হইতে বাদ যাওয়া ভোটের মোট সংখ্যা",
+    "CITY_CORPORATION_ELECTION": "(২) অবৈধ (বাতিল) ভোটার সংখ্যা",
+    "UPAZILLA_ELECTION": "(২) গণনা হইতে বাদ যাওয়া ভোটের মোট সংখ্যা",
+    "MUNICIPALITY_ELECTION": "(২) অবৈধ (বাতিল) ভোটার সংখ্যা",
+    "UNION_PARISHAD_ELECTION": "(২) অবৈধ (বাতিল) ভোটার সংখ্যা"
+  },
+  "TOTAL_ILLEGAL_VOTER_NO_ERROR_MSG": "গণনা হইতে বাদ যাওয়া ভোটের মোট সংখ্যা ঋণাত্মক সংখ্যা হতে পারবে না",
+  "TOTAL_ILLEGAL_VOTER_NO_REQUIRED_ERROR_MSG": "গণনা হইতে বাদ যাওয়া ভোটের মোট সংখ্যা",
+  "TOTAL_INVALID_VOTER_NO": "মোট বাতিল ভোটের সংখ্যা",
+  "TOTAL_VOTE": {
+    "NATIONAL_ELECTION": "(৩) [(১) ও (২) এর সমষ্টি]",
+    "CITY_CORPORATION_ELECTION": "(৩) বৈধ ও অবৈধ (বাতিল) ভোটার মোট সংখ্যা [(১) ও (২) এর সমষ্টি]",
+    "UPAZILLA_ELECTION": "(৩) [(১) ও (২) এর সমষ্টি]",
+    "MUNICIPALITY_ELECTION": "(৩) বৈধ ও অবৈধ (বাতিল) ভোটার মোট সংখ্যা [(১) ও (২) এর সমষ্টি]",
+    "UNION_PARISHAD_ELECTION": "(৩) বৈধ ও অবৈধ (বাতিল) ভোটার মোট সংখ্যা [(১) ও (২) এর সমষ্টি]"
+  },
+  "TOTAL_VOTE_POSTAL": "মোট ভোটের সংখ্যা",
+  "TOTAL_GET_POSTAL": "প্রাপ্ত পোস্টাল ভোট",
+
+  "PRESENT_VOTER": {
+    "CITY_CORPORATION_ELECTION": "(৪) উপস্থিত ভোটার সংখ্যা",
+    "MUNICIPALITY_ELECTION": "(৪) উপস্থিত ভোটার সংখ্যা",
+    "UNION_PARISHAD_ELECTION": "(৪) উপস্থিত ভোটার সংখ্যা"
+  },
+
+  "ABSENT_VOTER": {
+    "CITY_CORPORATION_ELECTION": "(৫) অনুপস্থিত ভোটার সংখ্যা",
+    "MUNICIPALITY_ELECTION": "(৫) অনুপস্থিত ভোটার সংখ্যা",
+    "UNION_PARISHAD_ELECTION": "(৫) অনুপস্থিত ভোটার সংখ্যা"
+  },
+
+  "TOTAL_VOTE_ERROR_MSG": "মোট ভোট ঋণাত্মক সংখ্যা হতে পারবে না",
+  "UPLOAD": "প্রিজাইডিং অফিসার কর্তৃক পূরণকৃত ফর্ম আপলোড করুন",
+  "UPLOAD_WARNINGS": "শুধুমাত্র পিডিএফ ফাইল আপলোড করুন এবং ফাইল সাইজ ৫ মেগাবাইটের বেশি হওয়া যাবে না।",
+  "CENTER_NAME": "কেন্দ্রের নাম : ",
+  "PREVIEW": "প্রিভিউ দেখুন",
+  "PREVIEW_MODAL_TITLE": "প্রিভিউ আপলোড ফাইল",
+  "SUBMIT_RESULT": "ফলাফল দাখিল করুন",
+  "MODAL_SUBMIT_BUTTON": "সংরক্ষণ করুন ",
+  "MODAL_RETURN_BUTTON": "ফিরে যান ",
+  "FILE_REQUIRED": "ফাইল আবশ্যক",
+
+  "CENTER_VOTER_AMOUNT": "কেন্দ্রের ভোটার সংখ্যা",
+  "TOTAL_VOTER": "মোট ভোটার",
+  "MALE_VOTER": "পুরুষ ভোটার",
+  "FEMALE_VOTER": "মহিলা ভোটার",
+  "THIRD_GENDER_VOTER": "হিজড়া ভোটার",
+
+  "NOTIFICATION_ERROR_BY_ARO": "নিমোক্ত ফলাফল গুলো আবার দাখিল করুনঃ",
+  "NOTIFICATION_ERROR_BY_ADMIN": "ফলাফল পুনরায় পাঠানোর জন্য এডমিনের নিকট থেকে অনুরোধ করা হয়েছেঃ",
+
+  "MODAL_ERROR_1": "প্রার্থীগণের তথ্য সঠিকভাবে দিন।",
+  "MODAL_ERROR_2": "আপনার এন্ট্রিকৃত ভোটার সংখ্যা মোট ভোটার সংখ্যা অতিক্রম করেছে !",
+
+  "POLLING_CENTER_NOTIFICATION_RED": "এই কেন্দ্রটির ভোটগ্রহন কার্যক্রম স্থগিত করা হয়েছে।",
+  "POLLING_CENTER_NOTIFICATION_YELLOW": "এই কেন্দ্রটি এডমিনের নিকট অনুমোদের জন্য অপেক্ষমান।",
+  "POLLING_CENTER_NOTIFICATION_GREEN": "এই কেন্দ্রের ফলাফল দাখিল সম্পন্ন হয়েছে।",
+
+  "SUCCESS_TOAST": "ফলাফল দাখিল সম্পন্ন হয়েছে।",
+  "SUBMIT_RESULTS_SUMMARY": "ফলাফল দাখিল সারাংশ",
+  "DASHBOARD": "ড্যাশবোর্ড",
+  "CONSTITUENCY_AREA": "নির্বাচনী এলাকা ",
+  "TOTAL_VOTE_CENTER": "মোট ভোট কেন্দ্র ",
+  "TOTAL": "মোট",
+  "MALE": "পুরুষ",
+  "FEMALE": "মহিলা",
+  "THIRD_GENDER": "হিজড়া",
+  "SUBMITTED": "দাখিল করা হয়েছে",
+  "NOT_SUBMITTED": "পাঠানো হয় নি / পুনরায় পাঠান",
+  "SUSPENDED": "কেন্দ্র স্থগিত"
+}

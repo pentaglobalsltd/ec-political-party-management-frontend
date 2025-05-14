@@ -1,0 +1,40 @@
+{
+  "NOMINATION_DASHBOARD": "প্রার্থী মনোনয়ন ড্যাশবোর্ড",
+  "SAVE_BUTTON": "সংরক্ষণ করুন",
+
+  "ELECTION_TYPE": "নির্বাচনের ধরণ",
+  "ELECTION_NAME": "নির্বাচনের নাম",
+  "CANDIDATE_TYPE": "প্রার্থীর ধরন",
+  "DISTRICT": "জেলা",
+  "SEAT": "আসন",
+  "STATUS_SELECT": "স্ট্যাটাস",
+  "SEARCH_BUTTON": "খুঁজুন",
+
+  "SERIAL_NUMBER": "ক্রমিক",
+  "CANDIDATE_NAME": "প্রার্থীর নাম & ক্রম",
+  "CONSTITUENCY_NAME": "নির্বাচনী আসন/ পদের নাম",
+  "NID": "NID",
+  "POLITICAL_PARTY": "রাজনৈতিক দল",
+  "NOMINATION": "মনোনয়ন",
+  "PERSONAL": "ব্যাক্তিগত",
+  "AFFIDAVIT": "হলফনামা",
+  "ATTACHMENT": "সংযুক্তি",
+  "VERIFY": "যাচাই",
+  "SORT_OUT": "বাছাই",
+  "SYMBOL": "প্রতীক বরাদ্দ",
+  "STATUS_TABLE": "স্ট্যাটাস",
+
+  "VIEW": "দেখুন",
+  "INFORMATION": "তথ্য",
+  "ATTACHMENT_ACTION": "সংযুক্তি",
+  "USER": "ইউজার",
+  "PROCESS": "প্রক্রিয়া",
+
+  "DELETE_MODAL_TITLE": "মুছে ফেলুন",
+  "DELETE_MODAL_SUBTITLE": "আপনি কি এই প্রার্থীর তথ্য মুছে ফেলতে চান?",
+  "DELETE_MODAL_CONFIRM": "নিশ্চিত করুন",
+  "DELETE_MODAL_CANCEL": "ফিরে যান",
+
+  "BACK": "ফিরে যান",
+  "CONFIRM": "নিশ্চিত করুন"
+}

@@ -1,0 +1,14 @@
+{
+  "CWNSC_REPORT_TITLE": "Constituency Wise Nomination Status Count Report",
+  "CWNSC_REPORT_COLUMN": {
+    "CONSTITUENCY": "Constituency",
+    "ONLINE_SUBMISSION": "Online Submission",
+    "ACCEPTANCE": "Acceptance",
+    "SELECTION_CANCELLATION": "Selection Cancellation",
+    "WITHDRAWAL": "Withdrawal",
+    "APPEAL_VALID": "Appeal Valid",
+    "APPEAL_CANCELLATION": "Appeal Cancellation",
+    "CANDIDATE_CONFIRMATION": "Candidate Confirmation"
+  },
+  "CWNSC_REPORT_DOWNLOAD_BUTTON_TEXT": "Download"
+}

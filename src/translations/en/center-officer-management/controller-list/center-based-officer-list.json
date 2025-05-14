@@ -1,0 +1,23 @@
+{
+  "CENTER_BASED_OFFICER_LIST": "List of Center-Based Officers",
+  "SAVE": "Save",
+  "BULK_SAVE": "Bulk Save",
+  "ADD_NEW": "Add New",
+  "ADVANCED_SEARCH": "Advanced Search",
+
+  "TRAINING_DATE_AND_TIME": "Date and Time of Training",
+  "TRAINING_PLACE": "Training Location",
+  "GOODS_RECEIVING_DATE_AND_TIME": "Date and Time of Receiving Goods",
+
+  "CENTER_NAME": "Center Name",
+  "TOTAL_BOOTH": "Total Booths",
+  "PRESIDING_OFFICER": "Presiding Officer",
+  "ASSISTANT_PRESIDING_OFFICER": "Assistant Presiding Officer",
+  "POLLING_OFFICER": "Polling Officer",
+  "ACTING_PRESIDING_OFFICER": "Acting Presiding Officer",
+  "LETTER": "Letter",
+  "DOWNLOAD": "Download",
+  "DOWNLOAD_THIS_PAGE": "Download (Selected rows from this page)",
+  "DOWNLOAD_ALL": "Download (ALL)",
+  "DOWNLOAD_ERROR": "Download is not possible"
+}

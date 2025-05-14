@@ -1,0 +1,44 @@
+{
+  "CENTER_BASED_OFFICER_ALLOCATION": "কেন্দ্র ভিত্তিক কর্মকর্তা বন্টন",
+  "SAVE": "সংরক্ষণ করুন",
+  "BULK_SAVE": "গুচ্ছ সংযোজন",
+  "ADD_NEW": "নতুন সংযোজন",
+
+  "SELECT_CENTER": "কেন্দ্র নির্বাচন করুন",
+  "TOTAL_BOOTH": "মোট বুথ",
+  "PRESIDING_OFFICER": "প্রিজাইডিং অফিসার",
+  "ASSISTANT_PRESIDING_OFFICER": "সহকারী প্রিজাইডিং অফিসার",
+  "POLLING_OFFICER": "পোলিং অফিসার",
+  "ACTING_PRESIDING_OFFICER": "ভারপ্রাপ্ত প্রিজাইডিং কর্মকর্তা",
+
+  "CENTER_NAME": "কেন্দ্রের নাম: ",
+  "NAME": "নাম",
+  "INSTITUTE_NAME": "প্রতিষ্ঠানের নাম",
+  "ASSIGNED_POSITION": "দায়িত্বপ্রাপ্ত পদ",
+  "ELECTION_SCHEDULE": "নির্বাচনের নাম",
+  "BOOTH": "বুথ",
+  "PROCESS": "প্রক্রিয়া",
+  "DISCHARGE_OF_POSITION": "দায়িত্ব অপসারণ",
+  "SEND_SMS": "বার্তা পাঠান",
+  "RESEND_SMS": "পুনরায় বার্তা পাঠান",
+  "SELECT_INSTITUTE": "প্রতিষ্ঠান নির্বাচন করুন",
+  "SERIAL": "ক্রমিক নং",
+  "DESIGNATION": "পদবী",
+  "GRADE": "গ্রেড",
+  "BASIC_SALARY": "মূল বেতন",
+  "CENTER_NAME_COLUMN": "কেন্দ্রের নাম",
+  "RESPONSIBILITY_ALLOCATION": "দায়িত্ব বন্টন",
+
+  "CANCEL": "বাতিল করুন",
+  "SUBMIT": "দাখিল করুন",
+  "DELETE_MODAL_TITLE": "আপনি কি নিশ্চিত আপনি মুছে দিতে চান?",
+  "GO_BACK": "ফিরে যান",
+  "REMOVE": "মুছুন",
+
+  "CANCEL_MODAL_TITLE": "ভোটকেন্দ্র বাতিল করুন",
+  "CANCEL_MODAL_COMMENT": "মন্তব্য",
+  "CANCEL_MODAL_BACK_BUTTON": "ফিরে যান",
+  "CANCEL_MODAL_CONFIRM_BUTTON": "নিশ্চিত করুন",
+
+  "TOTAL_CENTERS": "মোট কেন্দ্র"
+}

@@ -1,0 +1,20 @@
+{
+  "POLITICAL_PARTY_LIST": "Political Party List",
+  "ADD_NEW": "Add New",
+  "REGISTRATION_NO": "Registration Number",
+  "PARTY_NAME": "Party Name",
+  "SYMBOL": "Symbol",
+  "ADDRESS": "Address",
+  "PROCEDURE": "Procedure",
+  "NEW_PARTY_ADD": "Add New Party",
+  "PARTY_NAME_BANGLA": "Party Name (Bangla)",
+  "PARTY_NAME_ENGLISH": "Party Name (English)",
+  "CONDITION": "Condition",
+  "FILED": "File",
+  "BACK": "Back",
+  "INDEPENDENT": "Independent",
+  "CHANGE_PARTY_DETAILS": "Change Party Details",
+  "RESET": "Reset",
+  "ACTIVE": "Active",
+  "INACTIVE": "Inactive"
+}

@@ -1,0 +1,367 @@
+{
+  "CANDIDATE_CONFIRMATION": "প্রার্থী নিশ্চিতকরণ",
+  "CANDIDATE_CONFIRMATION_SUBTITLE": "তথ্য এবং সংযুক্তি যাচাই পূর্বক টিক চিহ্ন দিয়ে নিশ্চিত করুন ",
+  "SELECT": "সিলেক্ট করুন",
+  "ID": "ক্রমিক নম্বর",
+  "NAME_VOTER_ID": "প্রার্থীর নাম ও প্রার্থীর ভোটার নম্বর",
+  "POST_NAME": "নির্বাচনী আসন/ পদের নাম",
+  "PROPOSER_NAME": "প্রস্তাবকারীর নাম",
+  "SUPPORTER_NAME": "সমর্থনকারীর নাম",
+  "FATHER_NAME": "পিতার নাম",
+  "FATHER_NAME_EN": "পিতার নাম (ইংরেজি)",
+  "NOMINATION": "মনোনয়ন",
+  "PERSONAL": "ব্যাক্তিগত",
+  "AFFIDAVIT": "হলফনামা",
+  "ELECTION_EXPENSES": "নির্বাচনী ব্যয়ের উৎস",
+  "ASSET_INCOME_DETAILS": "সম্পদ ও আয়ের বিবরণী",
+  "ATTACHMENT": "সংযুক্তি",
+  "COLLATERAL": "জামানত",
+  "PROCESS": "প্রক্রিয়া",
+  "SEE": "দেখুন",
+  "NAME": {
+    "NATIONAL_ELECTION": "নাম",
+    "CITY_CORPORATION_ELECTION": "আমি ",
+    "UPAZILLA_ELECTION": "আমি ",
+    "MUNICIPALITY_ELECTION": "আমি ",
+    "UNION_PARISHAD_ELECTION": "আমি "
+  },
+  "PROPOSER_PART": "প্রস্তাবকারীর অংশ",
+  "PROPOSER_SUBTITLE": "প্রস্তাবকারীর কর্তৃক পূরণ করিতে হইবে",
+  "VOTER_NO": "ভোটার নম্বর",
+  "CANDIDATE_VOTER_NO": "প্রার্থীর ভোটার নম্বর",
+  "SERIAL_NUMBER": "ক্রমিক নম্বর",
+  "ZILLA": "জেলার নাম",
+  "CANDIDATE_ZILLA": "প্রার্থীর জেলার নাম",
+  "CONSTITUENCY": "নির্বাচনী আসন",
+  "CANDIDATE_CONSTITUENCY_NAME": "প্রার্থীর নির্বাচনী আসন",
+  "UPAZILA": "উপজেলা/থানা",
+  "CANDIDATE_UPAZILA": "প্রার্থীর উপজেলা/থানা",
+  "MUNICIPALITY": "পৌরসভা/সিটি কর্পোরেশন",
+  "CANDIDATE_MUNICIPALITY": "প্রার্থীর পৌরসভা/সিটি কর্পোরেশন",
+  "RMO": "আর এম ও",
+  "CITY_CORPORATION": "পৌরসভা/সিটি কর্পোরেশন/ক্যান্টনমেন্ট বোর্ড/ইউনিয়নের নাম",
+  "UNION_WARD": "ইউনিয়ন/ওয়ার্ড",
+  "WARD": "ইউনিয়ন পরিষদ ওয়ার্ড",
+  "CANDIDATE_UNION_WARD": "প্রার্থীর ইউনিয়ন/ওয়ার্ড",
+  "CANDIDATE_UNION": "প্রার্থীর ইউনিয়ন",
+  "VOTER_AREA": "ভোটার এলাকা",
+  "CANDIDATE_PART": "প্রার্থীর অংশ",
+  "CANDIDATE_NAME": {
+    "NATIONAL_ELECTION": "প্রার্থীর নাম",
+    "CITY_CORPORATION_ELECTION": "প্রার্থীর নাম",
+    "UPAZILLA_ELECTION": "প্রার্থীর নাম",
+    "MUNICIPALITY_ELECTION": "প্রার্থীর নাম",
+    "UNION_PARISHAD_ELECTION": "প্রার্থীর নাম"
+  },
+  "CANDIDATE_ADDRESS": "প্রার্থীর ঠিকানা",
+  "CANDIDATE_CONSTITUENCY": "নির্বাচনী এলাকার নাম ও নম্বর",
+  "CANDIDATE_TYPE": "পদের নাম",
+  "SUPPORTER_PART": "সমর্থনকারীর অংশ",
+  "SUPPORTER_SUBTITLE": "সমর্থনকারী কর্তৃক পূরণ করিতে হইবে",
+  "NOMINATED_CANDIDATE": "মনোনীত প্রার্থীর অংশ",
+  "NOMINATED_CANDIDATE_SUBTITLE": "মনোনীত প্রার্থী কর্তৃক ঘোষণা",
+  "NID_NO": "জাতীয় পরিচয় পত্র (NID) নম্বর",
+  "FATHER_OR_HUSBAND_NAME": "পিতা/স্বামীর নাম",
+  "MOTHER_NAME": "মাতার নাম",
+  "MOTHER_NAME_EN": "মাতার নাম (ইংরেজি)",
+  "REGION": "বিভাগের নাম",
+  "BANK_ACCOUNT_NO": "ব্যাঙ্ক একাউন্ট নম্বর",
+  "BANK_NAME": {
+    "NATIONAL_ELECTION": "ও ব্যাংকের নাম",
+    "CITY_CORPORATION_ELECTION": "ব্যাংকের নাম",
+    "UPAZILLA_ELECTION": "ও ব্যাংকের নাম",
+    "MUNICIPALITY_ELECTION": "ব্যাংকের নাম",
+    "UNION_PARISHAD_ELECTION": "ব্যাংক/প্রতিষ্ঠানের নাম"
+  },
+  "BRANCH_NAME": {
+    "NATIONAL_ELECTION": "ব্রাঞ্চের নাম",
+    "CITY_CORPORATION_ELECTION": "শাখার নাম",
+    "UPAZILLA_ELECTION": "ব্রাঞ্চের নাম",
+    "MUNICIPALITY_ELECTION": "শাখার নাম",
+    "UNION_PARISHAD_ELECTION": "শাখার নাম"
+  },
+  "POLITICAL_GROUP_CHECKBOX": "(খ) আমি স্বতন্ত্র প্রার্থী",
+  "POLITICAL_GROUP": "রাজনৈতিক দল",
+  "POLITICAL_GROUP_SYMBOL": "(৬) (ক) আমার মনোয়ন প্রদানকারী রাজনৈতিক দলের জন্য সংরক্ষিত প্রতীক (দলীয় প্রার্থীর ক্ষেত্রে)",
+  "POLITICAL_GROUP_SYMBOL_PREVIEW": "রাজনৈতিক দলের সংরক্ষিত প্রতীক",
+  "PREFERRED_SYMBOL": {
+    "MAYOR": "খ) আমার পছন্দকৃত প্রতীকের নাম (স্বতন্ত্র প্রার্থীর ক্ষেত্রে)",
+    "COUNSILOR": "(৫) আমার পছন্দকৃত প্রতীকের নাম",
+    "WOMAN_COUNSILOR": "(৫) আমার পছন্দকৃত প্রতীকের নাম"
+  },
+  "PREFERRED_SYMBOL_PREVIEW": "পছন্দকৃত প্রতীকের নাম (স্বতন্ত্র প্রার্থীর ক্ষেত্রে)",
+  "FORM_TITLE": "স্বতন্ত্র প্রার্থী কর্তৃক পূরণীয়",
+  "FORM_SUBTITLE": "(মনোনীত প্রার্থী কর্তৃক ঘোষণা)",
+  "ANNOUNCEMENT": "ঘোষণা",
+  "SELECTED_BEFORE": "ইতিপূর্বে জাতীয় সংসদের কোন নির্বাচনে সংসদ সদস্য নির্বাচিত হইয়াছেন :",
+  "RADIO_YES": "হ্যা",
+  "RADIO_NO": "না",
+  "SELECTED_YES_TITLE": "ইতিপূর্বে জাতীয় সংসদের কোন নির্বাচনে সংসদ সদস্য নির্বাচিত হইয়াছেন এমন প্রার্থী কর্তৃক পূরণীয়",
+  "SELECTED_YES_ANNOUNCEMENT_FIRST_PART": "আমি, {{CANDIDATE_NAME}} এতদদ্বারা ঘোষণা করিতেছি যে, ইতিপূর্বে অনুষ্ঠিত",
+  "ELECTION_NAME": "নির্বাচনের নাম",
+  "ELECTION_AREA_NAME_NUMBER": "নির্বাচনী এলাকার নম্বর ও নাম",
+  "SELECTED_YES_ANNOUNCEMENT_LAST_PART": "নির্বাচনী এলাকা হইতে সংসদ সদস্য হিসাবে নির্বাচিত হইয়াছিলাম।",
+  "SELECTED_NO_TITLE": "ইতিপূর্বে জাতীয় সংসদের কোন নির্বাচনে সংসদ সদস্য নির্বাচিত হননি এমন প্রার্থী কর্তৃক পূরণীয়",
+  "SELECTED_NO_ANNOUNCEMENT_FIRST_PART": "(১) আমি, {{CANDIDATE_NAME}} এতদ্‌সংগে আমার",
+  "ELECTION_AREA": "নির্বাচনী এলাকা",
+  "SELECTED_NO_ANNOUNCEMENT_LAST_PART": "এর এক শতাংশ ভোটারের সমর্থন সম্বলিত স্বাক্ষরযুক্ত তালিকা সংযুক্ত করিলাম।<br /><br /> (২) আমি আরও ঘোষণা করিতেছি যে, সংযুক্ত তালিকায় প্রদত্ত সকল স্বাক্ষর ভোটারগণ স্বেচ্ছাপ্রণোদিত হইয়া প্রদান করিয়াছেন এবং স্বাক্ষর প্রদানকারী সকলের নাম ভোটার তালিকায় নিবন্ধিত হইয়াছে।",
+  "PERSONAL_INFORMATION": "ব্যক্তিগত তথ্যাদি",
+  "CANDIDATE_IMAGE": "প্রার্থীর ছবি",
+  "CANDIDATES_NAME": "প্রার্থীর নাম",
+  "CANDIDATES_NAME_EN": "প্রার্থীর নাম (ইংরেজি)",
+  "NATIONAL_ID": "জাতীয় পরিচয়পত্র",
+  "SPOUSE_NAME": "স্বামী/স্ত্রীর নাম",
+  "SPOUSE_NAME_EN": "স্বামী/স্ত্রীর নাম (ইংরেজি)",
+  "DATE_OF_BIRTH": "জন্মতারিখ",
+  "AGE": "বয়স",
+  "PLACE_OF_BIRTH": "জন্মস্থান",
+  "ADDRESS_OF_PLACE_OF_BIRTH": "জন্মস্থানের ঠিকানা (অন্যান্য)",
+  "GENDER": "লিঙ্গ",
+  "MARITAL_STATUS": "বৈবাহিক অবস্থা",
+  "OCCUPATION": "পেশা",
+  "SPOUSE_OCCUPATION": "স্বামী/স্ত্রীর পেশা",
+  "CANDIDATE_TIN_NUMBER": "প্রার্থীর (TIN) নম্বর",
+
+  "MALE": "পুরুষ",
+  "FEMALE": "মহিলা",
+  "THIRD_GENDER": "হিজড়া",
+
+  "UNMARRIED": "অবিবাহিত",
+  "MARRIED": "বিবাহিত",
+  "WIDOWED": "বিপত্নীক/বিধবা",
+  "DIVORCED": "তালাকপ্রাপ্ত",
+
+  "ADDRESS": "ঠিকানা",
+  "PERMANENT_ADDRESS": "স্থায়ী ঠিকানা",
+  "PRESENT_ADDRESS": "বর্তমান ঠিকানা",
+  "TELEPHONE_NUMBER": "টেলিফোন নম্বর",
+  "MOBILE_NUMBER": "মোবাইল নম্বর",
+  "EMAIL_ADDRESS": "ই-মেইল ঠিকানা",
+  "EMERGENCY_CONTACT": "তাৎক্ষনিক যোগাযোগ",
+  "CURRENT_WORKPLACE": "বর্তমান কর্মস্থল",
+  "WORKPLACE_NAME": "কর্মস্থলের নাম",
+  "WORKPLACE_ADDRESS": "কর্মস্থলের ঠিকানা",
+  "CHILDREN_TITLE": "সন্তানাদি সংক্রান্ত তথ্য",
+  "CHILDREN_SUBTITLE": "(সন্তানাদির সংখ্যা ও তাহাদের তথ্যাদি নিম্নোক্ত ছকে পূরণ করিতে হইবে)",
+  "CHILD_SERIAL": "ক্রমিক",
+  "CHILD_NAME": "সন্তানের নাম",
+  "CHILD_EDUCATIONAL_QUALIFICATION": "শিক্ষাগত যোগ্যতা",
+  "CHILD_DOB": "জন্ম তারিখ",
+  "CHILD_INSTITUTE_ADDRESS": "পেশা ও কর্মস্থল/প্রতিষ্ঠানের ঠিকানা",
+  "CHILD_MARITAL_STATUS": "বৈবাহিক অবস্থা",
+  "DATE": "তারিখ",
+  "CANDIDATE_FILL_UP": "(প্রার্থী কর্তৃক পূরণীয়)",
+  "VOTE_CONTENT": {
+    "MEMBER_OF_PARLIAMENT": "{{ELECTION_TYPE}} এর {{CONSTITUENCY}} এর {{CANDIDATE_TYPE}} পদে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+
+    "MAYOR": "{{CONSTITUENCY}} এর {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+
+    "COUNSILOR": "{{MUNICIPALITY}} এর {{CONSTITUENCY}} এর সাধারণ ওয়ার্ডের কাউন্সিলর পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+
+    "WOMAN_COUNSILOR": "{{MUNICIPALITY}} এর {{CONSTITUENCY}} এর সংরক্ষিত ওয়ার্ডের কাউন্সিলর পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,"
+  },
+  "CANDIDATE_HIGHER_DEGREE": "১. আমার সর্বোচ্চ শিক্ষাগত যোগ্যতা",
+  "DEGREE_NAME": "(উত্তীর্ণ পরীক্ষার নাম)",
+  "CURRENT_NO_CASE": "২. (ক) আমি বর্তমানে ফৌজদারি মামলায় অভিযুক্ত নহি",
+  "MARK_SIGN": "[প্রযোজ্য হলে টিক (✔) চিহ্ন দিন]",
+  "CLAIMED_PRESENT_CASE_DESCRIPTION": "২. (খ) আমি বর্তমানে ফৌজদারি মামলায় অভিযুক্ত এবং উহার বিস্তারিত বিবরণ",
+  "DOWNLOAD": "ডাউনলোড করুন",
+  "ACCUSED_CASE": "যে আইন ও আইনের ধারায় মামলা দায়ের করা হইয়াছে",
+  "COURT_NAME": "যে আদালত মামলাটি আমলে নিয়াছে",
+  "CASE_NO": "মামলা নম্বর",
+  "CASE_STATUS": "মামলার বর্তমান অবস্থা",
+  "CASE_FILE": "ফাইল",
+  "PAST_NO_CASE": "৩. (ক) অতীতে আমার বিরুদ্ধে কোন ফৌজদারী মামলা দায়ের করা হয় নাই",
+  "CLAIMED_PAST_CASE_DESCRIPTION": "৩. (খ) আমি অতীতে ফৌজদারি মামলায় অভিযুক্ত এবং উহার বিস্তারিত বিবরণ",
+  "OCCUPATION_DETAILS": "৪. আমার পেশার বিবরণী",
+  "OCCUPATION_BUSINESS": "৪. আমার ব্যবসা/পেশার বিবরণী",
+  "DEPENDENTS_EARNING_SOURCE": "৫. আমার এবং আমার উপর নির্ভরশীলদের আয়ের উৎস/ উৎসসমূহঃ",
+  "INCOME_SOURCE_DETAILS": "আয়ের উৎসের বিবরণ",
+  "YEARLY_INCOME": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "এই খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "CITY_CORPORATION_ELECTION": "এই খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "UPAZILLA_ELECTION": "উক্ত খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "MUNICIPALITY_ELECTION": "এই খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "UNION_PARISHAD_ELECTION": "উক্ত খাত হইতে প্রার্থীর বাৎসরিক আয়"
+  },
+  "DEPENDENT_EARNING": "প্রার্থীর উপর নির্ভরশীলদের আয়",
+  "MOVABLE_PROPERTY": "অস্থাবর সম্পদ",
+  "MOVABLE_PROPERTY_DESCRIPTION": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "৬. (ক) আমার, আমার উপর নির্ভরশীল ব্যক্তি/ব্যক্তিবর্গের এবং আমার স্ত্রী/স্বামীর পরিসম্পদ এবং দায়ের বিবরণীঃ",
+    "CITY_CORPORATION_ELECTION": "৬. (ক) আমার, আমার উপর নির্ভরশীল ব্যক্তি/ব্যক্তিবর্গের এবং আমার স্ত্রী/স্বামীর পরিসম্পদ এবং দায়ের বিবরণীঃ",
+    "UPAZILLA_ELECTION": "৬. (ক) আমার, আমার উপর নির্ভরশীল ব্যক্তি বা ব্যক্তিবর্গের এবং আমার স্ত্রী বা স্বামীর পরিসম্পদ এবং দায়ের বিবরণীঃ",
+    "MUNICIPALITY_ELECTION": "৬. (ক) আমার, আমার উপর নির্ভরশীল ব্যক্তি/ব্যক্তিবর্গের এবং আমার স্ত্রী/স্বামীর পরিসম্পদ এবং দায়ের বিবরণীঃ",
+    "UNION_PARISHAD_ELECTION": "৬. (ক) আমার, আমার উপর নির্ভরশীল ব্যক্তি/ব্যক্তিবর্গের এবং আমার স্ত্রী/স্বামীর পরিসম্পদ এবং দায়ের বিবরণীঃ"
+  },
+  "PROPERTY_TYPE": "মনোনয়নপত্র দাখিলের তারিখে সম্পদের ধরন",
+  "OWN": "নিজ নামে",
+  "HUSBAND_OR_WIFE": "স্ত্রী/স্বামীর নামে",
+  "DEPENDENT": "নির্ভরশীলের নামে",
+  "PROPERTY_DESCRIPTION": "সম্পদের বিবরণ",
+  "JOIN_OWNERSHIP": "যৌথ মালিকানা",
+  "CANDIDATE_SHARE": "যৌথ মালিকানার ক্ষেত্রে প্রার্থীর অংশ",
+  "IMMOVABLE_PROPERTY": "স্থাবর সম্পদ",
+  "IMMOVABLE_PROPERTY_DESCRIPTION": "৬. (খ) স্থাবর সম্পদ",
+  "LIABILITY": "দায়",
+  "DESCRIPTION_LIABILITY": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "৬. (গ) দায়",
+    "CITY_CORPORATION_ELECTION": "৬. (গ) দায়",
+    "UPAZILLA_ELECTION": "৬. (গ) দায়-দেনাসমূহ",
+    "MUNICIPALITY_ELECTION": "৬. (গ) দায়-দেনাসমূহ",
+    "UNION_PARISHAD_ELECTION": "৬. (গ) দায়-দেনাসমূহ"
+  },
+  "LIABILITIES_TYPE": {
+    "NATIONAL_ELECTION": "দায়সমূহের প্রকৃতি ও র্বণনা",
+    "CITY_CORPORATION_ELECTION": "দায়সমূহের প্রকৃতি ও র্বণনা",
+    "UPAZILLA_ELECTION": "দায়সমূহের প্রকৃতি ও র্বণনা",
+    "MUNICIPALITY_ELECTION": "দায়-দেনাসমূহের প্রকৃতি ও র্বণনা",
+    "UNION_PARISHAD_ELECTION": "দায়-দেনাসমূহের প্রকৃতি ও র্বণনা"
+  },
+  "LIABILITIES_AMOUNT": "পরিমাণ",
+  "FILE": "ফাইল",
+  "LIABILITIES_COMMENT": "(পরিসম্পদ ও দায়ের বিবরণী দাখিল করিতে প্রয়োজনে অতিরিক্ত কাগজ সংযুক্ত করা যাইবে)",
+  "NOT_SELECTED": "৭. (ক) আমি ইতিপূর্বে জাতীয় সংসদের সদস্য নির্বাচিত হই নাই",
+  "SELECTED": "৭. (খ) আমি ইতিপূর্বে জাতীয় সংসদের সদস্য নির্বাচিত হইয়াছিলাম. নির্বাচনের র্পূবে আমার দ্বারা ভোটারদেরকে প্রদত্ত প্রতিশ্রুতি এবং উহার কি পরিমাণ অর্জন সম্ভব হইয়াছিল তাহার বিবরণ (প্রযোজ্যক্ষেত্রে):",
+  "PROMISES": "প্রতিশ্রুতিসমূহ",
+  "ACHIEVEMENTS": "অর্জনসমূহ",
+  "NOT_TAKEN": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "{{sectionSerial}}. (ক) আমি একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর হওয়ার সুবাদে আমি কোন ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে কোন ঋণ গ্রহণ করি নাই।",
+    "UPAZILLA_ELECTION": "{{sectionSerial}}. (ক) আমি একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে আমি কোন ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে কোন ঋণ গ্রহণ করি নাই।",
+    "CITY_CORPORATION_ELECTION": "{{sectionSerial}}. (ক) আমি একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে আমি কোন ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে কোন ঋণ গ্রহণ করি নাই।",
+    "MUNICIPALITY_ELECTION": "{{sectionSerial}}. (ক) আমি একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে আমি কোন ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে কোন ঋণ গ্রহণ করি নাই।",
+    "UNION_PARISHAD_ELECTION": "(ক) আমি একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে আমি কোন ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে কোন ঋণ গ্রহণ করি নাই।"
+  },
+  "TAKEN": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "{{sectionSerial}}. (খ) আমি আমার একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর হওয়ার সুবাদে ঐ সব ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে গ্রহীত ঋণের পরিমাণ নিম্নে উল্লেখ করিলাম।",
+    "UPAZILLA_ELECTION": "{{sectionSerial}}. (খ) আমি আমার একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে ঐ সব ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে গ্রহীত ঋণের পরিমাণ নিম্নে উল্লেখ করিলাম।",
+    "CITY_CORPORATION_ELECTION": "{{sectionSerial}}. (খ) আমি আমার একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে ঐ সব ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে গ্রহীত ঋণের পরিমাণ নিম্নে উল্লেখ করিলাম।",
+    "MUNICIPALITY_ELECTION": "{{sectionSerial}}. (খ) আমি আমার একক বা যৌথভাবে বা আমার উপর র্নিভরশীল কোন সদস্য অথবা কোন ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে ঐ সব ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে গ্রহীত ঋণের পরিমাণ নিম্নে উল্লেখ করিলাম।",
+    "UNION_PARISHAD_ELECTION": "(খ) আমি আমার একক বা যৌথভাবে বা আমার উপর নির্ভরশীল কোনো সদস্য অথবা কোনো ব্যাংক বা আর্থিক প্রতিষ্ঠানের চেয়ারম্যান, ম্যানেজিং ডিরেক্টর বা ডিরেক্টর হওয়ার সুবাদে উক্ত ব্যাংক বা আর্থিক প্রতিষ্ঠান হইতে গৃহীত ঋণের পরিমাণ নিম্নে উল্লেখ করিলাম:"
+  },
+  "LOAN_TYPE": "ঋণের ধরন",
+  "LOAN_AMOUNT": "ঋণের পরিমাণ",
+  "DEFAULTED_LOAN": "খেলাপী ঋণের পরিমাণ (যদি থাকে)",
+  "SCHEDULED_DATE": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "পুন:তফসিলি করা হইয়া থাকিলে উহার র্সবশেষ তারিখ",
+    "UPAZILLA_ELECTION": "পুন:তফসিলি করা হইয়া থাকিলে উহার র্সবশেষ তারিখ",
+    "CITY_CORPORATION_ELECTION": "পুন:তফসিলি করা হইয়া থাকিলে উহার র্সবশেষ তারিখ",
+    "MUNICIPALITY_ELECTION": "পুন:তফসিলি করা হইয়া থাকিলে উহার র্সবশেষ তারিখ",
+    "UNION_PARISHAD_ELECTION": "পুনঃ তফসিলীকরণ করা হইয়া থাকিলে উহার সর্বশেষ তারিখ"
+  },
+  "OATH": {
+    "NATIONAL_ELECTION": "আমি শপথপূর্বক আরও বলিতেছি যে, এই হলফনামায় প্রদত্ত যাবতীয় তথ্য এবং এতদ্‌সংগে দাখিলকৃত সকল দলিল দস্তাবেজ আমার জ্ঞান ও বিশ্বাসমতে সম্পূর্ণ সত্য ও নির্ভুল।",
+    "CITY_CORPORATION_ELECTION": "আমি শপথপূর্বক আরও ঘোষণা করিতেছি যে, এই হলফনামায় প্রদত্ত যাবতীয় তথ্য এবং এতদ্‌সংগে দাখিলকৃত সকল দলিল দস্তাবেজ আমার জ্ঞান ও বিশ্বাসমতে সম্পূর্ণ সত্য ও নির্ভুল।",
+    "UPAZILLA_ELECTION": "আমি ঘোষণা করিতেছি যে, এই হলফনামায় প্রদত্ত যাবতীয় তথ্য এবং এতদ্‌সংগে দাখিলকৃত সকল দলিল দস্তাবেজ আমার জ্ঞান ও বিশ্বাসমতে সম্পূর্ণ সত্য ও নির্ভুল।",
+    "MUNICIPALITY_ELECTION": "আমি শপথপূর্বক আরও ঘোষণা করিতেছি যে, এই হলফনামায় প্রদত্ত যাবতীয় তথ্য এবং এতদ্‌সংগে দাখিলকৃত সকল দলিল দস্তাবেজ আমার জ্ঞান ও বিশ্বাসমতে সম্পূর্ণ সত্য ও নির্ভুল।",
+    "UNION_PARISHAD_ELECTION": "আমি শপথপূর্বক আরও ঘোষণা করিতেছি যে, এই হলফনামায় প্রদত্ত যাবতীয় তথ্য এবং এতদ্‌সংগে দাখিলকৃত সকল দলিল দস্তাবেজ আমার জ্ঞান ও বিশ্বাসমতে সম্পূর্ণ সত্য ও নির্ভুল।"
+  },
+  "CANDIDATE": "এতদদ্বারা জনাব",
+  "IDENTIFIER_NAME": "যিনি জনাব/বেগম (শনাক্তকারীর)",
+  "IDENTIFIER_ADDRESS": "ঠিকানা (শনাক্তকারীর)",
+  "MAGISTRATE_NAME": "ম্যাজিস্ট্রেট/নোটারী পাবলিকের নাম",
+  "IDENTIFY_DATE": "এর মাধ্যমে সনাক্ত হইয়া অদ্য",
+  "IDENTIFY_DATE_SUBTITLE": "তারিখে আমার সম্মুখে শপথপূর্বক উপরে বর্ণিত এই হলফনামা প্রদান করিয়াছেন।",
+  "MAGISTRATE_SIGN_DATE": "ম্যাজিস্ট্রেট/ নোটারী পাবলিকের স্বাক্ষরের তারিখ",
+  "CONFIRM_CANDIDATE": "প্রার্থী নিশ্চিত করুন",
+
+  "ELECTION_EXPENSES_TABLE_SECTION_HEADER": "নির্বাচনী ব্যয় নির্বাহের জন্য অর্থ প্রাপ্তির সম্ভাব্য উৎসের বিবরণী",
+  "ELECTION_EXPENSES_TABLE_HEADER_A": "ক অংশ : নিজ আয় হইতে প্রাপ্ত সম্ভাব্য অর্থ",
+  "ELECTION_EXPENSES_TABLE_HEADER_B": "খ অংশ : আত্মীয়-স্বজন হইতে ধার বা কর্জ বাবদ প্রাপ্ত সম্ভাব্য অর্থ ",
+  "ELECTION_EXPENSES_TABLE_HEADER_C": "গ অংশ : আত্মীয়-স্বজনের নিকট হইতে স্বেচ্ছাপ্রণোদিত প্রদত্ত দান হিসাবে প্রাপ্ত সম্ভাব্য অর্থ ",
+  "ELECTION_EXPENSES_TABLE_HEADER_D": "ঘ অংশ : আত্মীয়-স্বজন ব্যতীত অন্য কোন ব্যক্তির নিকট হইতে ধার বা কর্জ বাবদ প্রাপ্ত সম্ভাব্য অর্থ",
+  "ELECTION_EXPENSES_TABLE_HEADER_E": "ঙ অংশ : আত্মীয়-স্বজন ব্যতীত অন্য কোন ব্যাক্তির নিকট হইতে স্বেচ্ছাপ্রণোদিত প্রদত্ত দান হিসাবে প্রাপ্ত সম্ভাব্য অর্থ",
+  "ELECTION_EXPENSES_TABLE_HEADER_F": "চ অংশ : ক,খ,গ,ঘ এবং ঙ অংশে উল্লিখিত উৎস ব্যাতিত অন্য কোন উৎস হইতে প্রাপ্ত সম্ভাব্য অর্থ",
+
+  "ELECTION_EXPENSES_TABLE_COLS_A": {
+    "SERIAL": "ক্রমিক",
+    "AMOUNT": "সম্ভাব্য অর্থের পরিমাণ",
+    "SOURCE": "আয়ের উৎস"
+  },
+
+  "ELECTION_EXPENSES_TABLE_COLS_B": {
+    "SERIAL": "ক্রমিক",
+    "AMOUNT": "সম্ভাব্য অর্থের পরিমাণ",
+    "RELATIVE_NAME": "আত্মীয়-স্বজনের নাম",
+    "RELATIVE_ADDRESS": "আত্মীয়-স্বজনের ঠিকানা ",
+    "RELATIVE_RELATION": "সম্পর্ক",
+    "RELATIVE_INCOME_SOURCE": "আত্মীয়-স্বজনের আয়ের উৎস"
+  },
+
+  "ELECTION_EXPENSES_TABLE_COLS_C": {
+    "SERIAL": "ক্রমিক",
+    "AMOUNT": "সম্ভাব্য অর্থের পরিমাণ",
+    "RELATIVE_NAME": "আত্মীয়-স্বজনের নাম",
+    "RELATIVE_ADDRESS": "আত্মীয়-স্বজনের ঠিকানা ",
+    "RELATIVE_RELATION": "সম্পর্ক",
+    "RELATIVE_INCOME_SOURCE": "আত্মীয়-স্বজনের আয়ের উৎস"
+  },
+
+  "ELECTION_EXPENSES_TABLE_COLS_D": {
+    "SERIAL": "ক্রমিক",
+    "AMOUNT": "সম্ভাব্য অর্থের পরিমাণ",
+    "NAME": "ব্যাক্তির নাম",
+    "ADDRESS": "ব্যাক্তির ঠিকানা"
+  },
+
+  "ELECTION_EXPENSES_TABLE_COLS_E": {
+    "SERIAL": "ক্রমিক",
+    "AMOUNT": "সম্ভাব্য অর্থের পরিমাণ",
+    "NAME": "ব্যাক্তি নাম",
+    "ADDRESS": "ব্যাক্তি ঠিকানা"
+  },
+
+  "ELECTION_EXPENSES_TABLE_COLS_F": {
+    "SERIAL": "ক্রমিক",
+    "AMOUNT": "সম্ভাব্য অর্থের পরিমাণ",
+    "NAME": "ব্যাক্তি/প্রতিষ্ঠানের নাম",
+    "ADDRESS": "ব্যাক্তি/প্রতিষ্ঠানের ঠিকানা",
+    "INCOME_SOURCE": "আয়ের উৎস"
+  },
+
+  "ASSET_INCOME_DETAILS_TABLE_SECTION_HEADER": "সম্পদ ও দায় এবং বাৎসরিক আয় ও ব্যয়ের বিবরণী",
+  "ASSET_INCOME_DETAILS_TABLE_HEADER_A": "ক অংশ : সম্পদ",
+  "ASSET_INCOME_DETAILS_TABLE_HEADER_A_CLASS_A": "শ্রেনী ক - গৃহ সম্পত্তি ব্যাতিত অন্যান্য স্থাবর সম্পত্তি",
+  "ASSET_INCOME_DETAILS_TABLE_HEADER_A_CLASS_B": "শ্রেনী খ : গৃহ সম্পত্তি",
+  "ASSET_INCOME_DETAILS_TABLE_HEADER_A_CLASS_C": "শ্রেনী গ : অন্যান্য সম্পদ",
+  "ASSET_INCOME_DETAILS_TABLE_HEADER_C": "খ অংশ : বাৎসরিক আয় ও ব্যয়",
+
+  "ASSET_INCOME_DETAILS_TABLE_COLS_CLASS_A": {
+    "SERIAL": "ক্রমিক",
+    "TOTAL_AMOUNT": "মোট পরিমাণ",
+    "LOCATION": "অবস্থান",
+    "ESTIMATE_PRICE": "আনুমানিক মূল্য "
+  },
+
+  "ASSET_INCOME_DETAILS_TABLE_COLS_CLASS_B": {
+    "SERIAL": "ক্রমিক",
+    "TOTAL_AMOUNT": "গৃহের প্রকৃতি ও সংখ্যা",
+    "LOCATION": "অবস্থান",
+    "ESTIMATE_PRICE": "আনুমানিক মূল্য "
+  },
+
+  "ASSET_INCOME_DETAILS_TABLE_COLS_CLASS_C": {
+    "SERIAL": "ক্রমিক",
+    "OTHER_ASSETS": "অন্যান্য সম্পদ (সিকিউরিটি, বন্ড, ব্যাংকের আমানত ইত্যাদি )",
+    "ESTIMATE_PRICE": "আনুমানিক মূল্য "
+  },
+
+  "ASSET_INCOME_DETAILS_TABLE_COLS_B": {
+    "SERIAL": "ক্রমিক",
+    "DETAILS": "দায়সমূহের প্রকৃতি ও বর্ণনা",
+    "AMOUNT": "পরিমাণ"
+  },
+
+  "ASSET_INCOME_DETAILS_TABLE_COLS_C": {
+    "SERIAL": "ক্রমিক",
+    "TOTAL_YEARLY_INCOME": "মোট আনুমানিক বাৎসরিক আয়",
+    "TOTAL_YEARLY_EXPENSE": "মোট আনুমানিক বাৎসরিক ব্যয়"
+  },
+  "PROGRESS_STEPS_FIRST_PART": "প্রথম অংশ",
+  "PROGRESS_STEPS_SECOND_PART": "দ্বিতীয় অংশ"
+}

@@ -1,0 +1,10 @@
+{
+    "CONTENDING_CANDIDATES_NUMBER": "এক নজরে প্রতিদ্বন্দ্বী প্রার্থীর সংখ্যা",
+    "REJECTED_CONTENDING_CANDIDATES_NUMBER": "এক নজরে দাখিল/বাতিল/বৈধ/আপিল/চূড়ান্ত/প্রত্যাহার/প্রতিদ্বন্দ্বী প্রার্থীর সংখ্যা",
+    "DOWNLOAD": "ডাউনলোড",
+    "ID": "ক্রমিক",
+    "SEAT_NAME": "পদের নাম",
+    "SUBMITTED_CANDIDATES_NUMBER": "দাখিলকৃত প্রার্থীর সংখ্যা",
+    "WITHDRAWN_CANDIDATES_NUMBER": "প্রত্যাহারকৃত প্রার্থীর সংখ্যা",
+    "FINAL_CANDIDATES_NUMBER": "চূড়ান্ত প্রার্থীর সংখ্যা"
+}

@@ -1,0 +1,12 @@
+{
+  "RETURNING_OFFICER_FORMAT": "রিটার্নিং অফিসার একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "RETURNING_OFFICER_POSITIVE": "রিটার্নিং অফিসার সংখ্যা শূন্যের বেশি হতে হবে",
+  "ASSISTANT_RETURNING_OFFICER_FORMAT": "সহকারী রিটার্নিং একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "ASSISTANT_RETURNING_OFFICER_POSITIVE": "সহকারী রিটার্নিং সংখ্যা শূন্যের বেশি হতে হবে",
+  "PRESIDING_OFFICER_FORMAT": "প্রিসাইডিং অফিসার একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "PRESIDING_OFFICER_POSITIVE": "প্রিসাইডিং অফিসার সংখ্যা শূন্যের বেশি হতে হবে",
+  "ASSISTANT_PRESIDING_OFFICER_FORMAT": "সহকারী প্রিসাইডিং একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "ASSISTANT_PRESIDING_OFFICER_POSITIVE": "সহকারী প্রিসাইডিং সংখ্যা শূন্যের বেশি হতে হবে",
+  "POLLING_OFFICER_FORMAT": "পোলিং অফিসার একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "POLLING_OFFICER_POSITIVE": "পোলিং অফিসার সংখ্যাশূন্যের বেশি হতে হবে"
+}

@@ -1,0 +1,48 @@
+{
+  "BREADCRUMBS": {
+    "VOTE_CENTER_LIST": "ভোটকেন্দ্রের তালিকা",
+    "ADD_VOTE_CENTER": "ভোটকেন্দ্র সংযোজন"
+  },
+  "SECTION_HEADER": "ভোটকেন্দ্র সংযোজন",
+  "SEARCH_VOTE_CENTER": "ভোটকেন্দ্র অনুসন্ধান",
+  "SEARCH_VOTER_AREA": "ভোটার এরিয়া অনুসন্ধান",
+
+  "ELECTION_TYPE": "নির্বাচনের ধরণ",
+  "ELECTION_NAME": "নির্বাচনের নাম",
+  "ELECTION_SETTINGS": "নির্বাচন সেটিংস",
+  "ELECTORAL_SEAT": "নির্বাচনী আসন",
+
+  "DISTRICT": "জেলা",
+  "UPAZILA": "উপজেলা",
+  "UNION": "ইউনিয়ন",
+  "WARD": "ওয়ার্ড",
+
+  "SEARCH_BUTTON": "খুঁজুন",
+  "CANCEL_BUTTON": "বাতিল",
+  "SAVE_BUTTON": "সংরক্ষণ",
+
+  "STATUS_TABLE_COLUMN": {
+    "ID": "ক্রমিক নং",
+    "CONSTITUENCY": "প্রতিষ্ঠানের নাম",
+    "STATUS": "স্ট্যাটাস",
+    "UPAZILA": "উপজেলা",
+    "UNION": "ইউনিয়ন",
+    "UPAZILA_CODE": "উপজেলা (কোড)",
+    "UNION_CODE": "ইউনিয়ন (কোড)"
+  },
+  "STATUS_TABLE_ACTION_BUTTON": "কেন্দ্র সংযোজন",
+  "STATUS_TABLE_INSTITUTE_CHANGE": "প্রতিষ্ঠান পরিবর্তন",
+
+  "ADDED_CENTERS_TABLE": {
+    "HEADER_TITLE": "সংযোজিত কেন্দ্রসমূহ",
+    "COLUMNS": {
+      "SERIAL_NO": "ক্রমিক নং",
+      "INSTITUTE_NAME": "প্রতিষ্ঠানের নাম",
+      "TOTAL_BOOTH": "মোট বুথ",
+      "MALE_VOTER": "পুরুষ ভোটার",
+      "FEMALE_VOTER": "মহিলা ভোটার",
+      "THIRD_GENDER_VOTER": "হিজড়া ভোটার",
+      "TOTAL_VOTER": "মোট ভোটার"
+    }
+  }
+}

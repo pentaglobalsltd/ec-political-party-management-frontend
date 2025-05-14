@@ -1,0 +1,5 @@
+{
+  "ELECTION_TYPE": "Election type is required",
+  "SCHEDULE_NAME": "Election name (In Bangla) is required",
+  "SMS_TEXT": "SMS text is required"
+}

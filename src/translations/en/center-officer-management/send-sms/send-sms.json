@@ -1,0 +1,13 @@
+{
+  "SEND_SMS": "Send Message",
+  "ELECTION_TYPE": "Election Type",
+  "SCHEDULE_NAME": "Election Name",
+  "SMS_FIELD": "Mobile Message",
+
+  "CONFIRMATION_MODAL_TITLE": "Are you sure?",
+
+  "CONFIRMATION_MODAL_SUB_TITLE": "Your message will be sent to {{dynamicValue}} people.",
+
+  "GO_BACK": "Go Back",
+  "SEND_SMS_CONFIRM": "Send Message"
+}

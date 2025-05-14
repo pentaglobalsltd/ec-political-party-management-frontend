@@ -1,0 +1,30 @@
+{
+  "BREAD_CRUMB": "Cancel Polling Center",
+  "TITLE": "Cancel Polling Center",
+
+  "ACTIVE_TABLE_HEADER": "Active",
+  "ACTIVE_TABLE_COL_ZILA": "District",
+  "ACTIVE_TABLE_COL_UPAZILA": "Upazila",
+  "ACTIVE_TABLE_COL_UNION/WARD": "Union/Ward",
+  "ACTIVE_TABLE_COL_UNIONWARD": "Union Parishad Ward",
+  "ACTIVE_TABLE_COL_CENTER_NAME": "Center Name",
+  "ACTIVE_TABLE_COL_CENTER_NO": "Center No",
+  "ACTIVE_TABLE_COL_STEP": "Step",
+  "CANCEL_BUTTON": "Cancel",
+  "ACTIVE_BUTTON": "Active",
+
+  "CANCELLED_TABLE_HEADER": "Cancelled",
+  "CANCELLED_TABLE_COL_ZILA": "District",
+  "CANCELLED_TABLE_COL_UPAZILA": "Upazila",
+  "CANCELLED_TABLE_COL_UNION/WARD": "Union/Ward",
+  "CANCELLED_TABLE_COL_UNIONWARD": "Union Parishad Ward",
+  "CANCELLED_TABLE_COL_CENTER_NAME": "Center Name",
+  "CANCELLED_TABLE_COL_CENTER_NO": "Center No",
+  "CANCELLED_TABLE_COL_STEP": "Step",
+
+  "MODAL_HEADER": "Cancel Polling Center",
+  "MODAL_HEADER_ACTIVE": "Activate Polling Center",
+  "MODAL_COMMENT": "Comment",
+  "MODAL_RETURN_BUTTON": "Return Back",
+  "MODAL_SUBMIT_BUTTON": "Submit"
+}

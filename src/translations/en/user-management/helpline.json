@@ -1,0 +1,12 @@
+{
+  "HELPLINE": "Helpline",
+  "UPCOMING_ELECTIONS": "Upcoming Elections",
+  "UPCOMING_ELECTIONS_CONTENT": "To view upcoming elections, go to the '{{ELECTION_PROCEDURE}}' menu; to see in calendar format, visit the '{{ELECTION_CALENDAR}}' submenu, and for reports, go to the '{{POSSIBLE_SELECTION}}' option.",
+  "SPECIFIC_SELECTION": "Specific Selection",
+  "SPECIFIC_SELECTION_CONTENT": "To quickly find a specific election, use the 'Election Type' and 'Candidate Type' filters and search.",
+  "CITY_CORPORATION_ELECTION": "City Corporation Election",
+  "CITY_CORPORATION_ELECTION_CONTENT": "To view specific City Corporation elections, select 'Division Name,' 'RMO,' 'Election Type,' and optionally 'Candidate Type' to narrow your search. The default search range is the last 02 months; adjust the start and end dates as needed.",
+  "HAVE_QUESTIONS": "Have more questions?",
+  "PLEASE_CONATCT": "If you can't find answers, please contact",
+  "GET_TOUCH": "Get in Touch"
+}

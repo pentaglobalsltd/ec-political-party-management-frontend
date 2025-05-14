@@ -1,0 +1,30 @@
+{
+  "CENTER_BASED_OFFICER_LIST": "কেন্দ্র ভিত্তিক কর্মকর্তার তালিকা",
+  "SAVE": "সংরক্ষণ করুন",
+  "BULK_SAVE": "গুচ্ছ সংযোজন",
+  "ADD_NEW": "নতুন সংযোজন",
+  "ADVANCED_SEARCH": "উন্নত অনুসন্ধান",
+
+  "TRAINING_DATE_AND_TIME": "প্রশিক্ষণের তারিখ ও সময়",
+  "TRAINING_PLACE": "প্রশিক্ষণের স্থান",
+  "GOODS_RECEIVING_DATE_AND_TIME": "মালামাল গ্রহণের তারিখ ও সময়",
+
+  "CENTER_NAME": "কেন্দ্রের নাম",
+  "TOTAL_BOOTH": "বুথ",
+  "PRESIDING_OFFICER": "প্রিজাইডিং অফিসার",
+  "ASSISTANT_PRESIDING_OFFICER": "সহঃ প্রিজাইডিং অফিসার",
+  "POLLING_OFFICER": "পোলিং অফিসার",
+  "ACTING_PRESIDING_OFFICER": "ভারপ্রাপ্ত প্রিজাইডিং অফিসার",
+  "LETTER": "চিঠি",
+  "DOWNLOAD_THIS_PAGE": "ডাউনলোড করুন (এই পৃষ্ঠার নির্বাচিত)",
+  "DOWNLOAD_ALL": "ডাউনলোড করুন (সকল)",
+  "DOWNLOAD": "ডাউনলোড করুন",
+  "DOWNLOAD_ERROR": "ফাইল ডাউনলোড সম্ভব হয়নি।",
+  "TRAINING_DATE_AND_TIME_ERROR_MESSAGE": "প্রশিক্ষণের তারিখ ও সময় আবশ্যক",
+  "TRAINING_PLACE_ERROR_MESSAGE": "প্রশিক্ষণের স্থান আবশ্যক",
+  "GOODS_RECEIVING_DATE_AND_TIME_ERROR_MESSAGE": "মালামাল গ্রহণের তারিখ ও সময় আবশ্যক",
+  "TRAINING_ROOM_ERROR_MESSAGE": "প্রশিক্ষণের কক্ষ আবশ্যক",
+  "NAME_ERROR_MESSAGE": "রিটার্নিং অফিসারের নাম আবশ্যক",
+  "GOODS_DISTRIBUTION_DATE_AND_TIME_ERROR_MESSAGE": "মালামাল বিতরণের তারিখ ও সময় আবশ্যক",
+  "DESIGNATION_ERROR_MESSAGE": "রিটার্নিং অফিসারের পদবী আবশ্যক"
+}

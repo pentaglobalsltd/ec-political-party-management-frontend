@@ -1,0 +1,33 @@
+{
+  "BREADCRUMB": {
+    "SELECTION": "বাছাই"
+  },
+
+  "SECTION_HEADER": "বাছাই",
+
+  "TABLE_COLUMN": {
+    "SERIAL": "ক্রমিক",
+    "CANDIDATE_NAME": "প্রার্থীর নাম",
+    "POSITION_NAME": "পদের নাম",
+    "SEAT": "আসন",
+    "IS_AGE_CORRECT": "বয়স ঠিক আছে?",
+
+    "IS_CANDIDATE_NID_CORRECT": "প্রার্থীর ভোটার নম্বর ঠিক আছে?",
+    "CANDIDATE_NID": "প্রার্থীর ভোটার নম্বর",
+
+    "IS_PROPOSER_NID_CORRECT": "প্রস্তাবকারীর ভোটার নম্বর ঠিক আছে?",
+    "PROPOSER_NID": "প্রস্তাবকারীর ভোটার নম্বর",
+
+    "IS_SUPPORTER_NID_CORRECT": "সমর্থনকারীর ভোটার নম্বর ঠিক আছে?",
+    "SUPPORTER_NID": "সমর্থনকারীর ভোটার নম্বর",
+
+    "INFO": "তথ্য",
+    "REASON_FOR_ACCEPTANCE_OR_CANCELLATION": "গ্রহণ/বাতিলের কারণ",
+    "ATTACHMENT": "সংযুক্তি",
+    "FILE": "ফাইল",
+    "ACTION": "পদক্ষেপ"
+  },
+
+  "TABLE_ROW_TYPE_SELECT": "নির্বাচন করুন",
+  "TABLE_ROW_TYPE_TEXTAREA": "লিখুন"
+}

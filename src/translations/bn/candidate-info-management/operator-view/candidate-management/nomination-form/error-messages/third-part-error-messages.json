@@ -1,0 +1,26 @@
+{
+  "CANDIDATE_NAME": "প্রার্থীর নাম আবশ্যক",
+  "CANDIDATE_NID_NO": "জাতীয় পরিচয় পত্র (NID) নম্বর আবশ্যক",
+  "CANDIDATE_FATHER_OR_HUSBAND_NAME": "পিতা/স্বামীর নাম আবশ্যক",
+  "CANDIDATE_MOTHER_NAME": "মাতার নাম আবশ্যক",
+  "CANDIDATE_PERMANENT_ADDRESS": "প্রার্থীর ঠিকানা আবশ্যক",
+  "CANDIDATE_VOTER_NUMBER": "প্রার্থীর ভোটার নম্বর আবশ্যক",
+  "CANDIDATE_SERIAL_NUMBER": "ক্রমিক নম্বর আবশ্যক",
+  "CANDIDATE_REGION_ID": "বিভাগের নাম আবশ্যক",
+  "CANDIDATE_ZILLA_ID": "জেলার নাম আবশ্যক",
+  "CANDIDATE_UPAZILA_ID": "উপজেলা/থানা আবশ্যক",
+  "CANDIDATE_RMO_EN": "পৌরসভা/সিটি কর্পোরেশন/ক্যান্টনমেন্ট বোর্ড/ইউনিয়নের নাম আবশ্যক",
+  "CANDIDATE_UNION_OR_WARD_ID": "ইউনিয়ন/ওয়ার্ড আবশ্যক",
+  "CANDIDATE_VOTER_AREA_ID": "ভোটার এলাকা আবশ্যক",
+  "CANDIDATE_SERIAL_NO": "ক্রমিক নম্বর আবশ্যক",
+
+  "CANDIDATE_BANK_ACCOUNT_NO": "ব্যাংক একাউন্ট নম্বর আবশ্যক",
+  "CANDIDATE_BANK_ACCOUNT_NO_FORMAT": "ব্যাংক একাউন্ট নাম্বারটি একটি সংখ্যা হতে হবে",
+  "CANDIDATE_BANK_ID": "ব্যাংকের নাম আবশ্যক",
+  "CANDIDATE_BANK_BRANCH_NAME": "ব্রাঞ্চের নাম আবশ্যক",
+  "CANDIDATE_TIN_NUMBER": "টিন (TIN) নম্বর আবশ্যক",
+  "CANDIDATE_TIN_NUMBER_FORMAT": "টিন (TIN) নম্বরটি বৈধ নয়",
+
+  "CANDIDATE_POLITICAL_PARTY_ID": "রাজনৈতিক দল আবশ্যক",
+  "CANDIDATE_PREFERRED_SYMBOL_ID": "আপনার পছন্দকৃত প্রতীকের নাম আবশ্যক"
+}

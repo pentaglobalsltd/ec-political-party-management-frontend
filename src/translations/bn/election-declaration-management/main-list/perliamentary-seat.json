@@ -1,0 +1,20 @@
+{
+  "PARLIAMENTARY_SEAT": "সংসদীয় আসন",
+  "PARLIAMENTARY_SEAT_ADD": "সংসদীয় আসন সংযোজন",
+  "PARLIAMENTARY_SEAT_CHANGE": "সংসদীয় আসন পরিবর্তন",
+  "MAIN_LIST": "প্রধান তালিকা",
+  "ADD_NEW": "নতুন সংযোজন",
+  "SEARCH": "অনুসন্ধান",
+  "DISTRICT": "জেলা",
+  "DIVISION": "বিভাগ",
+  "CHANGE": "পরিবর্তন করুন",
+  "BACK": "ফিরে যান",
+  "FILED": "দাখিল করুন",
+  "RESET": "রিসেট",
+  "DISTRICT_NAME": "জেলার নাম",
+  "PARLIAMENTARY_SEAT_NAME": "সংসদীয় আসনের নাম",
+  "GO_CODE": "জিও কোড",
+  "SUB_DISTRICT": "উপজেলা",
+  "UNION": "ইউনিয়ন/ওয়ার্ড",
+  "CONDITION": "অবস্থা"
+}

@@ -1,0 +1,21 @@
+{
+  "ELECTION_NAME_ENGLISH": "Election name (In English) is required",
+  "ELECTION_NAME_BANGLA": "Election name (In Bangla) is required",
+  "ELECTION_TYPE": "Election type is required",
+  "DATE_OF_DECLARATION": "Date of declaration is required",
+  "NOMINATION_SUBMISSION_LAST_DATE": "Last date of nomination submission is required",
+  "NOMINATION_SELECTION_DATE_RANGE_START": "Nomination selection date range start is required",
+  "NOMINATION_SELECTION_DATE_RANGE_END": "Nomination selection date range end is required",
+  "APPEAL_DATE": "Appeal date is required",
+  "APPEAL_JUDGEMENT_DATE": "Appeal judgement date is required",
+  "NOMINATION_WITHDRAWAL_LAST_DATE": "Last date of nomination withdrawal is required",
+  "SYMBOL_ALLOCATION_DATE": "Symbol allocation date is required",
+  "DATE_OF_ELECTION": "Date of election is required",
+  "DATE_OF_GAZETTE": "Date of gazette is required",
+  "VOTE_CASTING_START_TIME": "Vote casting start time is required",
+  "VOTE_CASTING_END_TIME": "Vote casting end time is required",
+  "ONLINE_NOMINATION": "Online nomination is required",
+  "REMARKS_ON_SCHEDULE": "Remarks on schedule is required",
+  "UPLOAD_SCHEDULE_COPY": "Upload schedule copy is required",
+  "UPLOAD_OTHER_FILES": "Upload other files is required"
+}

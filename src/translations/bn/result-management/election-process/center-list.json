@@ -1,0 +1,18 @@
+{
+  "CENTER_LIST": "ভোটকেন্দ্রের তালিকা",
+  "SERIAL": "ক্রম",
+  "CENTER_NUMBER": "কেন্দ্র নং",
+  "CENTER_NAME": "ভোটকেন্দ্রের নাম",
+  "ADDRESS": "ঠিকানা",
+  "BOOTH_NUMBER": "বুথের সংখ্যা",
+  "MALE_VOTER_NUMBER": "ভোটার সংখ্যা (পুরুষ)",
+  "FEMALE_VOTER_NUMBER": "ভোটার সংখ্যা (মহিলা)",
+  "THIRD_GENDER_VOTER_NUMBER": "ভোটার সংখ্যা (হিজড়া)",
+  "TOTAL_VOTER": "মোট ভোটার",
+  "TYPE": "ধরন",
+  "TIME": "সময়",
+
+  "MALE": "পুরুষ",
+  "FEMALE": "মহিলা",
+  "BOTH": "উভয়"
+}

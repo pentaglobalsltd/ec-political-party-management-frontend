@@ -1,0 +1,54 @@
+{
+  "FORM_SUBTITLE": "(সমর্থনকারী কর্তৃক পূরণ করিতে হইবে)",
+  "FIND_SUPPORTER": "পরিচয় পত্র/ভোটার নম্বর",
+  "SUPPORTER_NAME": "সমর্থনকারীর নাম",
+  "SERIAL_NUMBER": "ক্রমিক নম্বর",
+  "SERIAL_NUMBER_SUBTITLE": "(ভোটার তালিকায় সমর্থনকারীর ক্রমিক নম্বর)",
+  "DEPARTMENT": "বিভাগের নাম",
+  "DEPARTMENT_SUBTITLE": "(সমর্থনকারীর বিভাগের নাম)",
+  "DISTRICT_NAME": "জেলার নাম",
+  "DISTRICT_NAME_SUBTITLE": "(সমর্থনকারীর জেলার নাম)",
+  "CONSTITUENCY": "নির্বাচনী আসন",
+  "CONSTITUENCY_SUBTITLE": "(সমর্থনকারীর নির্বাচনী আসনের নাম)",
+  "UPAZILA": "উপজেলা/থানা",
+  "UPAZILA_SUBTITLE": "(সমর্থনকারীর উপজেলা/থানার নাম)",
+  "MUNICIPALITY": "পৌরসভা/সিটি কর্পোরেশন",
+  "MUNICIPALITY_SUBTITLE": "(সমর্থনকারীর পৌরসভা/সিটি কর্পোরেশনের নাম)",
+  "CITY_CORPORATION": "পৌরসভা/সিটি কর্পোরেশন/ক্যান্টনমেন্ট বোর্ড/ইউনিয়নের নাম",
+  "CITY_CORPORATION_SUBTITLE": "(সমর্থনকারীর পৌরসভা/সিটি কর্পোরেশন/ক্যান্টনমেন্ট বোর্ড/ইউনিয়নের নাম)",
+  "MUNICIPALITY_CITY_CORPORATION": "পৌরসভা/সিটি কর্পোরেশন",
+  "BIRTH_DATE": "জন্মতারিখ",
+  "BIRTH_DATE_SUBTITLE": "(সমর্থনকারীর জন্মতারিখ)",
+  "UNION_WARD": "ইউনিয়ন/ওয়ার্ড",
+  "WARD": "ইউনিয়ন পরিষদ ওয়ার্ড",
+  "UNION_WARD_SUBTITLE": "(সমর্থনকারীর ইউনিয়ন/ওয়ার্ডের নাম)",
+  "WARD_SUBTITLE": "(সমর্থনকারীর ইউনিয়ন পরিষদ ওয়ার্ডের নাম)",
+  "CONSTITUENCY_AREA": "ভোটার এলাকা",
+  "CONSTITUENCY_AREA_SUBTITLE": "(সমর্থনকারীর ভোটার এলাকার নাম)",
+  "CONSENT": {
+    "NATIONAL_ELECTION": {
+      "MEMBER_OF_PARLIAMENT": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> নির্বাচনী এলাকা হতে <text>{{ELECTION_NAME}}</text> নির্বাচনের জন্য প্রার্থীরুপে, <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> । ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি</div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই, আমি সম্মতি জ্ঞাপন করছি । <span> * </span> </div>"
+    },
+    "CITY_CORPORATION_ELECTION": {
+      "MAYOR": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> এর <text>{{ELECTION_NAME}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "COUNSILOR": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_NAME}}</text> এর <text>{{ELECTION_PLACE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "WOMAN_COUNSILOR": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_NAME}}</text> এর <text>{{ELECTION_PLACE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>"
+    },
+    "UPAZILLA_ELECTION": {
+      "CHAIRMAN": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> উপজেলা পরিষদের <text>{{CANDIDATE_TYPE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "VICE_CHAIRMAN": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> উপজেলা পরিষদের <text>{{CANDIDATE_TYPE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "WOMEN_VICE_CHAIRMAN": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> উপজেলা পরিষদের <text>{{CANDIDATE_TYPE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>"
+    },
+    "MUNICIPALITY_ELECTION": {
+      "MAYOR": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> এর <text>{{ELECTION_NAME}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "COUNSILOR": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_NAME}}</text> এর <text>{{ELECTION_PLACE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "WOMAN_COUNSILOR": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_NAME}}</text> এর <text>{{ELECTION_PLACE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>"
+    },
+    "UNION_PARISHAD_ELECTION": {
+      "CHAIRMAN": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_PLACE}}</text> এর <text>{{ELECTION_NAME}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "GENERAL_MEMBER": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_NAME}}</text> এর <text>{{ELECTION_PLACE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>",
+      "RESERVED_MEMBER": "<div>(১) আমি এতদদ্বারা <text>{{ELECTION_NAME}}</text> এর <text>{{ELECTION_PLACE}}</text> নির্বাচনের জন্য প্রার্থীরুপে <text>{{CANDIDATE_NAME}}</text> ঠিকানা: <text>{{CANDIDATE_ADDRESS}}</text> ভোটার নম্বর: <text>{{CANDIDATE_VOTER_NUMBER}}</text> এর মনোনয়ন সমর্থন করিতেছি। </div>  <div>(২) আমি এতদদ্বারা প্রত্যয়ন করিতেছি যে, আমি প্রস্তাবকারী বা সমর্থনকারী রূপে অন্য কোন মনোনয়নপত্রে স্বাক্ষর দান করি নাই । <span> * </span> </div>"
+    }
+
+  }
+}

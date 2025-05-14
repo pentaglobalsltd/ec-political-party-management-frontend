@@ -1,0 +1,20 @@
+{
+  "POLITICAL_PARTY_LIST": "রাজনৈতিক দলের তালিকা",
+  "ADD_NEW": "নতুন সংযোজন",
+  "REGISTRATION_NO": "নিবন্ধন নং",
+  "PARTY_NAME": "দলের নাম",
+  "SYMBOL": "প্রতীক",
+  "ADDRESS": "ঠিকানা",
+  "PROCEDURE": "প্রক্রিয়া",
+  "NEW_PARTY_ADD": "নতুন দল সংযোজন",
+  "PARTY_NAME_BANGLA": "দলের নাম (বাংলা)",
+  "PARTY_NAME_ENGLISH": "দলের নাম (English)",
+  "CONDITION": "অবস্থা",
+  "FILED": "দাখিল করুন",
+  "BACK": "ফিরে যান",
+  "INDEPENDENT": "স্বতন্ত্র",
+  "CHANGE_PARTY_DETAILS": "দলের বিস্তারিত পরিবর্তন",
+  "RESET": "রিসেট",
+  "ACTIVE": "সক্রিয়",
+  "INACTIVE": "নিষ্ক্রিয়"
+}

@@ -1,0 +1,15 @@
+{
+  "SYMBOL_ALLOCATION": "Symbol Allocation",
+  "SERIAL": "Serial",
+  "CANDIDATE_NAME": "Candidate Name",
+  "NID": "National Identity Card",
+  "SEAT_NAME": "Seat Name",
+  "CONSTITUENCY_SEAT": "Constituency Seat",
+  "POLITICAL_PARTY": "Political party",
+  "PREFERRED_SYMBOL": "Preferred Symbol",
+  "ALLOCATED_SYMBOL": "Allocated Symbol",
+  "SYMBOL": "Symbol",
+  "CANDIDATE_NAME_IN_ALPHABETICAL_ORDER": "Candidate Name in Alphabetical Order (click on submit-button after assigning serial numbers 1, 2,...)",
+  "ALLOCATION": "Allocation",
+  "WITHDRAW": "Withdraw"
+}

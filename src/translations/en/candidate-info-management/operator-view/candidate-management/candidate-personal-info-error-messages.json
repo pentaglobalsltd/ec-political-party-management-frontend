@@ -1,0 +1,23 @@
+{
+  "CHILDREN_NAME": "Name of the child is required",
+  "CHILDREN_EDUCATIONAL_QUALIFICATION": "Educational qualification of the child is required",
+  "CHILDREN_DATE_OF_BIRTH": "Date of birth of the child is required",
+  "CHILDREN_INSTITUTE_ADDRESS": "Address of the child's institute or workplace is required",
+  "CHILDREN_MARITAL_STATUS": "Marital status of the child is required",
+
+  "PERSONAL_NAME": "Candidate's name is required",
+  "PERSONAL_NID": "National ID is required",
+  "PERSONAL_FATHER_NAME": "Father's name is required",
+  "PERSONAL_MOTHER_NAME": "Mother's name is required",
+  "PERSONAL_DATE_OF_BIRTH": "Date of birth is required",
+  "PERSONAL_ADDRESS_OF_PLACE_OF_BIRTH": "Address of the place of birth is required",
+  "PERSONAL_GENDER": "Gender is required",
+  "PERSONAL_MARITAL_STATUS": "Marital status is required",
+  "PERSONAL_OCCUPATION": "Occupation is required",
+  "PERSONAL_CANDIDATE_TIN_NUMBER": "Candidate's TIN number is required",
+  "PERSONAL_PERMANENT_ADDRESS": "Permanent address is required",
+  "PERSONAL_PRESENT_ADDRESS": "Present address is required",
+
+  "PERSONAL_WORKPLACE_NAME": "Workplace name is required",
+  "PERSONAL_WORKPLACE_ADDRESS": "Workplace address is required"
+}

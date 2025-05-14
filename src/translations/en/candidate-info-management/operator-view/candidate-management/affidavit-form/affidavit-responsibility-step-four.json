@@ -1,0 +1,77 @@
+{
+  "DESCRIPTION_SIX": {
+    "NATIONAL_ELECTION": "6. (c) Liabilities",
+    "CITY_CORPORATION_ELECTION": "6. (c) Liabilities",
+    "UPAZILLA_ELECTION": "6. (c) Liabilities",
+    "MUNICIPALITY_ELECTION": "6. (c) Liabilities",
+    "UNION_PARISHAD_ELECTION": "6. (c) Liabilities:"
+  },
+  "LIABILITIES_TYPE": {
+    "NATIONAL_ELECTION": "Nature and Description of Liabilities",
+    "CITY_CORPORATION_ELECTION": "Nature and Description of Liabilities",
+    "UPAZILLA_ELECTION": "Nature and Description of Liabilities",
+    "MUNICIPALITY_ELECTION": "Nature and Description of Liabilities",
+    "UNION_PARISHAD_ELECTION": "Nature and description of liabilities"
+  },
+  "LIABILITIES_AMOUNT": "Amount",
+  "FILE": "File",
+  "LIABILITIES_COMMENT": "(Additional papers may be attached if necessary to submit the Statement of Assets and Liabilities)",
+  "MARK_SIGN": "[Check (✔) if applicable]",
+  "NOT_SELECTED": "7. (a) I have not previously been elected as a member of the National Parliament",
+  "SELECTED": "7. (b) I was previously elected as a member of the National Parliament. Details of the promises I made to the voters before the election and how much of them were fulfilled (if applicable):",
+  "ID": "Serial Number",
+  "PROMISES": "Promises",
+  "ACHIEVEMENTS": "Achievements",
+  "LOAN_RELATED_INFO": "Loan Information",
+  "NOT_TAKEN": {
+    "NATIONAL_ELECTION": "{{sectionSerial}}. (a) I have not taken any loan from any bank or financial institution in my own name or jointly or any member dependent on me or as Chairman, Managing Director of any bank or financial institution.",
+    "CITY_CORPORATION_ELECTION": "{{sectionSerial}}. (a) I have not taken any loan from any bank or financial institution in my own name or jointly or any member dependent on me or as Chairman, Managing Director or Director of any bank or financial institution.",
+    "UPAZILLA_ELECTION": "{{sectionSerial}}. (a) I have not taken any loan from any bank or financial institution in my own name or jointly or any member dependent on me or as Chairman, Managing Director or Director of any bank or financial institution.",
+    "MUNICIPALITY_ELECTION": "{{sectionSerial}}. (a) I have not taken any loan from any bank or financial institution in my own name or jointly or any member dependent on me or as Chairman, Managing Director or Director of any bank or financial institution.",
+    "UNION_PARISHAD_ELECTION": "(a) I have not taken any loan from any bank or financial institution on my own or jointly or by any dependent on me or by virtue of being the chairman, managing director or director of any bank or financial institution."
+  },
+  "OR": "Or",
+  "TAKEN": {
+    "NATIONAL_ELECTION": "{{sectionSerial}}. (b) I am giving below the amount of loan taken from all those banks or financial institutions on behalf of myself, my members jointly or dependent on me or as Chairman, Managing Director of any bank or financial institution.",
+    "UPAZILLA_ELECTION": "{{sectionSerial}}. (b) I am giving below the amount of loan taken from all those banks or financial institutions on behalf of myself, my members jointly or dependent on me or as Chairman, Managing Director or Director of any bank or financial institution.",
+    "CITY_CORPORATION_ELECTION": "{{sectionSerial}}. (b) I am giving below the amount of loan taken from all those banks or financial institutions on behalf of myself, my members jointly or dependent on me or as Chairman, Managing Director or Director of any bank or financial institution.",
+    "MUNICIPALITY_ELECTION": "{{sectionSerial}}. (b) I am giving below the amount of loan taken from all those banks or financial institutions on behalf of myself, my members jointly or dependent on me or as Chairman, Managing Director or Director of any bank or financial institution.",
+    "UNION_PARISHAD_ELECTION": "(b) I have mentioned below the amount of loan taken from all those banks or financial institutions by virtue of being the chairman, managing director or director of those banks or financial institutions on my own or jointly or by any dependent on me."
+  },
+  "LOAN_TYPE": "Loan Type",
+  "BANK_NAME": "Bank/Institution Name",
+  "LOAN_AMOUNT": "Loan Amount",
+  "DEFAULTED_LOAN": "Amount of Defaulted Loan (if any)",
+  "SCHEDULED_DATE": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "Latest date if rescheduled",
+    "UPAZILLA_ELECTION": "Latest date if rescheduled",
+    "CITY_CORPORATION_ELECTION": "Latest date if rescheduled",
+    "MUNICIPALITY_ELECTION": "Latest date if rescheduled",
+    "UNION_PARISHAD_ELECTION": "Latest date if rescheduled"
+  },
+  "OATH": {
+    "NATIONAL_ELECTION": "I further swear that all the information provided in this affidavit and all the evidence submitted therewith are true and accurate to the best of my knowledge and belief.",
+    "CITY_CORPORATION_ELECTION": "I further declare that all the information provided in this affidavit and all the evidence submitted therewith are true and accurate to the best of my knowledge and belief.",
+    "UPAZILLA_ELECTION": "I declare that all the information provided in this affidavit and all the evidence submitted therewith are true and accurate to the best of my knowledge and belief.",
+    "MUNICIPALITY_ELECTION": "I further declare that all the information provided in this affidavit and all the evidence submitted therewith are true and accurate to the best of my knowledge and belief.",
+    "UNION_PARISHAD_ELECTION": "I solemnly declare that all the information provided in this affidavit and all documents submitted herewith are, to the best of my knowledge and belief, true and correct."
+  },
+  "CANDIDATE_NAME": {
+    "NATIONAL_ELECTION": "I, Mr./Ms.",
+    "CITY_CORPORATION_ELECTION": "I, Mr./Ms.",
+    "UPAZILLA_ELECTION": "I, Mr./Ms.",
+    "MUNICIPALITY_ELECTION": "I, Mr./Ms.",
+    "UNION_PARISHAD_ELECTION": "I, Mr./Ms."
+  },
+  "CANDIDATE_NAME_SUBTITLE": "(Candidate Name)",
+  "FATHER_OR_HUSBAND_NAME": "Father/Husband's Name",
+  "MOTHER_NAME": "Mother's Name",
+  "CANDIDATE_ADDRESS": "Candidate's Address",
+  "IDENTIFIER_NAME": "Mr./Ms. who identified",
+  "IDENTIFIER_ADDRESS": "Address (of Identifier)",
+  "MAGISTRATE_NAME": "Name of Magistrate/Notary Public",
+  "IDENTIFY_DATE": "By this, on",
+  "IDENTIFY_DATE_SUBTITLE": "date, you have solemnly affirmed this affidavit before me.",
+  "MAGISTRATE_SIGN_DATE": "Date of Magistrate/Notary Public's Signature"
+}

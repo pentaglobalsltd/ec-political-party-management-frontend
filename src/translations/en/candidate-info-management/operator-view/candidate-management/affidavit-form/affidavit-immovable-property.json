@@ -1,0 +1,10 @@
+{
+  "DESCRIPTION": "6. (b) Immovable Property",
+  "ID": "Serial",
+  "PROPERTY_DESCRIPTION": "Description of Property",
+  "OWN": "In Own Name",
+  "HUSBAND_OR_WIFE": "In Spouse's Name",
+  "DEPENDENT": "In Dependent's Name",
+  "JOIN_OWNERSHIP": "Joint Ownership",
+  "CANDIDATE_SHARE": "Candidate's Share in Joint Ownership"
+}

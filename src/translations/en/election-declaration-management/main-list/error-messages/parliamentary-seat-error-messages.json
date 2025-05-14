@@ -1,0 +1,7 @@
+{
+  "DIVISION": "Division is required",
+  "DISTRICT": "District is required",
+  "PARLIAMENTARY_SEAT": "Parliamentary seat is required",
+  "SUB_DISTRICT": "Sub-district is required",
+  "UNION": "Union is required"
+}

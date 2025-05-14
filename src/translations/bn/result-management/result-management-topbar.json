@@ -1,0 +1,36 @@
+{
+  "HOME": "হোম",
+  "ELECTION_PROCESS": "নির্বাচন প্রক্রিয়া",
+  "REPORT": "রিপোর্ট",
+  "RESULTS_MONITORING": "ফলাফল পর্যবেক্ষণ",
+  "CHANGE_ELECTION": "নির্বাচন পরিবর্তন",
+  "HELPLINE": "হেল্পলাইন",
+  "CONTROLLER_LIST": "নিয়ন্ত্রক তালিকা",
+
+  "CONSOLIDATED_STATEMENT": "একীভূত বিবরণী",
+  "ELECTION_RESULT": "নির্বাচনের ফলাফল",
+  "TIME_BASED_RESULT": "সময়ভিত্তিক ফলাফল",
+  "GROUP_BASED_REPORT": "দলভিত্তিক প্রতিবেদন",
+  "NINETEENTH_FORM": "১৯ তম ফর্ম",
+  "WINNING_CANDIDATES": "নির্বাচিত ঘোষিত প্রার্থীগণের তালিকা",
+
+  "RESULT": "ফলাফল",
+  "SEND_MESSAGE_SHEET_PREPARATION": "বার্তা প্রেরণ শীট প্রস্তুত",
+  "SEND_MESSAGE_SHEET_LIST": "বার্তা প্রেরণ শীট তালিকা",
+  "SEND_MESSAGE_SHEET_PUBLICATION": "বার্তা প্রেরণ শীট প্রকাশ",
+  "RESULT_AND_SITUATION_ANALYSIS": "ফলাফল এবং পরিস্থিতি পর্যালোচনা",
+  "CENTER_LIST": "কেন্দ্রের তালিকা",
+  "VOTING_CENTER_HALT": "ভোটকেন্দ্র স্থগিত করুন",
+
+  "MONITORING_OVERALL_RESULTS": "সার্বিক ফলাফল পর্যবেক্ষণ",
+  "CENTER_BASED_MONITORING_RESULTS": "কেন্দ্র ভিত্তিক ফলাফল পর্যবেক্ষণ",
+  "LATEST_RESULTS_OBTAINED": "সর্বশেষ প্রাপ্ত ফলাফল",
+  "GRAPHICAL_OBSERVATION": "গ্রাফিকাল পর্যবেক্ষণ",
+  "DRAFT_RESULTS": "খসড়া ফলাফল",
+  "RESULTS_RETURN_LOG": "ফলাফল ফিরতি লগ",
+  "RESULTS_PUBLISHED_ON_WEBSITE": "ফলাফল ওয়েবসাইটে প্রকাশ",
+  "SUBMIT_RESULTS": "ফলাফল দাখিল",
+  "POSTAL_BALLOT": "পোস্টাল ব্যালট",
+  "SUBMIT_RESULTS_SUMMARY": "ফলাফল দাখিল সারাংশ",
+  "RESULTS_SUMMARY": "ফলাফল সারাংশ"
+}

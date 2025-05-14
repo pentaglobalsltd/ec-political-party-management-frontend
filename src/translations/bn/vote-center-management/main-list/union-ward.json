@@ -1,0 +1,23 @@
+{
+  "BREADCRUMB_MAIN_LIST": "প্রধান তালিকা",
+  "BREADCRUMB_UNION_WARD": " ইউনিয়ন ওয়ার্ড তালিকা ",
+  "BREADCRUMB_CREATE_UNION_WARD": "ইউনিয়ন ওয়ার্ড তৈরী করুন",
+  "SECTION_HEADER": " ইউনিয়ন ওয়ার্ড তালিকা ",
+  "ADD_UNION_WARD_SECTION_HEADER": "ইউনিয়ন ওয়ার্ড তৈরী করুন",
+  "UPDATE_UNION_WARD_SECTION_HEADER": "ইউনিয়ন ওয়ার্ড পরিবর্তন করুন",
+  "ADD_NEW_UNION_WARD": "নতুন সংযোজন",
+
+  "DIVISION": "বিভাগ",
+  "DISTRICT": "জেলা",
+  "UPAZILA": "উপজেলা",
+  "UNION_OR_WARD": "ইউনিয়ন",
+
+  "WARD_NAMEBN": "ওয়ার্ড (বাংলা)",
+  "WARD_NAMEEN": "ওয়ার্ড (ইংরেজি)",
+  "WARD_NUMBER": "ওয়ার্ড নম্বর",
+
+  "SEARCH_BUTTON": "খুঁজুন",
+
+  "SAVE": "সংরক্ষণ করুন",
+  "RESET": "রিসেট"
+}

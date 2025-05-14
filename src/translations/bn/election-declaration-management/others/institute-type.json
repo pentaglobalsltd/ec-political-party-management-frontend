@@ -1,0 +1,17 @@
+{
+  "INSTITUTION_TYPE": "প্রতিষ্ঠান ভবনের ধরন",
+  "ADD_NEW": "নতুন সংযোজন",
+  "ID": "অবকাঠামোর আইডি",
+  "INSTITUTION_TYPE_BANGLA": "প্রতিষ্ঠান ভবনের অবকাঠামো প্রকার (বাংলা)",
+  "INSTITUTION_TYPE_ENGLISH": "প্রতিষ্ঠান ভবনের অবকাঠামো প্রকার (English)",
+  "ACTION": "প্রক্রিয়া",
+  "ADD_NEW_INSTITUTE_TITLE": "নতুন সংযোজন",
+  "EDIT_INSTITUTE_TITLE": "সম্পাদন করুন",
+  "INSTITUTE_ID": "প্রতিষ্ঠান ভবনের আইডি",
+  "INSTITUTE_TYPE": "প্রতিষ্ঠান ভবনের ধরন",
+  "INSTITUTE_TYPE_BN": "বাংলা",
+  "INSTITUTE_TYPE_EN": "English",
+  "SUBMISSION_BUTTON_TEXT": "দাখিল করুন",
+  "RESET_BUTTON_TEXT": "রিসেট",
+  "GO_BACK_TEXT": "ফিরে যান"
+}

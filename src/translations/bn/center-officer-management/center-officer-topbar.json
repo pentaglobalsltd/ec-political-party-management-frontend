@@ -1,0 +1,15 @@
+{
+  "HOME": "হোম",
+  "CONTROLLER_LIST": "নিয়ন্ত্রক তালিকা",
+  "CHANGE_ELECTION": "নির্বাচন পরিবর্তন",
+
+  "POLITICAL_PARTY": "রাজনৈতিক দলের তালিকা",
+  "VOTE_ESTABLISHMENT_LIST": "ভোটদান প্রতিষ্ঠানের তালিকা",
+  "SYMBOL": "প্রতীকের তালিকা",
+  "ORGANIZATION_LIST": "প্রতিষ্ঠান/সংস্থার নাম ও ঠিকানা",
+  "OFFICER_LIST": "কর্মকর্তার তালিকা",
+  "CENTER_BASED_OFFICER_DISTRIBUTION": "কেন্দ্র ভিত্তিক কর্মকর্তা বন্টন",
+  "CENTER_BASED_OFFICER_LIST": "কেন্দ্র ভিত্তিক কর্মকর্তার তালিকা",
+  "CENTER_OFFICER_CONTACT_DETAILS": "কেন্দ্র ভিত্তিক কর্মকর্তার যোগাযোগ সংক্রান্ত তথ্য",
+  "SEND_SMS":"বার্তা প্রেরণ করুন"
+}

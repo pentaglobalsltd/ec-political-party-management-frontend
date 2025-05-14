@@ -1,0 +1,23 @@
+{
+  "BREADCRUMB_MAIN_LIST": "Main List",
+  "BREADCRUMB_UNION_WARD": "Union Ward List",
+  "BREADCRUMB_CREATE_UNION_WARD": "Create Union Ward",
+  "SECTION_HEADER": "Union Ward List",
+  "ADD_UNION_WARD_SECTION_HEADER": "Create Union Ward",
+  "UPDATE_UNION_WARD_SECTION_HEADER": "Update Union Ward",
+  "ADD_NEW_UNION_WARD": "Add New",
+
+  "DIVISION": "Division",
+  "DISTRICT": "District",
+  "UPAZILA": "Upazila",
+  "UNION_OR_WARD": "Union/Ward",
+
+  "WARD_NAMEBN": "Ward (Bangla)",
+  "WARD_NAMEEN": "Ward (English)",
+  "WARD_NUMBER": "Ward Number",
+
+  "SEARCH_BUTTON": "Search",
+
+  "SAVE": "Save",
+  "RESET": "Reset"
+}

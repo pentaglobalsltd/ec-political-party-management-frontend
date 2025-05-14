@@ -1,0 +1,16 @@
+{
+  "NUMERICAL_REPORTING_1": "Numerical Reporting 1",
+  "PARTIES_FILLING_NOMINATION": "Number of Candidates Filing Nomination Papers by Parties",
+  "DATA_NO_SUBMITTED": "Data Not Submitted",
+  "SAVE_BY_GROUP": "Save by Group",
+  "SAVE_BY_SELECTION": "Save by Selection",
+  "SAVE_SELECTION_GROUP_WISE": "Save Selection Group-wise",
+  "PARTY": "Party",
+  "APPLIED_CANDIDATE": "Applied Candidate",
+  "CANCELED_CANDIDATE": "Rejected Candidate",
+  "WITHDRAWN_CANDIDATE": "Withdrawn Candidate",
+  "FINAL_CANDIDATE": "Final Candidate",
+  "PROCEDURE": "Procedure",
+  "EXCEL": "Excel",
+  "PDF": "PDF"
+}

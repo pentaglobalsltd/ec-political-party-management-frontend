@@ -1,0 +1,35 @@
+{
+  "BREADCRUMB_MAIN_LIST": "প্রধান তালিকা",
+  "BREADCRUMB_VOTER_AREA": "ভোটার এলাকা",
+  "CREATE_VOTER_AREA": "ভোটার এলাকা সংযোজন",
+  "SECTION_HEADER_CHANGE": "ভোটার এলাকা পরিবর্তন",
+  "ADD_NEW_VOTER_AREA": "নতুন সংযোজন",
+
+  "CENTER_TYPE": "কেন্দ্রের ধরন",
+  "DIVISION": "বিভাগ",
+  "DISTRICT": "জেলা",
+  "UPAZILA": "উপজেলা",
+  "CITY_CORPORATION": "সিটি কর্পোরেশন/পৌরসভা",
+  "UNION_OR_WARD": "ইউনিয়ন/ওয়ার্ড",
+  "UNION_PARISHAD_WARD": "ইউনিয়ন পরিষদ ওয়ার্ড",
+  "VOTER_AREA_CODE": "ভোটার এরিয়া কোড",
+  "NAME_OF_VOTER_AREA_EN": "ভোটার এলাকার নাম (ইংরেজিতে)",
+  "NAME_OF_VOTER_AREA_BN": "ভোটার এলাকার নাম (বাংলায়)",
+  "MALE_VOTER": "পুরুষ ভোটার",
+  "FEMALE_VOTER": "মহিলা ভোটার",
+  "TOTAL_VOTER": "মোট ভোটার",
+
+  "THIRD_GENDER_VOTER": "হিজড়া ভোটার",
+  "SEARCH_BUTTON": "খুঁজুন",
+
+  "SAVE": "সংরক্ষণ করুন",
+  "CANCEL": "বাতিল",
+
+  "ID": "ক্রমিক নম্বর",
+  "VOTER_AREA": "ভোটার এলাকা",
+  "LAST_UPDATED": "শেষ আপডেট সময়",
+  "PROCESS": "প্রক্রিয়া",
+  "BULK_UPDATE": "আপনি কি নিশ্চিত আপনি বাল্ক আপডেট করতে চান?",
+  "SELECT_UNION_MESSAGE": "ইউনিয়ন পরিষদ ওয়ার্ড এর কোনো পরিবর্তন পাওয়া যায় নিই।",
+  "OKAY": "ঠিক আছে"
+}

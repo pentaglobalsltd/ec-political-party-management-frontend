@@ -1,0 +1,14 @@
+{
+  // Comments are supported, like tsconfig.json
+  "entryPoints": ["src/index.ts"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "name": "Online Nomination System",
+  "tsconfig": "./tsconfig.json",
+  "exclude": [
+    "node_modules/**/*.*",
+    "node_modules",
+    "**/node_modules/**",
+    "**node_modules/**/*.*"
+  ]
+}

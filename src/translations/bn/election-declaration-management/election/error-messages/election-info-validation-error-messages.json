@@ -1,0 +1,15 @@
+{
+  "MINIMUM_AGE_FORMAT": "সর্বনিম্ন বয়স আবশ্যক এবং একটি সংখ্যা হতে হবে",
+  "MINIMUM_AGE_POSITIVE": "সর্বনিম্ন বয়স শূন্যের বেশি হতে হবে",
+  "DATE_UPTO_WHICH_AGE_WILL_BE_CALCULATED": "যে তারিখ পর্যন্ত বয়স গণনা করা হবে আবশ্যক",
+  "TOTAL_REGIONS_FORMAT": "মোট বিভাগ একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "TOTAL_REGIONS_POSITIVE": "মোট বিভাগ সংখ্যা শূন্যের বেশি হতে হবে",
+  "TOTAL_DISTRICTS_FORMAT": "মোট জেলা একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "TOTAL_DISTRICTS_POSITIVE": "মোট জেলা সংখ্যা শূন্যের বেশি হতে হবে",
+  "POLLING_CENTER_FORMAT": "ভোট কেন্দ্র একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "POLLING_CENTER_POSITIVE": "ভোট কেন্দ্র সংখ্যা শূন্যের বেশি হতে হবে",
+  "POLLING_BOOTH_FORMAT": "পোলিং বুথ একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "POLLING_BOOTH_POSITIVE": "পোলিং বুথ সংখ্যা শূন্যের বেশি হতে হবে",
+  "SEAT_NUMBERS_FORMAT": "আসন সংখ্যা একটি সংখ্যা এবং শূন্যের বেশি হতে হবে",
+  "SEAT_NUMBERS_POSITIVE": "আসন সংখ্যা শূন্যের বেশি হতে হবে"
+}

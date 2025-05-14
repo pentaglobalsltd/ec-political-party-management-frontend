@@ -1,0 +1,93 @@
+{
+  "SUBMIT_RESULTS": "Submit Results",
+  "ELECTION": "Election: National Parliament Election",
+  "ELECTION_SEAT": "Constituency Seat",
+  "WARD_NUMBER": "Ward Number",
+  "FOR_POST": "For Post",
+  "VOTE_CENTER_NAME_NO": "Vote Center Name and Number",
+  "CENTER_STATISTICS": "Center Statistics",
+  "TOTAL_CENTER_NUMBER": "Total Center Number",
+  "POST_NAME": "Post Name",
+  "PARLIAMENT_MEMBER": "Parliament Member",
+  "UPAZILA": "Upazila",
+  "SUBMITTED_CENTER_NO": "Submitted Center Number",
+  "CANDIDATE_SERIAL_NO": "Serial",
+  "CANDIDATE_NAME": "Candidate Name",
+  "ELECTION_CANDIDATES": "Candidate No: ",
+  "CANDIDATE_SYMBOL": "Candidate Symbol",
+  "VALID_VOTER_NO": "Valid Voter Number",
+  "OBJECTIONABLE_VALID_VOTER_NO": "Number of objectionable valid votes",
+  "ROW_TOTAL_VALID_VOTER_NO": "Total valid votes",
+
+  "VALID_VOTE_AMOUNT_ERROR_MSG": "Legal vote amount cannot be negative",
+  "VALID_VOTE_AMOUNT_REQUIRED_ERROR_MSG": "Required valid vote count",
+  "OBJECTIONAL_VALID_VOTE_AMOUNT_REQUIRED_ERROR_MSG": "Required objectionable valid vote count",
+  "TOTAL_ROW_VALID_VOTE_AMOUNT_REQUIRED_ERROR_MSG": "Required total valid vote count",
+
+  "CANDIDATE_TOTAL_VOTE": {
+    "NATIONAL_ELECTION": "(1) Total votes received by all candidates (including objectionable votes)",
+    "CITY_CORPORATION_ELECTION": "(1) Total votes received by all candidates",
+    "UPAZILLA_ELECTION": "(1) Total votes received by all candidates (including objectionable votes)",
+    "MUNICIPALITY_ELECTION": "(1) Total votes received by all candidates"
+  },
+  "TOTAL_VALID_VOTER_NO": "Total Valid Voter Number",
+  "TOTAL_VALID_VOTER_NO_ERROR_MSG": "Total valid voter number cannot be negative",
+  "TOTAL_VALID_VOTER_NO_REQUIRED_ERROR_MSG": "Total valid voter number is required",
+
+  "TOTAL_ILLEGAL_VOTER_NO": {
+    "NATIONAL_ELECTION": "(2) Total number of excluded votes from the count",
+    "CITY_CORPORATION_ELECTION": "(2)Illegal votes",
+    "UPAZILLA_ELECTION": "(2) Total number of excluded votes from the count",
+    "MUNICIPALITY_ELECTION": "(2)Illegal votes"
+  },
+  "TOTAL_ILLEGAL_VOTER_NO_ERROR_MSG": "Total illegal voter number cannot be negative",
+  "TOTAL_ILLEGAL_VOTER_NO_REQUIRED_ERROR_MSG": "Total illegal voter number is required",
+  "TOTAL_INVALID_VOTER_NO": "Total Invalid Votes",
+
+  "TOTAL_VOTE": {
+    "NATIONAL_ELECTION": "(3) Total Votes",
+    "CITY_CORPORATION_ELECTION": "(3) Legal and illegal vote count [summation of 1 and 2]",
+    "UPAZILLA_ELECTION": "(3) Total Votes",
+    "MUNICIPALITY_ELECTION": "(3) Legal and illegal vote count [summation of 1 and 2]"
+  },
+
+  "TOTAL_VOTE_ERROR_MSG": "Total votes cannot be a negative number",
+
+  "PRESENT_VOTER": {
+    "CITY_CORPORATION_ELECTION": "(4) Present Voter Count",
+    "MUNICIPALITY_ELECTION": "(4) Present Voter Count"
+  },
+
+  "ABSENT_VOTER": {
+    "CITY_CORPORATION_ELECTION": "(5) Absent Voter Count",
+    "MUNICIPALITY_ELECTION": "(5) Absent Voter Count"
+  },
+
+  "UPLOAD": "Upload",
+  "UPLOAD_WARNINGS": "Only PDF files are allowed, and the file size must not exceed 5 megabytes.",
+  "CENTER_NAME": "Center Name: ",
+  "PREVIEW": "Preview",
+  "PREVIEW_MODAL_TITLE": "Preview Upload File",
+  "SUBMIT_RESULT": "Submit Result",
+  "MODAL_SUBMIT_BUTTON": "Save",
+  "MODAL_RETURN_BUTTON": "Return",
+  "FILE_REQUIRED": "File is required",
+
+  "CENTER_VOTER_AMOUNT": "Center Voter Amount",
+  "TOTAL_VOTER": "Total Voter",
+  "MALE_VOTER": "Male Voter",
+  "FEMALE_VOTER": "Female Voter",
+  "THIRD_GENDER_VOTER": "Third Gender Voter",
+
+  "NOTIFICATION_ERROR_BY_ARO": "Please resubmit the released results",
+  "NOTIFICATION_ERROR_BY_ADMIN": "A request has been made to the admin for resending the results",
+
+  "MODAL_ERROR_1": "Provide accurate information about the candidates",
+  "MODAL_ERROR_2": "Your enrolled voter count has exceeded the total voter count!",
+
+  "POLLING_CENTER_NOTIFICATION_RED": "This center has been temporarily closed.",
+  "POLLING_CENTER_NOTIFICATION_YELLOW": "This center is pending approval from the admin.",
+  "POLLING_CENTER_NOTIFICATION_GREEN": "Results for this center have been submitted previously.",
+
+  "SUCCESS_TOAST": "Submitted result successfully"
+}

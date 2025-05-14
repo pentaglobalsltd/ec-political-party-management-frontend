@@ -1,0 +1,24 @@
+{
+  "CANDIDATE_NOMINATION_STATISTICS": "প্রার্থী পরিসংখ্যান",
+  "STATUS_TABLE":"স্ট্যাটাস বিবরণী",
+  "PAYMENT_TABLE":"পেমেন্ট বিবরণী",
+
+  "STATUS_NAME": "অবস্থা",
+  "PAYMENT_METHOD": "পেমেন্টের মাধ্যম",
+  "NUMBER": "সর্বমোট সংখ্যা",
+  "SERIAL": "ক্রম",
+
+  "NATIONAL_MEMBER_OF_PARLIAMENT": "সংসদ সদস্য",
+
+  "CHAIRMAN":"চেয়ারম্যান",
+  "VICE_CHAIRMAN":"ভাইস চেয়ারম্যান",
+  "WOMEN_VICE_CHAIRMAN":"মহিলা ভাইস চেয়ারম্যান",
+
+  "CITY_CORPORATION_MAYOR":"মেয়র",
+  "CITY_CORPORATION_COUNCILLOR":"সাধারণ আসনের কাউন্সিলর",
+  "CITY_CORPORATION_WOMAN_COUNCILLOR":"সংরক্ষিত আসনের কাউন্সিলর",
+
+  "MUNICIPALITY_MAYOR":"মেয়র",
+  "MUNICIPALITY_COUNCILLOR":"সাধারণ আসনের কাউন্সিলর",
+  "MUNICIPALITY_RESERVED_COUNCILLOR":"সংরক্ষিত আসনের কাউন্সিলর"
+}

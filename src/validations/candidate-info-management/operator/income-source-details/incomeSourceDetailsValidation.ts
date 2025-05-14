@@ -1,0 +1,165 @@
+import { CANDIDATE_INFO_MANAGEMENT } from '@constants/forms/candidate-info-management/candidate-info-management';
+import * as yup from 'yup';
+
+export const BASIC_INFO =
+  CANDIDATE_INFO_MANAGEMENT.OPERATOR.INCOME_SOURCE_DETAILS.BASIC_INFO;
+
+export const EARNING_FROM_OWN_INCOME =
+  CANDIDATE_INFO_MANAGEMENT.OPERATOR.INCOME_SOURCE_DETAILS
+    .EARNING_FROM_OWN_INCOME;
+
+export const EARNING_FROM_RELATIVES =
+  CANDIDATE_INFO_MANAGEMENT.OPERATOR.INCOME_SOURCE_DETAILS
+    .EARNING_FROM_RELATIVES;
+
+export const EARNING_FROM_DONATION_BY_RELATIVES =
+  CANDIDATE_INFO_MANAGEMENT.OPERATOR.INCOME_SOURCE_DETAILS
+    .EARNING_FROM_DONATION_BY_RELATIVES;
+
+export const EARNING_FROM_OTHERS =
+  CANDIDATE_INFO_MANAGEMENT.OPERATOR.INCOME_SOURCE_DETAILS.EARNING_FROM_OTHERS;
+
+export const EARNING_FROM_DONATION_BY_OTHERS =
+  CANDIDATE_INFO_MANAGEMENT.OPERATOR.INCOME_SOURCE_DETAILS
+    .EARNING_FROM_DONATION_BY_OTHERS;
+
+export const EARNING_FROM_MISCELLANEOUS =
+  CANDIDATE_INFO_MANAGEMENT.OPERATOR.INCOME_SOURCE_DETAILS
+    .EARNING_FROM_MISCELLANEOUS;
+
+export const ownEarningValidation = yup.object().shape({
+  [EARNING_FROM_OWN_INCOME.POTENTIAL_AMOUNT]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.OWN_EARNING_POTENTIAL_AMOUNT'),
+  // .matches(
+  //   CHECK_ONLY_NUMBER_AND_EMPTY,
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.OWN_EARNING_POTENTIAL_AMOUNT_FORMAT',
+  // ),
+
+  [EARNING_FROM_OWN_INCOME.EARNING_SOURCE]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.OWN_EARNING_EARNING_SOURCE'),
+});
+
+export const earningFromRelativeValidation = yup.object().shape({
+  [EARNING_FROM_RELATIVES.POTENTIAL_AMOUNT]: yup.string().nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_RELATIVES_POTENTIAL_AMOUNT',
+  // )
+  // .matches(
+  //   CHECK_ONLY_NUMBER_AND_EMPTY,
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_RELATIVES_POTENTIAL_AMOUNT_FORMAT',
+  // ),
+
+  [EARNING_FROM_RELATIVES.RELATIVE_NAME]: yup.string().nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_RELATIVES_RELATIVE_NAME',
+  // ),
+  [EARNING_FROM_RELATIVES.RELATIVE_ADDRESS]: yup.string().nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_RELATIVES_RELATIVE_ADDRESS',
+  // ),
+  [EARNING_FROM_RELATIVES.RELATION]: yup.string().nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_RELATIVES_RELATIVE_RELATION',
+  // ),
+  [EARNING_FROM_RELATIVES.RELATIVE_INCOME_SOURCE]: yup.string().nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_RELATIVES_RELATIVE_INCOME_SOURCE',
+  // ),
+});
+
+export const earningFromDonationByRelativeValidation = yup.object().shape({
+  [EARNING_FROM_DONATION_BY_RELATIVES.POTENTIAL_AMOUNT]: yup
+    .string()
+    .nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_DONATION_POTENTIAL_AMOUNT',
+  // )
+  // .matches(
+  //   CHECK_ONLY_NUMBER_AND_EMPTY,
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_DONATION_POTENTIAL_AMOUNT_FORMAT',
+  // ),
+  [EARNING_FROM_DONATION_BY_RELATIVES.RELATIVE_NAME]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_DONATION_RELATIVE_NAME'),
+  [EARNING_FROM_DONATION_BY_RELATIVES.RELATIVE_ADDRESS]: yup
+    .string()
+    .nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_DONATION_RELATIVE_ADDRESS',
+  // ),
+  [EARNING_FROM_DONATION_BY_RELATIVES.RELATION]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_DONATION_RELATION'),
+  [EARNING_FROM_DONATION_BY_RELATIVES.RELATIVE_INCOME_SOURCE]: yup
+    .string()
+    .nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_DONATION_RELATIVE_INCOME_SOURCE',
+  // ),
+});
+
+export const earningFromOthersValidation = yup.object().shape({
+  [EARNING_FROM_OTHERS.POTENTIAL_AMOUNT]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_OTHERS_POTENTIAL_AMOUNT')
+  // .matches(
+  //   CHECK_ONLY_NUMBER_AND_EMPTY,
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_OTHERS_POTENTIAL_AMOUNT_FORMAT',
+  // ),
+  [EARNING_FROM_OTHERS.PERSON_NAME]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_OTHERS_PERSON_NAME'),
+  [EARNING_FROM_OTHERS.PERSON_ADDRESS]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_OTHERS_PERSON_ADDRESS'),
+});
+
+export const donationByOthersValidation = yup.object().shape({
+  [EARNING_FROM_DONATION_BY_OTHERS.POTENTIAL_AMOUNT]: yup.string().nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.DONATION_OTHERS_POTENTIAL_AMOUNT',
+  // )
+  // .matches(
+  //   CHECK_ONLY_NUMBER_AND_EMPTY,
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.DONATION_OTHERS_POTENTIAL_AMOUNT_FORAMT',
+  // ),
+  [EARNING_FROM_DONATION_BY_OTHERS.PERSON_NAME]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.DONATION_OTHERS_PERSON_NAME'),
+  [EARNING_FROM_DONATION_BY_OTHERS.PERSON_ADDRESS]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.DONATION_OTHERS_PERSON_ADDRESS'),
+});
+
+export const earningFromMiscellaneousValidation = yup.object().shape({
+  [EARNING_FROM_MISCELLANEOUS.POTENTIAL_AMOUNT]: yup.string().nullable(),
+  // .required('INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_MISC_POTENTIAL_AMOUNT')
+  // .matches(
+  //   CHECK_ONLY_NUMBER_AND_EMPTY,
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_MISC_POTENTIAL_AMOUNT_FORMAT',
+  // ),
+  [EARNING_FROM_MISCELLANEOUS.PERSON_OR_INSTITUTE_NAME]: yup
+    .string()
+    .nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_MISC_PERSON_OR_INSTITUTE_NAME',
+  // ),
+  [EARNING_FROM_MISCELLANEOUS.PERSON_OR_INSTITUTE_ADDRESS]: yup
+    .string()
+    .nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_MISC_PERSON_OR_INSTITUTE_ADDRESS',
+  // ),
+  [EARNING_FROM_MISCELLANEOUS.PERSON_OR_INSTITUTE_INCOME_SOURCE]: yup
+    .string()
+    .nullable(),
+  // .required(
+  //   'INCOME_SOURCE_DETAILS_ERROR_MSG.EARNING_MISC_PERSON_OR_INSTITUTE_INCOME_SOURCE',
+  // ),
+});
+
+export const incomeSourceValidation = yup.object().shape({
+  selfFundings: yup.array().of(ownEarningValidation),
+  earningFromRelative: yup.array().of(earningFromRelativeValidation),
+  donationByRelative: yup.array().of(earningFromDonationByRelativeValidation),
+  earningFromOthers: yup.array().of(earningFromOthersValidation),
+  donationByOthers: yup.array().of(donationByOthersValidation),
+  miscellaneous: yup.array().of(earningFromMiscellaneousValidation),
+});
+
+export type IncomeSourceValidationType = yup.InferType<
+  typeof incomeSourceValidation
+>;

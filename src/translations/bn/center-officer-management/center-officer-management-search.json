@@ -1,0 +1,21 @@
+{
+  "REGION": "বিভাগের নাম",
+  "DISTRICT": "জেলার নাম",
+  "SUB_DISTRICT": "উপজেলা/থানা",
+  "RMO": "আর এম ও",
+  "MUNICIPALITY": "পৌরসভা",
+  "CITYCORPORATION": "সিটি কর্পোরেশন",
+  "RURAL": "পল্লী",
+  "CITY": "শহর",
+  "CANTONMENT": "ক্যান্ট বোর্ড",
+  "OTHER": "অন্য এলাকা",
+  "UNION_OR_WARD": "ইউনিয়ন/ওয়ার্ড",
+  "ELECTION_TYPE": "নির্বাচনের ধরন",
+  "ELECTION_SCHEDULE": "নির্বাচনের নাম",
+  "CONSTITUENCY": "আসন",
+  "POLLING_CENTER": "কেন্দ্রের নাম",
+  "INSTITUTION_NAME": "প্রতিষ্ঠানের নাম",
+  "DESIGNATION": "পদবী",
+  "DISTRIBUTED_OFFICER": "বণ্টনকৃত কর্মকর্তা",
+  "CENTER_STATUS": "অবস্থা"
+}

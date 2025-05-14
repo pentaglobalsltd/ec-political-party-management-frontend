@@ -1,0 +1,37 @@
+{
+  "VALID_NOMINATED_CANDIDATE_LIST": "List of Validly Nominated Candidates",
+  "DOWNLOAD": "Download",
+  "ID": {
+    "NATIONAL_ELECTION": "Serial",
+    "CITY_CORPORATION_ELECTION": "Serial",
+    "UPAZILLA_ELECTION": "Serial",
+    "MUNICIPALITY_ELECTION": "Serial",
+    "UNION_PARISHAD_ELECTION": "Serial"
+  },
+  "CANDIDATE_NAME_BANGLA": {
+    "NATIONAL_ELECTION": "Candidate Name (in Bengali Script)",
+    "CITY_CORPORATION_ELECTION": "Candidate Name",
+    "UPAZILLA_ELECTION": "Candidate Name (in Bengali Script)",
+    "MUNICIPALITY_ELECTION": "Candidate Name",
+    "UNION_PARISHAD_ELECTION": "Candidate Name"
+  },
+  "POLITICAL_PARTY_NAME": {
+    "NATIONAL_ELECTION": "Political Party Name / Independent",
+    "CITY_CORPORATION_ELECTION": "Political Party Name / Independent (Applicable only for Mayor's position)",
+    "UPAZILLA_ELECTION": "Political Party Name / Independent",
+    "MUNICIPALITY_ELECTION": "Political Party Name / Independent (Applicable only for Mayor's position)",
+    "UNION_PARISHAD_ELECTION": "Political Party Name / Independent (Applicable only for Chairman's position)"
+  },
+  "CANDIDATES_FATHER_NAME": {
+    "NATIONAL_ELECTION": "Candidate's Father/Husband's Name",
+    "CITY_CORPORATION_ELECTION": "Candidate's Father/Husband's (in case of married women) Name",
+    "UPAZILLA_ELECTION": "Candidate's Father/Husband's Name",
+    "MUNICIPALITY_ELECTION": "Candidate's Father/Husband's (in case of married women) Name",
+    "UNION_PARISHAD_ELECTION": "Candidate's Father/Husband's (in case of married women) Name"
+  },
+  "CANDIDATES_MOTHER_NAME": "Candidate's Mother's Name",
+  "CANDIDATE_ADDRESS": "Candidate's Address",
+  "CONSTITUENCY_NAME_AND_NUMBER": "In the case of female members, the name of the Union or Municipal member or councillor from whose wards they are elected and the numbers of the respective wards",
+  "PRESENT_ADDRESS": "Present Address",
+  "PERMANENT_ADDRESS": "Permanent Address"
+}

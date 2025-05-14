@@ -1,0 +1,99 @@
+{
+  "AFFIDAVIT": "হলফনামা",
+  "UNCOUNTABLE_PROPERTY": "অস্থাবর সম্পদ",
+  "COUNTABLE_PROPERTY": "স্থাবর সম্পদ",
+  "RESPONSIBILITY": "দায়",
+  "CANDIDATE_AFFIDAVIT": "প্রার্থীর হলফনামা",
+  "SAVE_NEXT": "সংরক্ষণ ও পরবর্তী",
+  "CANDIDATE_FILL_UP": "(প্রার্থী কর্তৃক পূরণীয়)",
+  "CANDIDATE_NAME": {
+    "NATIONAL_ELECTION": "প্রার্থীর নাম",
+    "CITY_CORPORATION_ELECTION": "প্রার্থীর নাম",
+    "UPAZILLA_ELECTION": "আমি",
+    "MUNICIPALITY_ELECTION": "প্রার্থীর নাম",
+    "UNION_PARISHAD_ELECTION": "প্রার্থীর নাম"
+  },
+  "CANDIDATE_NAME_SUBTITLE": {
+    "NATIONAL_ELECTION": "",
+    "CITY_CORPORATION_ELECTION": "",
+    "UPAZILLA_ELECTION": "(প্রার্থীর নাম)",
+    "MUNICIPALITY_ELECTION": "",
+    "UNION_PARISHAD_ELECTION":""
+  },
+  "FATHER_HUSBAND_NAME": "পিতা/স্বামীর নাম",
+  "MOTHER_NAME": "মাতার নাম",
+  "CANDIDATE_ADDRESS": "প্রার্থীর ঠিকানা",
+  "PRESENT_ADDRESS": "বর্তমান ঠিকানা ",
+  "PERMANENT_ADDRESS": "স্থায়ী ঠিকানা",
+  "DATE_OF_BIRTH": "জন্মতারিখ",
+  "VOTE_CONTENT": {
+    "NATIONAL_ELECTION": {
+      "MEMBER_OF_PARLIAMENT": "{{ELECTION_TYPE}} এর {{CONSTITUENCY}} এর {{CANDIDATE_TYPE}} পদে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,"
+    },
+    "CITY_CORPORATION_ELECTION": {
+      "MAYOR": "{{CONSTITUENCY}} এর {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "COUNSILOR": "{{MUNICIPALITY}} এর {{CONSTITUENCY}} এর সাধারণ ওয়ার্ডের কাউন্সিলর পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "WOMAN_COUNSILOR": "{{MUNICIPALITY}} এর {{CONSTITUENCY}} এর সংরক্ষিত ওয়ার্ডের কাউন্সিলর পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,"
+    },
+    "UPAZILLA_ELECTION": {
+      "CHAIRMAN": "{{CONSTITUENCY}} উপজেলা পরিষদের {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "VICE_CHAIRMAN": "{{CONSTITUENCY}} উপজেলা পরিষদের {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "WOMEN_VICE_CHAIRMAN": "{{CONSTITUENCY}} উপজেলা পরিষদের {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,"
+    },
+    "MUNICIPALITY_ELECTION": {
+      "MAYOR": "{{CONSTITUENCY}}র {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "COUNSILOR": "{{MUNICIPALITY}}র {{CONSTITUENCY}} এর সাধারণ ওয়ার্ডের কাউন্সিলর পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "WOMAN_COUNSILOR": "{{MUNICIPALITY}}র {{CONSTITUENCY}} এর সংরক্ষিত ওয়ার্ডের কাউন্সিলর পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,"
+    },
+    "UNION_PARISHAD_ELECTION": {
+      "CHAIRMAN": "{{CONSTITUENCY}} ইউনিয়ন পরিষদের {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "GENERAL_MEMBER": "{{CONSTITUENCY}} ইউনিয়ন পরিষদের {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,",
+      "RESERVED_MEMBER": "{{CONSTITUENCY}} ইউনিয়ন পরিষদের {{CANDIDATE_TYPE}} পদে নির্বাচনে প্রার্থীরূপে প্রতিদ্বন্দ্বিতা করিতে ইচ্ছুক। আমি এই মর্মে শপথপূর্বক ঘোষণা করিতেছি যে,"
+    }
+  },
+  "CANDIDATE_HIGHER_DEGREE": "১. আমার সর্বোচ্চ শিক্ষাগত যোগ্যতা",
+  "CANDIDATE_HIGHER_DEGREE_INFO": "এবং সর্বোচ্চ শিক্ষাগত যোগ্যতার সার্টিফিকেটের সত্যায়িত কপি এতদসগে সংযুক্ত করিলাম।",
+  "PASSES_CANDIDATE_NAME": "(উত্তীর্ণ পরীক্ষার নাম)",
+  "CURRENT_NO_CASE": "২. (ক) আমি বর্তমানে ফৌজদারি মামলায় অভিযুক্ত নহি",
+  "MARK_SIGN": "[প্রযোজ্য হলে টিক (✔) চিহ্ন দিন]",
+  "CLAIMED_PRESENT_CASE_DESCRIPTION": "২. (খ) আমি বর্তমানে ফৌজদারি মামলায় অভিযুক্ত এবং উহার বিস্তারিত বিবরণ",
+  "ID": "ক্রমিক নম্বর",
+  "ACCUSED_CASE": "যে আইন ও আইনের ধারায় মামলা দায়ের করা হইয়াছে",
+  "COURT_NAME": "যে আদালত মামলাটি আমলে নিয়াছে",
+  "CASE_NO": "মামলা নম্বর",
+  "CASE_STATUS": "মামলার বর্তমান অবস্থা",
+  "CASE_FILE": "ফাইল",
+  "PAST_NO_CASE": "৩. (ক) অতীতে আমার বিরুদ্ধে কোন ফৌজদারী মামলা দায়ের করা হয় নাই",
+  "CLAIMED_PAST_CASE_DESCRIPTION": "৩. (খ) আমি অতীতে ফৌজদারি মামলায় অভিযুক্ত এবং উহার বিস্তারিত বিবরণ",
+  "OCCUPATION": "৪. আমার পেশার বিবরণী",
+  "OCCUPATION_BUSINESS": "৪. আমার ব্যবসা/পেশার বিবরণী",
+  "BUSINESS": "ব্যবসা",
+  "DEPENDENTS_EARNING_SOURCE": "৫. আমার এবং আমার উপর নির্ভরশীলদের আয়ের উৎস/ উৎসসমূহঃ",
+  "INCOME_SOURCE_DETAILS": "আয়ের উৎসের বিবরণ",
+  "YEARLY_INCOME": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "এই খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "CITY_CORPORATION_ELECTION": "এই খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "UPAZILLA_ELECTION": "উক্ত খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "MUNICIPALITY_ELECTION": "এই খাত হইতে প্রার্থীর বাৎসরিক আয়",
+    "UNION_PARISHAD_ELECTION": "উক্ত খাত হইতে প্রার্থীর বাৎসরিক আয়"
+  },
+  "DEPENDENT_EARNING": "প্রার্থীর উপর নির্ভরশীলদের আয়",
+  "AGRICULTURE": "কৃষিখাত",
+  "HOUSE_OTHERS": "বাড়ি/এপার্টমেন্ট/দোকান বা অন্যান্য ভাড়া",
+  "SONCHOYPOTRO_BANK": "শেয়ার, সঞ্চয়পত্র/ব্যাংক আমানত",
+  "OCCUPATION_TEACHER": "পেশা (শিক্ষকতা, চিকিৎসা, আইন, পরামর্শক ইত্যাদি)",
+  "JOB": "চাকুরী",
+  "OTHERS": "অন্যান্য (সুনির্দিষ্টভাবে উল্লেখ করিয়া)",
+  "PLACEHOLDER": "Enter",
+  "CONFIRMATION_DELETE_BUTTON_TEXT": "বাতিল করুন ",
+  "CONFIRMATION_BUTTON_TEXT": "ঠিক আছে",
+  "EDIT_MODAL_TITLE": "ফৌজদারি মামলায় অভিযুক্ত এবং উহার বিস্তারিত",
+  "DELETE_MODAL_TITLE": "আপনি কি নিশ্চিত? আপনি মুছে দিতে চান?",
+  "ADD_ANOTHER": "যোগ করুন",
+  "PAST_CASE_ERROR": "অতীতে ফৌজদারী মামলা আবশ্যক",
+  "PRESENT_CASE_ERROR": "বর্তমানে ফৌজদারি মামলা আবশ্যক",
+  "MODAL_CONFIRMATION_BUTTON_TEXT": "নিশ্চিত করুন",
+  "GO_BACK": "ফিরে যান",
+  "OR":"অথবা"
+}

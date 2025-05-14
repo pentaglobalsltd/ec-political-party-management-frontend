@@ -1,0 +1,4 @@
+{
+  "ELECTION_TYPE": "Election type is required",
+  "CANDIDATE_TYPE": "Candidate type is required"
+}

@@ -1,0 +1,33 @@
+{
+  "BREADCRUMB": {
+    "SELECTION": "Selection"
+  },
+
+  "SECTION_HEADER": "Selection",
+
+  "TABLE_COLUMN": {
+    "SERIAL": "Serial",
+    "CANDIDATE_NAME": "Candidate Name",
+    "POSITION_NAME": "Position Name",
+    "SEAT": "Seat",
+    "IS_AGE_CORRECT": "Is Age Correct?",
+
+    "IS_CANDIDATE_NID_CORRECT": "Is Candidate's Voter Number Correct?",
+    "CANDIDATE_NID": "Candidate's Voter Number",
+
+    "IS_PROPOSER_NID_CORRECT": "Is Proposer's Voter Number Correct?",
+    "PROPOSER_NID": "Proposer's Voter Number",
+
+    "IS_SUPPORTER_NID_CORRECT": "Is Supporter's Voter Number Correct?",
+    "SUPPORTER_NID": "Supporter's Voter Number",
+
+    "INFO": "Information",
+    "REASON_FOR_ACCEPTANCE_OR_CANCELLATION": "Reason for Acceptance/Cancellation",
+    "ATTACHMENT": "Attachment",
+    "FILE": "File",
+    "ACTION": "Action"
+  },
+
+  "TABLE_ROW_TYPE_SELECT": "Select",
+  "TABLE_ROW_TYPE_TEXTAREA": "Write"
+}

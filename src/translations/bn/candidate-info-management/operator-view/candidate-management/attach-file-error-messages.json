@@ -1,0 +1,9 @@
+{
+  "CANDIDATE_IMAGE": "ছবি আবশ্যক",
+
+  "IMAGE_TYPE": "ছবির ধরণ হতে হবে JPG/JPEG।",
+  "IMAGE_HEIGHT_WIDTH": "ছবির সাইজ 300*300 pixels (width*height) অথবা এর নিচে হতে হবে।",
+  "MAX_FILE_SIZE": "ফাইল সাইজ {{MAX_SIZE}} মেগাবাইটের কম হতে হবে।",
+
+  "FILE_TYPE": "ফাইল ফরম্যাট PDF হতে হবে"
+}

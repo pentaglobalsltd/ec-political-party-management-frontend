@@ -1,0 +1,142 @@
+{
+  "FORM_SUBTITLE": "(Declaration by the nominated candidate)",
+  "CANDIDATE_NAME": {
+    "NATIONAL_ELECTION": "Candidate's Name",
+    "UPAZILLA_ELECTION": "I",
+    "CITY_CORPORATION_ELECTION": "Candidate's Name",
+    "MUNICIPALITY_ELECTION": "Candidate's Name"
+  },
+  "NID_NO": "National ID Card (NID) Number",
+  "FATHER_OR_HUSBAND_NAME": "Father/ Husband's Name",
+  "MOTHER_NAME": "Mother's Name",
+  "CANDIDATE_ADDRESS": "Candidate's Address",
+  "CANDIDATE_VOTER_NUMBER": "Candidate's Voter Number",
+  "SERIAL_NUMBER": "Serial Number",
+  "SERIAL_NUMBER_SUBTITLE": "(Serial number in the voter list)",
+  "DIVISION_NAME": "Division Name",
+  "DIVISION_NAME_SUBTITLE": "(Name of the relevant division in which the candidate is listed in the voter list)",
+  "DISTRICT_NAME": "District Name",
+  "DISTRICT_NAME_SUBTITLE": "(Name of the relevant district in which the candidate is listed in the voter list)",
+  "UPAZILA": "Upazila/Thana",
+  "UPAZILA_SUBTITLE": "(Name of the relevant upazila/thana in which the candidate is listed in the voter list)",
+  "CITY_CORPORATION": "City Corporation/Municipality/Cantonment Board/Union Name",
+  "CITY_CORPORATION_SUBTITLE": "(Name of the relevant city corporation/municipality/cantonment board/union in which the candidate is listed in the voter list)",
+  "UNION_WARD": "Union/Ward",
+  "UNION_WARD_SUBTITLE": "(Name of the relevant union/ward in which the candidate is listed in the voter list)",
+  "CONSTITUENCY_AREA": "Voter Area",
+  "CONSTITUENCY_AREA_SUBTITLE": "(Name of the constituency area of the candidate)",
+  "CANDIDATE_TYPE": {
+    "UPAZILLA_ELECTION": {
+      "CHAIRMAN": "Chairman",
+      "VICE_CHAIRMAN": "Vice Chairman",
+      "WOMEN_VICE_CHAIRMAN": "Woman Vice Chairman"
+    },
+    "CITY_CORPORATION_ELECTION": {
+      "MAYOR": "Mayor",
+      "COUNSILOR": "General Councilor",
+      "WOMAN_COUNSILOR": "Reserved Seat Councilor"
+    },
+    "MUNICIPALITY_ELECTION": {
+      "MAYOR": "Mayor",
+      "COUNSILOR": "General Councilor",
+      "WOMAN_COUNSILOR": "Reserved Seat Councilor"
+    }
+  },
+  "ANNOUNCEMENT": "Declaration",
+  "ANNOUNCEMENT_FIRST_PART": {
+    "NATIONAL_ELECTION": "<d>(1) I hereby declare that-</d><d>(a) I have consented to the above nomination and am eligible to be elected as a member of the parliament under Article 66(1) of the Constitution of the People's Republic of Bangladesh.</d><d>(b) I am not disqualified for being elected or to remain as a member under Article 66(2) of the Constitution of the People's Republic of Bangladesh and the Representation of the People Order, 1972.</d><d>(c) I have not submitted nomination papers for more than three electoral areas.</d><d>(2) I have attached an affidavit with the nomination paper.</d><d>(3) I have attached details of income and expenditure in Form-20 along with the nomination.</d>",
+    "UPAZILLA_ELECTION": "(1) I hereby declare that I have consented to the above nomination and am eligible to be elected as {{CANDIDATE_TYPE}} under section 8(1) of the Local Government (Upazila Parishad) Act, 1998 and am not disqualified for being elected or holding office as {{CANDIDATE_TYPE}} under section 8(2) of the Local Government (Upazila Parishad) Act, 1998 and have not submitted nomination papers for election to more than one position. (2) I have attached an oath in the prescribed form with the nomination paper. (3) I have attached a statement of probable sources of income and probable expenditure for conducting my election expenses.",
+    "CITY_CORPORATION_ELECTION": "<d>(1) I hereby declare that-</d><d>(a) I have consented to the above nomination and am eligible to be elected as {{CANDIDATE_TYPE}} under Section 9(1) of the Local Government (City Corporation) Act, 2009.</d><d>(b) I am not disqualified to be elected or to remain as {{CANDIDATE_TYPE}} under Section 9(1) of the Local Government (City Corporation) Act, 2009.</d><d>(c) I have not submitted nomination papers for more than one position in the election.</d><d>(2) I have attached an affidavit with the nomination paper.</d><d>(3) I have attached details of my election expenditure in Form-20A along with Form-20.</d>",
+    "MUNICIPALITY_ELECTION": "<d>(1) I hereby declare that-</d><d>(a) I have consented to the above nomination and am eligible to be elected as {{CANDIDATE_TYPE}} under Section 9(1) of the Local Government (City Corporation) Act, 2009.</d><d>(b) I am not disqualified to be elected or to remain as {{CANDIDATE_TYPE}} under Section 9(1) of the Local Government (City Corporation) Act, 2009.</d><d>(c) I have not submitted nomination papers for more than one position in the election.</d><d>(2) I have attached an affidavit with the nomination paper.</d><d>(3) I have attached details of my election expenditure in Form-20A along with Form-20.</d>"
+  },
+  "BANK_ACCOUNT_NO": {
+    "NATIONAL_ELECTION": "(4) Bank Account Number for election expenses",
+    "UPAZILLA_ELECTION": "(7) Bank Account Number for election expenses",
+    "CITY_CORPORATION_ELECTION": {
+      "MAYOR": "(7) My new Bank Account Number for mayoral election expenses",
+      "COUNSILOR": "(6) My new Bank Account Number for councilor election expenses",
+      "WOMAN_COUNSILOR": "(6) My new Bank Account Number for reserved seat councilor election expenses"
+    },
+    "MUNICIPALITY_ELECTION": {
+      "MAYOR": "(7) My new Bank Account Number for mayoral election expenses",
+      "COUNSILOR": "(6) My new Bank Account Number for councilor election expenses",
+      "WOMAN_COUNSILOR": "(6) My new Bank Account Number for reserved seat councilor election expenses"
+    }
+  },
+  "BANK_NAME": {
+    "NATIONAL_ELECTION": "Name of the Bank",
+    "UPAZILLA_ELECTION": "Name of the Bank",
+    "CITY_CORPORATION_ELECTION": "Name of the Bank",
+    "MUNICIPALITY_ELECTION": "Name of the Bank"
+  },
+  "BRANCH_NAME": {
+    "NATIONAL_ELECTION": "Branch Name",
+    "UPAZILLA_ELECTION": "Branch Name",
+    "CITY_CORPORATION_ELECTION": "Branch Name",
+    "MUNICIPALITY_ELECTION": "Branch Name"
+  },
+  "TIN_NO": {
+    "NATIONAL_ELECTION": "I am a taxpayer, and my TIN Number is",
+    "UPAZILLA_ELECTION": "(4) My 12-digit TIN Number",
+    "CITY_CORPORATION_ELECTION": "(4) My 12-digit TIN Number",
+    "MUNICIPALITY_ELECTION": "(4) My 12-digit TIN Number"
+  },
+  "TIN": "TIN Number",
+  "ANNOUNCEMENT_SECOND_PART": {
+    "NATIONAL_ELECTION": "<d>(b) I have attached Form-21 with details of my assets and liabilities, and the latest copy of the income tax return with details of my assets, and since I am a taxpayer, I have also attached a copy of the proof of tax payment.</d><d>Attached a copy of the latest income tax return with details of my assets, and since I am a taxpayer, I have also attached a copy of the proof of tax payment.</d>",
+    "UPAZILLA_ELECTION": "",
+    "CITY_CORPORATION_ELECTION": "And attached a copy of the receipt of my latest income tax return with details of my assets.",
+    "MUNICIPALITY_ELECTION": "And attached a copy of the receipt of my latest income tax return with details of my assets."
+  },
+  "ME": {
+    "NATIONAL_ELECTION": "I",
+    "UPAZILLA_ELECTION": "(5) (a) I,",
+    "CITY_CORPORATION_ELECTION": "(5) (a) I,",
+    "MUNICIPALITY_ELECTION": "(5) (a) I,"
+  },
+  "POLITICAL_GROUP_CHECKBOX": {
+    "undefined": "",
+    "NATIONAL_ELECTION": "I am an independent candidate",
+    "CITY_CORPORATION_ELECTION": "(খ) I am an independent candidate",
+    "UPAZILLA_ELECTION": "(খ) I am an independent candidate",
+    "MUNICIPALITY_ELECTION": "(খ) I am an independent candidate"
+  },
+  "POLITICAL_GROUP": "Political Party",
+  "POLITICAL_GROUP_SYMBOL": "Political Party Symbol",
+  "POLITICAL_GROUP_SYMBOL_PREVIEW": "Political Party Symbol Name",
+  "PREFERRED_SYMBOL": {
+    "CITY_CORPORATION_ELECTION": {
+      "MAYOR": "(খ) Name of my preferred symbol (in the case of an independent candidate)",
+      "COUNSILOR": "(৫) Name of my preferred symbol",
+      "WOMAN_COUNSILOR": "(৫) Name of my preferred symbol"
+    },
+    "UPAZILLA_ELECTION": "খ) Your preferred symbol's name (in the case of an independent candidate)",
+    "MUNICIPALITY_ELECTION": {
+      "MAYOR": "(খ) Name of my preferred symbol (in the case of an independent candidate)",
+      "COUNSILOR": "(৫) Name of my preferred symbol",
+      "WOMAN_COUNSILOR": "(৫) Name of my preferred symbol"
+    }
+  },
+  "PREFERRED_SYMBOL_PREVIEW": "Name of the preferred symbol (in the case of an independent candidate)",
+  "ANNOUNCEMENT_THIRD_PART": {
+    "NATIONAL_ELECTION": "<d>Candidate for this. I have joined the political party with my endorsement.</d><d> Or,</d><d>(খ) I, an independent candidate, have attached evidence according to Article 12(3a) of the Representation of the People Order, 1972.</d>(৭) I have attached the bank draft/pay order/treasury challan receipt as security according to section 4(2) of the law.",
+    "UPAZILLA_ELECTION": "<d>Candidate for this. I have joined the political party with his endorsement.</d><d> Or,</d><d>(খ) I am an independent candidate. I have attached the list of voters with signatures in his favor.</d>",
+    "CITY_CORPORATION_ELECTION": "<d>Candidate for this. I have joined the political party with his endorsement.</d><d> Or,</d><d>(খ) I am an independent candidate. I have attached the list of voters with signatures in his favor.</d>",
+    "MUNICIPALITY_ELECTION": "<d>Candidate for this. I have joined the political party with his endorsement.</d><d> Or,</d><d>(খ) I am an independent candidate. I have attached the list of voters with signatures in his favor.</d>"
+  },
+  "ANNOUNCEMENT_FORTH_PART": {
+    "NATIONAL_ELECTION": "",
+    "UPAZILLA_ELECTION": "(৮) I have attached the treasury challan/details bank pay order/bank draft of the deposited money according to Section 16(1).",
+    "CITY_CORPORATION_ELECTION": {
+      "MAYOR": "(৮) I have attached the treasury challan/details bank pay order/bank receipt of the deposited money according to Section 13(1).",
+      "COUNSILOR": "(৭) I have attached the bank receipt/pay order/treasury challan of the deposited money according to Section 13(1).",
+      "WOMAN_COUNSILOR": "(৭) I have attached the bank receipt/pay order/treasury challan of the deposited money according to Section 13(1)."
+    },
+    "MUNICIPALITY_ELECTION": {
+      "MAYOR": "(৮) I have attached the treasury challan/details bank pay order/bank receipt of the deposited money according to Section 13(1).",
+      "COUNSILOR": "(৭) I have attached the bank receipt/pay order/treasury challan of the deposited money according to Section 13(1).",
+      "WOMAN_COUNSILOR": "(৭) I have attached the bank receipt/pay order/treasury challan of the deposited money according to Section 13(1)."
+    }
+  },
+  "BANK_ACCOUNT": "Bank Account Number"
+}

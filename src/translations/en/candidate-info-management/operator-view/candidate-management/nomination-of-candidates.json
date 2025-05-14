@@ -1,0 +1,17 @@
+{
+  "NOMINATION_OF_CANDIDATES": "Nomination of Candidates",
+  "ADD_NOMINATION_OF_CANDIDATES": "Add New",
+  "COMPLETE": "Complete",
+  "ADD_NEW": "Add New",
+  "CANDIDATE_NAME": "Candidate Name",
+  "NID": "National ID (NID)",
+  "POST_NAME": "Post Name",
+  "DISTRICT": "District",
+  "ELECTION_SEAT": "Election Seat",
+  "PROCESS": "Process",
+  "INCOMPLETE": "Incomplete",
+  "NOMINATION_CANCELLATION": "Nomination Cancellation",
+  "NOMINATION_CANCELLATION_CONFIRM_MSG": "Please confirm if you want to cancel the nomination",
+  "BACK": "Back",
+  "CONFIRM": "Confirm"
+}

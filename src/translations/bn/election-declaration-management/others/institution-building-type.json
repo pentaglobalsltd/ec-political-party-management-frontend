@@ -1,0 +1,15 @@
+{
+  "INSTITUTION_BUILDING_TYPE": "প্রতিষ্ঠানের ধরন",
+  "ADD_NEW": "নতুন সংযোজন",
+  "ID": "আইডি",
+  "INSTITUTION_BUILDING_TYPE_BANGLA": "প্রতিষ্ঠানের ধরন (বাংলা)",
+  "INSTITUTION_BUILDING_TYPE_ENGLISH": "প্রতিষ্ঠানের ধরন (English)",
+  "BUILDING_ID": "ভবনের আইডি",
+  "BUILDING_CATEGORY": "প্রতিষ্ঠানের ধরন",
+  "CHANGE": "পরিবর্তন করুন",
+  "BACK": "ফিরে যান",
+  "FILED": "দাখিল করুন",
+  "RESET": "রিসেট",
+  "BANGLA": "বাংলা",
+  "ENGLISH": "English"
+}

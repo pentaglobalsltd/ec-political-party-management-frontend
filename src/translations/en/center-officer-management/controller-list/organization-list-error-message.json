@@ -1,0 +1,11 @@
+{
+  "UNION_OR_WARD": "Union Or Ward is Required",
+  "ORGANIZATION_TYPE": "Agency Type is Required",
+  "ORGANIZATION_NAME_BN": "Agency Address(Bangla)  is Required",
+  "ORGANIZATION_NAME_EN": "Agency Name(English)  is Required",
+  "ORGANIZATION_ADDRESS_BN": "Agency Address(Bangla)  is Required",
+  "ORGANIZATION_ADDRESS_EN": "Agency Address(English) is Required",
+  "ORGANIZATION_EMAIL": "Agency email is Required",
+  "CONTACT_NO": "Contact No is required",
+  "CONDITION": "Status is Required"
+}

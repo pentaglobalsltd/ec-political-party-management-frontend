@@ -1,0 +1,16 @@
+{
+  "SYMBOL_ALLOCATION": "প্রতীক বরাদ্দ",
+
+  "SERIAL": "ক্রমিক",
+  "CANDIDATE_NAME": "প্রার্থীর নাম",
+  "NID": "জাতীয় পরিচয় পত্র (NID) নম্বর",
+  "SEAT_NAME": "পদের নাম",
+  "CONSTITUENCY_SEAT": "নির্বাচনী আসন",
+  "POLITICAL_PARTY": "রাজনৈতিক দল",
+  "PREFERRED_SYMBOL": "পছন্দকৃত প্রতীক",
+  "ALLOCATED_SYMBOL": "বরাদ্দকৃত প্রতীক",
+  "SYMBOL": "প্রতীক",
+  "CANDIDATE_NAME_IN_ALPHABETICAL_ORDER": "প্রার্থীর নামের ক্রমানুসারে (ইংরেজিতে 1,2,... সিরিয়াল দিয়ে বরাদ্দ বাটনে ক্লিক করুন)",
+  "ALLOCATION": "বরাদ্দ",
+  "WITHDRAW": "প্রত্যাহার"
+}

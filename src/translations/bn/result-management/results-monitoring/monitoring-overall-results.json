@@ -1,0 +1,19 @@
+{
+    "MONITORING_OVERALL_RESULTS": "সার্বিক ফলাফল পর্যবেক্ষণ",
+    "ELECTION_NAME": "নির্বাচনের নাম",
+    "DISTRICT": "জেলা",
+    "SEAT": "আসন",
+    "TOTAL_VOTE_CENTER": "মোট ভোট কেন্দ্র",
+    "REJECTED_CENTER_NUMBER": "বাতিল কেন্দ্রের সংখ্যা",
+    "PRESIDING_OFFICER": "প্রিজাইডিং কর্মকর্তা/অপারেটর কর্তৃক কেন্দ্রের ফলাফল প্রবেশ করানো কেন্দ্রের সংখ্যা",
+    "PARLIAMENT_MEMBER": "সংসদ সদস্য :",
+    "ASSISTANT_RECRUTING_OFFICER": "সহকারী রিটার্নিং অফিসার",
+    "ACCEPTED_RESULTS": "ফলাফল গ্রহণ করেছে",
+    "APPROVED_RESULTS": "ফলাফল অনুমোদন করেছে",
+    "PREPARED_MESSAGE_SHEET": "বার্তা শীট প্রস্তুত করেছে",
+    "RETURNING_OFFICER": "রিটার্নিং অফিসার",
+    "RECEIVED_MESSAGE_SHEET": "বার্তা শীট গ্রহণ করেছে",
+    "RECEIVED_MESSAGE_SHEET_UNION_ELECTION": "বার্তা শীট প্রস্তুত করেছে",
+    "PUBLISHED_MESSAGE_SHEET": "বার্তা শীট প্রকাশ করেছে",
+    "FINALIZED_MESSAGE_SHEET": "বার্তা শীট ফাইনাল করেছে"
+}

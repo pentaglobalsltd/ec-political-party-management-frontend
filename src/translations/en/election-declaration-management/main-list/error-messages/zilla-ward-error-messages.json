@@ -1,0 +1,6 @@
+{
+  "DISTRICT": "District is required",
+  "WARD_BN": "Ward name in Bengali is required",
+  "WARD_EN": "Ward name in English is required",
+  "GO_CODE": "Geo code is required"
+}

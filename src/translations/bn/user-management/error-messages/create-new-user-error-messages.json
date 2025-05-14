@@ -1,0 +1,57 @@
+{
+  "USER_ROLE": "ইউজার রোল আবশ্যক",
+  "NAME": "নাম আবশ্যক",
+  "EMAIL": "ই-মেইল আবশ্যক",
+  "LOGIN_ID": "লগইন আইডি আবশ্যক",
+
+  "AGENCY_ADMIN_DEPARTMENT": "বিভাগ আবশ্যক",
+  "AGENCY_ADMIN_DISTRICT": "জেলা আবশ্যক",
+  "AGENCY_ADMIN_UPAZILA": "উপজেলা আবশ্যক",
+  "AGENCY_ADMIN_RMO": "আর এম ও আবশ্যক",
+  "AGENCY_ADMIN_MUNICIPALITY": "পৌরসভা/সিটি কর্পোরেশন আবশ্যক",
+  "AGENCY_ADMIN_UNION": "ইউনিয়ন/ওয়ার্ড আবশ্যক",
+  "AGENCY_ADMIN_AGENCY": "এজেন্সি আবশ্যক",
+
+  "ARO_TYPE_OF_ELECTION": "নির্বাচনের ধরন আবশ্যক",
+  "ARO_ELECTION_NAME": "নির্বাচনের নাম আবশ্যক",
+  "ARO_DISTRICT": "জেলা আবশ্যক",
+  "ARO_CONSTITUENCY": "নির্বাচনী আসন আবশ্যক",
+  "ARO_MUNICIPALITY": "পৌরসভা/সিটি কর্পোরেশন আবশ্যক",
+  "ARO_UPAZILA": "উপজেলা আবশ্যক",
+  "ARO_UNION": "ইউনিয়ন/ওয়ার্ড আবশ্যক",
+  "ARO_CENTER": "কেন্দ্র আবশ্যক",
+
+  "DATA_ENTRY_OP_TYPE_OF_ELECTION": "নির্বাচনের ধরন আবশ্যক",
+  "DATA_ENTRY_OP_ELECTION_NAME": "নির্বাচনের নাম আবশ্যক",
+  "DATA_ENTRY_OP_DISTRICT": "জেলা আবশ্যক",
+  "DATA_ENTRY_OP_UPAZILA": "উপজেলা আবশ্যক",
+  "DATA_ENTRY_OP_MUNICIPALITY": "পৌরসভা/সিটি কর্পোরেশন আবশ্যক",
+  "DATA_ENTRY_OP_MUNICIPALITY_ONLY": "পৌরসভা আবশ্যক",
+  "DATA_ENTRY_OP_UNION": "সংরক্ষিত ইউনিয়ন/ওয়ার্ড আবশ্যক",
+  "DATA_ENTRY_OP_SETTINGS": "নির্বাচনী সেটিংস আবশ্যক",
+
+  "DISTRICT_ELECTION_OFFICER_DEPARTMENT": "বিভাগ আবশ্যক",
+  "DISTRICT_ELECTION_OFFICER_DISTRICT": "জেলা আবশ্যক",
+
+  "PRESIDING_OFFICER_TYPE_OF_ELECTION": "নির্বাচনের ধরন আবশ্যক",
+  "PRESIDING_OFFICER_ELECTION_NAME": "নির্বাচনের নাম আবশ্যক",
+  "PRESIDING_OFFICER_DISTRICT": "জেলা আবশ্যক",
+  "PRESIDING_CONSTITUENCY": "নির্বাচনী আসন আবশ্যক",
+  "PRESIDING_UPAZILA": "উপজেলা আবশ্যক",
+  "PRESIDING_UNION": "ইউনিয়ন/ওয়ার্ড আবশ্যক",
+  "PRESIDING_CENTER": "কেন্দ্র আবশ্যক",
+
+  "REGIONAL_ELECTION_OFFICER_DEPARTMENT": "বিভাগ আবশ্যক",
+
+  "RETURNING_OFFICER_TYPE_OF_ELECTION": "নির্বাচনের ধরন আবশ্যক",
+  "RETURNING_OFFICER_ELECTION_NAME": "নির্বাচনের নাম আবশ্যক",
+  "RETURNING_OFFICER_DISTRICT": "জেলা আবশ্যক",
+  "RETURNING_OFFICER_UPAZILA": "উপজেলা আবশ্যক",
+  "RETURNING_OFFICER_CONSTITUENCY": "নির্বাচনী আসন আবশ্যক",
+  "RETURNING_OFFICER_MUNICIPALITY": "পৌরসভা/সিটি কর্পোরেশন আবশ্যক",
+  "RETURNING_OFFICER_MUNICIPALITY_ONLY": "পৌরসভা আবশ্যক",
+
+  "UPAZILLA_THANA_EO_DEPARTMENT": "বিভাগ আবশ্যক",
+  "UPAZILLA_THANA_EO_DISTRICT": "জেলা আবশ্যক",
+  "UPAZILLA_THANA_EO_UPAZILA": "উপজেলা আবশ্যক"
+}

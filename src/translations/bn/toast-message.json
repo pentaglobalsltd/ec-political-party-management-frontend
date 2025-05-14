@@ -1,0 +1,15 @@
+{
+  "GET_ERROR_MESSAGE": "দুঃখিত, কিছুক্ষণ পরে আবার চেষ্টা করুন।",
+  "CREATE_SUCCESS_MESSAGE": "জমা দেয়া সফলভাবে সম্পন্ন হয়েছে।",
+  "SEND_SMS_SUCCESS_MESSAGE": "বার্তা পাঠানো সফলভাবে সম্পন্ন হয়েছে।",
+  "SEND_SMS_ERROR_MESSAGE": "বার্তা পাঠানো ব্যর্থ হয়েছে।",
+  "CREATE_ERROR_MESSAGE": "দু:খিত! জমা দেয়া ব্যর্থ হয়েছে।",
+  "UPDATE_SUCCESS_MESSAGE": "সম্পাদন সফলভাবে সম্পন্ন হয়েছে।",
+  "UPDATE_ERROR_MESSAGE": "দু:খিত! সম্পাদন ব্যর্থ হয়েছে।",
+  "DELETE_SUCCESS_MESSAGE": "মুছে ফেলা সফলভাবে সম্পন্ন হয়েছে।",
+  "DELETE_ERROR_MESSAGE": "দু:খিত! মুছে ফেলা ব্যর্থ হয়েছে।",
+  "VOTER_AREA_CODE_EXISTS": "ভোটার এলাকা কোড ইতোমধ্যেই এই জেলায় বিদ্যমান",
+  "DATA_PUBLISHED_SUCCESS": "অ্যাপে তথ্য প্রকাশ প্রক্রিয়াধীন, কিছু সময় পর এডমিন ড্যাশবোর্ড এ দেখুন",
+  "DATA_PUBLISHED_ERROR": "তথ্য প্রেরণ করা হয়নি",
+  "DATA_PROVIDER_ERROR": "পুনরায় চেষ্টা করুন"
+}

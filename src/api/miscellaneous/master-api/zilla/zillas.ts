@@ -1,0 +1,35 @@
+import axios from 'axios';
+import { encodeQuery } from '@pentabd/ui';
+import { URLS } from '@constants/urls';
+import { noAuthMasterApi } from '@helpers/interceptors/master-data-no-auth';
+import { ZillasTypeRes } from '@type/candidate-info-management/operator-view/zillas';
+
+export const getZillas = (() => {
+  const cancelToken = axios.CancelToken;
+  let source = cancelToken.source();
+  let isRequestInProcess = false;
+
+  return async (
+    regionId?: string | number,
+  ): Promise<{ data: ZillasTypeRes }> => {
+    if (isRequestInProcess) {
+      source.cancel();
+      source = cancelToken.source();
+    }
+
+    const url = encodeQuery(URLS.GET_ZILLAS, {
+      regionId: regionId as number,
+    });
+
+    isRequestInProcess = true;
+
+    try {
+      const response = await noAuthMasterApi.get(url);
+      return { data: response };
+    } catch (error) {
+      return Promise.reject(error);
+    } finally {
+      isRequestInProcess = false;
+    }
+  };
+})();

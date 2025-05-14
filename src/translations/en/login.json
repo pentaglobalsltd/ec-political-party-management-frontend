@@ -1,0 +1,21 @@
+{
+  "COMPANY_NAME": "Bangladesh Election Commission",
+  "LOGIN_TITLE": "Log in to Submit Approval Online",
+  "USER_ID": "User ID:",
+  "PASSWORD": "Password:",
+  "CONFIRM_PASSWORD": "Confirm Password",
+  "RESET_PASSWORD_BUTTON": "Reset Password",
+  "ACTIVATE_ACCOUNT_TEXT": "You need to change your password to activate your account.",
+
+  "LOGIN_BUTTON": "Log In",
+  "GUIDELINES": "Guidelines",
+  "REGISTRATION": "Registration",
+  "LOGIN": "Log In",
+  "REGISTRATION_LINK": "Click here if you have not registered",
+  "GUIDELINES_TITLE": "Guidelines for Online Submission of Approval Letter:",
+  "GUIDELINES_DESCRIPTION": "<li>Click on the registration link to complete the registration process for submitting the online approval letter.</li><li>Upon successful registration, the user ID and temporary password will be sent to the mobile number used for registration. Please keep the user ID and password securely.</li><li>Use the provided user ID and password on the login page to log in and reset the password if necessary. Remember to save the new password.</li><li>In the candidate's dashboard menu on the left side, sequentially complete the steps for candidate approval, personal information, candidate affidavit, election expenses, assets and liabilities, attachment of candidate files, undertaking, and final submission.</li><li>Ensure confirmation via SMS on the mobile after successfully submitting the approval letter.</li>",
+  "DOCUMENTS_TITLE": "The following scanned copies of documents are required for online submission of the approval letter:",
+  "DOCUMENTS_DESCRIPTION": "<li>Recent color passport-sized photo of the candidate (in jpeg/jpg format)</li><li>Duly signed affidavit on stamped paper (to be downloaded from the home page after the completion of candidate approval, in pdf format)</li><li>Verified approval letter (to be downloaded from the home page after the completion of candidate approval, in pdf format</li><li>Certificate from the political party (if applicable, in pdf format)</li><li>Copy of the income tax return, property details, and proof of the latest income tax payment (in pdf format)</li><li>Signed list of voters supporting the candidate (applicable only for independent candidates, only the scanned copy of the first and last pages, in pdf format)</li><li>Verified certificate of the highest educational qualification (in pdf format)</li><li>Utility bill (in pdf format)</li><li>Receipt for purchasing the voter list CD (in pdf format)</li><li>Other documents (in pdf format)</li>",
+  "GUIDELINES_DOWNLOAD": "Click here to download the guidelines",
+  "PASSWORD_FORGOT": "Forgot Password?"
+}
