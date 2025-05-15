@@ -1,6 +1,4 @@
-import { NavigateOptions, To } from 'react-router-dom';
-import { ROUTES } from '@constants/routes';
-import { IconHomeLine, IconPencil02 } from '@pentabd/icons';
+import { IconHomeLine } from '@pentabd/icons';
 import { Badge } from '@pentabd/ui';
 import { TFunction } from 'i18next';
 import { getDigitBanglaFromEnglish } from '@utils';
@@ -46,12 +44,8 @@ export const editPoliticalPartyBreadcrumbs = (
 
 export const politicalPartyTableColumns = ({
   t,
-  isDownload = false,
-  navigate,
 }: {
   t: TFunction<'translation', undefined>;
-  isDownload?: boolean;
-  navigate: (to: To, options?: NavigateOptions) => void;
 }) => {
   return [
     {
@@ -77,16 +71,9 @@ export const politicalPartyTableColumns = ({
     },
 
     {
-      id: 5,
-      name: t('POLITICAL_PARTY.CONDITION'),
-      hide: !isDownload,
-      key: `status`,
-    },
-    {
       id: 6,
       name: t('POLITICAL_PARTY.CONDITION'),
       key: `isActive`,
-      hide: isDownload,
       render: (data: any) => (
         <div className="d-flex">
           <Badge
@@ -95,20 +82,6 @@ export const politicalPartyTableColumns = ({
             label={data === true ? 'সক্রিয়' : 'নিষ্ক্রিয়'}
             type={data === true ? 'success' : 'warning'}
           />
-        </div>
-      ),
-    },
-    {
-      id: 7,
-      name: '',
-      key: 'regNo',
-      hide: isDownload,
-      render: (data: any, row: any) => (
-        <div
-          className="pointer"
-          onClick={() => navigate(ROUTES.EDIT_POLITICAL_PARTY(row?.id))}
-        >
-          <IconPencil02 size="20" fill="primary" />
         </div>
       ),
     },

@@ -8,6 +8,7 @@ import { fetchPoliticalPartyList } from '@api/center-officer-management/controll
 interface Props {
   page?: number;
   size?: number;
+  nameBn?: string;
 }
 
 export const useGetPoliticalPartyList = () => {
@@ -16,11 +17,15 @@ export const useGetPoliticalPartyList = () => {
   const [loading, setLoading] = useState(false);
   const [activePage, setActivePage] = useState(1);
   const [totalPage, setTotalPage] = useState(0);
-  const getPoliticalPartyList = async ({ page = 0, size = 10 }: Props) => {
+  const getPoliticalPartyList = async ({
+    page = 0,
+    size = 10,
+    nameBn,
+  }: Props) => {
     setLoading(true);
-    let partyList = [] as any;
+    const partyList = [] as any;
     try {
-      const response = await fetchPoliticalPartyList({ page, size });
+      const response = await fetchPoliticalPartyList({ page, size, nameBn });
       if (response?.data?.status === 200) {
         const dataArray = response?.data?.data?.politicalParties || [];
         dataArray?.forEach((item: any) => {
@@ -52,7 +57,7 @@ export const useGetPoliticalPartyList = () => {
       } else {
         setLoading(false);
       }
-    } catch (error) {
+    } catch {
       setLoading(false);
     }
   };

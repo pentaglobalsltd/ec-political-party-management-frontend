@@ -3,10 +3,12 @@ import { encodeQuery } from '@pentabd/ui';
 
 import { URLS } from '@constants/urls';
 import { masterApi } from '@helpers/interceptors/master-data';
+import { politicalPartyService } from '@helpers/interceptors/political-party';
 
 interface PoliticalPartyProps {
   page?: number;
   size?: number;
+  nameBn?: string;
 }
 
 export const fetchPoliticalPartyList = (() => {
@@ -17,6 +19,7 @@ export const fetchPoliticalPartyList = (() => {
   return async ({
     page,
     size,
+    nameBn,
   }: PoliticalPartyProps): Promise<{ data: any }> => {
     if (isRequestInProcess) {
       source.cancel();
@@ -26,12 +29,13 @@ export const fetchPoliticalPartyList = (() => {
     const url = encodeQuery(URLS.GET_POLITICAL_PARTY_LIST, {
       page: page as number,
       size: size as number,
+      nameBn: nameBn as string,
     });
 
     isRequestInProcess = true;
 
     try {
-      const response = await masterApi.get(url);
+      const response = await politicalPartyService.get(url);
       return { data: response };
     } catch (error) {
       return Promise.reject(error);
