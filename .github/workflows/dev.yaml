@@ -1,15 +1,74 @@
-name: Ec Reusable Action
+name: EC Frontend CI/CD
+
 on:
   push:
     branches: [ dev ]
+
 jobs:
-  ec-reusable-action:
-    uses: pentaglobalsltd/actions/.github/workflows/ec_reusable_action_dev.yaml@master
-    secrets: inherit
-    with:
-      branch: "dev"                       # Pass the input branch
-      environment: "dev"                  # Pass the environment (e.g., dev, prod)
-      docker_image: "ec-political-party-frontend-dev"   # Docker image name
-      dockerfile: "Dockerfile.dev"        # Dockerfile to use
-#      product_name: "ec-configuration-service-dev"   # Product name for DefectDojo
-#      engagement_name: "ec-configuration-service-dev-trivy" # Engagement name for DefectDojo
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Extract imageAppVersion from values.yaml
+        id: get_version
+        run: |
+          IMAGE_VERSION=$(yq eval '.variables.imageAppVersion' ./deploy/dev/values.yaml)
+          echo "Image Version: $IMAGE_VERSION"
+          echo "IMAGE_VERSION=$IMAGE_VERSION" >> $GITHUB_ENV
+
+      - name: Cache Trivy DB
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/trivy
+          key: trivy-db-${{ runner.os }}-${{ env.IMAGE_VERSION }}
+          restore-keys: |
+            trivy-db-${{ runner.os }}-
+
+      - name: Build Docker Image
+        run: |
+          docker build -t ${{ secrets.DOCKER_USER }}/ec-political-party-frontend-dev:${{ env.IMAGE_VERSION }} \
+            --build-arg GITHUB_TOKEN=${{ secrets.MAVEN_REPO_TOKEN }} \
+            --build-arg ENC_PASSWORD=${{ secrets.ENC_PASSWORD }} \
+            --build-arg GITHUB_USER=${{ secrets.MAVEN_REPO_USER }} \
+            -f Dockerfile.dev .
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_TOKEN }}
+
+      - name: Push Docker Image
+        run: docker push ${{ secrets.DOCKER_USER }}/ec-political-party-frontend-dev:${{ env.IMAGE_VERSION }}
+
+      - name: Clear Cache
+        run: |
+          curl -X POST "https://api.pentabd.com/ec-cache-sync-service-dev/ec-cache-sync-service/api/v1/private/cache/clear"
+
+      # Optional: Enable Trivy Scan & DefectDojo upload
+      # - name: Run Trivy Scan
+      #   uses: aquasecurity/trivy-action@master
+      #   with:
+      #     image-ref: "${{ secrets.DOCKER_USER }}/ec-political-party-frontend-dev:${{ env.IMAGE_VERSION }}"
+      #     format: 'json'
+      #     output: './trivy-report.json'
+      #     github-pat: ${{ secrets.GITHUB_TOKEN }}
+
+      # - name: Upload Trivy Report
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: trivy-report
+      #     path: trivy-report.json
+
+      # - name: Import Trivy to DefectDojo
+      #   run: |
+      #     curl -X POST "http://122.152.48.180:8969/api/v2/import-scan/" \
+      #     -H "Authorization: Token YOUR_DEFECTDOJO_TOKEN" \
+      #     -F "scan_type=Trivy Scan" \
+      #     -F "minimum_severity=Low" \
+      #     -F "file=@trivy-report.json" \
+      #     -F "product_name=ec-political-party-frontend-dev" \
+      #     -F "engagement_name=ec-political-party-frontend-dev-trivy"
