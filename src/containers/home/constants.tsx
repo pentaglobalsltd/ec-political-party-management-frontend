@@ -19,11 +19,4 @@ export const getHomeCardArray = (
     routeName: ROUTES.POLITICAL_PARTY,
     icon: <CenterOfficerSvg />,
   },
-
-  // 4
-  {
-    text: t('CENTER_OFFICER_TOPBAR.SYMBOL'),
-    routeName: ROUTES.SYMBOL,
-    icon: <CandidateInfoSvg />,
-  },
 ];

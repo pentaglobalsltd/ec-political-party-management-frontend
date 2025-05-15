@@ -14,7 +14,7 @@ export const AppRouter = () => {
     return idx ? (
       <Route index key={id} element={element} />
     ) : (
-      <Route path={path} key={id}>
+      <Route path={path} key={id} element={element}>
         {children ? (
           children.length && children.map((child) => buildRoute(child))
         ) : (

@@ -1,19 +1,14 @@
-import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 
-import { IconPlus, IconSearch } from '@pentabd/icons';
-import { Button, Header, Table, InputText, DownloadButtons } from '@pentabd/ui';
+import { Header, Table, DownloadButtons } from '@pentabd/ui';
 
 import { useGetPoliticalPartyList } from '@hooks/center-officer-management/controller-list/political-party/useGetPoliticalPartyList';
 
-import { ROUTES } from '@constants/routes';
 import { MAX_ROW_SIZE } from '@constants/table-download-btns';
-import {
-  politicalPartyTableColumns,
-  politicalPartyTableBreadcrumbs,
-} from './constants';
+import { politicalPartyTableColumns } from './constants';
 import { getParams } from '@utils';
+import SearchInput from '@components/SearchInput';
 
 function PoliticalParty() {
   const { t } = useTranslation();
@@ -36,11 +31,14 @@ function PoliticalParty() {
     loading: downloadLoading,
   } = useGetPoliticalPartyList();
 
-  useEffect(() => {
-    getPoliticalPartyList({ page: 0 });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // useEffect(() => {
+  //   getPoliticalPartyList({ page: 0 });
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
+  const handleTableSearch = (searchItems: any) => {
+    console.log('searchItems:', searchItems);
+  };
   // download function
   const onClickDownload = () => {
     downloadGetPoliticalPartyList({
@@ -54,34 +52,11 @@ function PoliticalParty() {
       <Header
         className="mb-10 pt-10"
         headerText={{ header: t('POLITICAL_PARTY.POLITICAL_PARTY_LIST') }}
-        breadcrumbs={politicalPartyTableBreadcrumbs(t)}
-        actions={[
-          <Button
-            key={1}
-            type="primary"
-            htmlType="button"
-            size="sm"
-            onClick={() => navigate(ROUTES.CREATE_POLITICAL_PARTY)}
-          >
-            <IconPlus size="20" fill="light" /> {t('POLITICAL_PARTY.ADD_NEW')}
-          </Button>,
-        ]}
       />
 
       <Table
         headerExtension={{
-          leftComponents: [
-            <InputText
-              key={2}
-              name="pre-input"
-              outline
-              placeholder="Search"
-              prefix={<IconSearch size="20" />}
-              size="md"
-              type="text"
-              status="default"
-            />,
-          ],
+          leftComponents: [<SearchInput callback={handleTableSearch} />],
           rightComponents: [
             <DownloadButtons
               key={3}

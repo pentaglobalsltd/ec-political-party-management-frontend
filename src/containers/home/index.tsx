@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import { Text, UserInfoCard } from '@pentabd/ui';
 
 import Logo from '@images/eclogo.svg';
@@ -10,11 +9,7 @@ import { HomeCardType } from './constants';
 
 function Home() {
   const { homeCardArray } = useHome();
-  const navigate = useNavigate();
 
-  if (homeCardArray?.length === 1) {
-    navigate(homeCardArray?.[0]?.routeName);
-  }
   return (
     <div className="bg-light vh-100 d-flex align-items-center overflow-y-auto">
       {/* topbar */}
