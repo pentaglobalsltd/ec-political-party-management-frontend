@@ -1,23 +1,55 @@
-name: EC Frontend CI/CD
+name: Ec Dev Reusable Workflow
 
 on:
-  push:
-    branches: [ dev ]
+  workflow_call:
+    inputs:
+      branch:
+        description: 'Branch to trigger the workflow'
+        default: 'dev'
+        type: string
+      environment:
+        description: 'Deployment environment (e.g., dev, prod)'
+        default: 'dev'
+        type: string
+      docker_image:
+        description: 'Docker image name'
+        default: 'voganti-core-prod'
+        type: string
+      dockerfile:
+        description: 'Dockerfile to use'
+        default: 'Dockerfile.dev'
+        type: string
+      product_name:
+        description: 'Product name for DefectDojo'
+        default: 'voganti-core-prod'
+        type: string
+      engagement_name:
+        description: 'Engagement name for DefectDojo'
+        default: 'voganti-core-prod-trivy'
+        type: string
+      min_severity:
+        description: 'Minimum severity level for DefectDojo'
+        default: 'Low'
+        type: string
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
+      - uses: actions/checkout@v2
 
       - name: Extract imageAppVersion from values.yaml
         id: get_version
         run: |
-          IMAGE_VERSION=$(yq eval '.variables.imageAppVersion' ./deploy/dev/values.yaml)
-          echo "Image Version: $IMAGE_VERSION"
-          echo "IMAGE_VERSION=$IMAGE_VERSION" >> $GITHUB_ENV
+          image_version=$(yq eval '.variables.imageAppVersion' ./deploy/${{ inputs.environment }}/values.yaml)
+          echo "Image Version: $image_version"
+          echo "IMAGE_VERSION=$image_version" >> $GITHUB_ENV
 
       - name: Cache Trivy DB
         uses: actions/cache@v3
@@ -27,13 +59,14 @@ jobs:
           restore-keys: |
             trivy-db-${{ runner.os }}-
 
-      - name: Build Docker Image
+      - name: Build Docker Image (no cache)
         run: |
-          docker build -t ${{ secrets.DOCKER_USER }}/ec-political-party-frontend-dev:${{ env.IMAGE_VERSION }} \
+          docker build --no-cache \
+            -t ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image }}:${{ env.IMAGE_VERSION }} \
             --build-arg GITHUB_TOKEN=${{ secrets.MAVEN_REPO_TOKEN }} \
             --build-arg ENC_PASSWORD=${{ secrets.ENC_PASSWORD }} \
             --build-arg GITHUB_USER=${{ secrets.MAVEN_REPO_USER }} \
-            -f Dockerfile.dev .
+            -f ${{ inputs.dockerfile }} .
 
       - name: Login to Docker Hub
         uses: docker/login-action@v1
@@ -41,34 +74,9 @@ jobs:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
-      - name: Push Docker Image
-        run: docker push ${{ secrets.DOCKER_USER }}/ec-political-party-frontend-dev:${{ env.IMAGE_VERSION }}
+      - name: Docker push
+        run: docker push ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image }}:${{ env.IMAGE_VERSION }}
 
       - name: Clear Cache
         run: |
           curl -X POST "https://api.pentabd.com/ec-cache-sync-service-dev/ec-cache-sync-service/api/v1/private/cache/clear"
-
-      # Optional: Enable Trivy Scan & DefectDojo upload
-      # - name: Run Trivy Scan
-      #   uses: aquasecurity/trivy-action@master
-      #   with:
-      #     image-ref: "${{ secrets.DOCKER_USER }}/ec-political-party-frontend-dev:${{ env.IMAGE_VERSION }}"
-      #     format: 'json'
-      #     output: './trivy-report.json'
-      #     github-pat: ${{ secrets.GITHUB_TOKEN }}
-
-      # - name: Upload Trivy Report
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: trivy-report
-      #     path: trivy-report.json
-
-      # - name: Import Trivy to DefectDojo
-      #   run: |
-      #     curl -X POST "http://122.152.48.180:8969/api/v2/import-scan/" \
-      #     -H "Authorization: Token YOUR_DEFECTDOJO_TOKEN" \
-      #     -F "scan_type=Trivy Scan" \
-      #     -F "minimum_severity=Low" \
-      #     -F "file=@trivy-report.json" \
-      #     -F "product_name=ec-political-party-frontend-dev" \
-      #     -F "engagement_name=ec-political-party-frontend-dev-trivy"
