@@ -1,42 +1,11 @@
-# # Stage 1: Build
-# FROM node:18.20.3-alpine AS builder
-
-# WORKDIR /app
-
-# COPY package.json .npmrc ./
-
-# RUN yarn 
-
-# COPY . .
-
-# RUN yarn build:dev-private
-
-# # Stage 2: Production
-# FROM node:18.20.3-alpine
-
-# WORKDIR /app
-
-# COPY --from=builder /app/dist /app/dist
-
-# RUN npm install -g serve
-
-# EXPOSE 3000
-
-# CMD ["serve", "-s", "dist"]
 # Stage 1: Build
 FROM node:18.20.3-alpine AS builder
 
-ARG NPM_TOKEN  # Declare the build argument
-
 WORKDIR /app
 
-COPY package.json ./
+COPY package.json .npmrc ./
 
-# Inject the NPM_TOKEN into .npmrc
-RUN echo "@pentabd:registry=https://registry.npmjs.org/" > .npmrc && \
-    echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
-
-RUN yarn
+RUN yarn 
 
 COPY . .
 
