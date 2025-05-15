@@ -13,7 +13,7 @@ variables:
   serviceTargetPort: 3000
   nodePort: 30124
 
-  # gRPC (Netty)
+  # gRPC (Netty) ##
 #  servicePortGrpc: 9090
 #  serviceTargetPortGrpc: 9090
 
