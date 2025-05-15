@@ -62,10 +62,11 @@ jobs:
       - name: Build Docker Image (no cache)
         run: |
           docker build --no-cache \
-            -t ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image }}:${{ env.IMAGE_VERSION }} \
+            --build-arg NPM_TOKEN=${{ secrets.NPM_TOKEN }} \
             --build-arg GITHUB_TOKEN=${{ secrets.MAVEN_REPO_TOKEN }} \
             --build-arg ENC_PASSWORD=${{ secrets.ENC_PASSWORD }} \
             --build-arg GITHUB_USER=${{ secrets.MAVEN_REPO_USER }} \
+            -t ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image }}:${{ env.IMAGE_VERSION }} \
             -f ${{ inputs.dockerfile }} .
 
       - name: Login to Docker Hub
