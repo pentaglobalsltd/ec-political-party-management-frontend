@@ -3,23 +3,17 @@ import { useSearchParams } from 'react-router-dom';
 import { useDebounce } from '@pentabd/ui';
 import { FormProvider, useForm } from 'react-hook-form';
 import { IconSearch } from '@pentabd/icons';
-import { FORM_FIELDS } from '@constants/forms';
 import Input from '@components/inputs/Input';
 import { getParams } from '@utils';
-
-const { SEARCH_NID_OR_Name } =
-  FORM_FIELDS.CANDIDATE_INFO_MANAGEMENT.CONTROLLER_LIST.CANDIDATE_MANAGEMENT;
-
-const CANDIDATE_NAME_OR_NID = 'candidateNameOrNid';
 
 export type CallbackParamObjType = { page: number; searchItems: any };
 
 interface Props {
   callback: (x: CallbackParamObjType) => void;
-  isSearchAlwaysEnable?: boolean;
+  searchKey: string;
 }
 
-function SearchInput({ callback, isSearchAlwaysEnable = false }: Props) {
+function SearchInput({ callback, searchKey }: Props) {
   const [searchParams, setSearchParams] = useSearchParams();
   const params = getParams(searchParams);
   const methods = useForm();
@@ -31,22 +25,14 @@ function SearchInput({ callback, isSearchAlwaysEnable = false }: Props) {
   const [value, setDebounceValue] = useState<any>('');
   const debouncedValue = useDebounce<string>(value, 500);
 
-  const searchNidOrName = watch(SEARCH_NID_OR_Name);
-
-  const isUrlParamsEmpty = Object.keys(params).length === 0;
+  const watchSearchKey = watch(searchKey);
 
   const deleteSearchFromUrl = () => {
     if (Object.keys(params).length > 0) {
       const mappedParams = params;
 
-      if (
-        Object.prototype.hasOwnProperty.call(
-          mappedParams,
-          CANDIDATE_NAME_OR_NID,
-        )
-      ) {
-        console.log('keyword removed || new params:', params);
-        delete mappedParams?.[CANDIDATE_NAME_OR_NID];
+      if (Object.prototype.hasOwnProperty.call(mappedParams, searchKey)) {
+        delete mappedParams?.[searchKey];
       }
       if (Object.keys(mappedParams).length > 0) {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -64,27 +50,26 @@ function SearchInput({ callback, isSearchAlwaysEnable = false }: Props) {
   };
 
   useEffect(() => {
-    if (searchNidOrName !== undefined && searchNidOrName?.trim()?.length) {
-      const data = searchNidOrName?.trim();
+    if (watchSearchKey !== undefined && watchSearchKey?.trim()?.length) {
+      const data = watchSearchKey?.trim();
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { page, ...rest } = params;
 
-      setSearchParams({ ...rest, page: '0', [CANDIDATE_NAME_OR_NID]: data });
+      setSearchParams({ ...rest, page: '0', [searchKey]: data });
 
       callback({
         page: 0,
-        searchItems: { ...rest, [CANDIDATE_NAME_OR_NID]: data },
-        // [CANDIDATE_NAME_OR_NID]: data, // TODO: remove this in future
+        searchItems: { ...rest, [searchKey]: data },
       });
-    } else if (!searchNidOrName?.trim()?.length) {
+    } else if (!watchSearchKey?.trim()?.length) {
       if (isDirty) {
         deleteSearchFromUrl();
       }
 
       // means page just refreshed
       else {
-        const data = params?.[CANDIDATE_NAME_OR_NID] || '';
-        setValue(SEARCH_NID_OR_Name, data);
+        const data = params?.[searchKey] || '';
+        setValue(searchKey, data);
       }
     }
 
@@ -95,10 +80,9 @@ function SearchInput({ callback, isSearchAlwaysEnable = false }: Props) {
     <FormProvider {...methods}>
       <form onSubmit={(event) => event.preventDefault()}>
         <Input
-          registerName={SEARCH_NID_OR_Name}
+          registerName={searchKey}
           onchange={(data) => setDebounceValue(data)}
           prefix={<IconSearch size="20" />}
-          disabled={isSearchAlwaysEnable ? false : isUrlParamsEmpty}
           size="xs"
         />
       </form>
