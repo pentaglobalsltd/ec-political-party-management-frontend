@@ -1,6 +1,8 @@
-name: Ec Dev Reusable Workflow
+name: Ec Dev Workflow
 
 on:
+  push:
+    branches: [ dev ]
   workflow_call:
     inputs:
       branch:
@@ -47,7 +49,7 @@ jobs:
       - name: Extract imageAppVersion from values.yaml
         id: get_version
         run: |
-          image_version=$(yq eval '.variables.imageAppVersion' ./deploy/${{ inputs.environment }}/values.yaml)
+          image_version=$(yq eval '.variables.imageAppVersion' ./deploy/${{ inputs.environment || 'dev' }}/values.yaml)
           echo "Image Version: $image_version"
           echo "IMAGE_VERSION=$image_version" >> $GITHUB_ENV
 
@@ -66,8 +68,8 @@ jobs:
             --build-arg GITHUB_TOKEN=${{ secrets.MAVEN_REPO_TOKEN }} \
             --build-arg ENC_PASSWORD=${{ secrets.ENC_PASSWORD }} \
             --build-arg GITHUB_USER=${{ secrets.MAVEN_REPO_USER }} \
-            -t ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image }}:${{ env.IMAGE_VERSION }} \
-            -f ${{ inputs.dockerfile }} .
+            -t ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image || 'ec-political-party-frontend-dev' }}:${{ env.IMAGE_VERSION }} \
+            -f ${{ inputs.dockerfile || 'Dockerfile.dev' }} .
 
       - name: Login to Docker Hub
         uses: docker/login-action@v1
@@ -76,7 +78,7 @@ jobs:
           password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Docker push
-        run: docker push ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image }}:${{ env.IMAGE_VERSION }}
+        run: docker push ${{ secrets.DOCKER_USER }}/${{ inputs.docker_image || 'ec-political-party-frontend-dev' }}:${{ env.IMAGE_VERSION }}
 
       - name: Clear Cache
         run: |
