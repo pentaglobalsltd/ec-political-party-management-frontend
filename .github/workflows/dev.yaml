@@ -1,0 +1,15 @@
+name: Ec Reusable Action
+on:
+  push:
+    branches: [ dev ]
+jobs:
+  ec-reusable-action:
+    uses: pentaglobalsltd/actions/.github/workflows/ec_reusable_action_dev.yaml@master
+    secrets: inherit
+    with:
+      branch: "dev"                       # Pass the input branch
+      environment: "dev"                  # Pass the environment (e.g., dev, prod)
+      docker_image: "ec-political-party-frontend-dev"   # Docker image name
+      dockerfile: "Dockerfile.dev"        # Dockerfile to use
+      product_name: "ec-political-party-frontend-dev"   # Product name for DefectDojo
+      engagement_name: "ec-political-party-frontend-dev-trivy" # Engagement name for DefectDojo

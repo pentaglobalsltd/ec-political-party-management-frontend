@@ -1,0 +1,20 @@
+variables:
+  imageAppVersion: 0.0.1
+  replicaCount: 1
+
+  imageRepository: devpentabd/ec-political-party-frontend-dev
+  imagePullPolicy: Always
+
+  hostName: ec-political-party-frontend-dev.svc.cluster.ec
+  serviceType: NodePort
+
+  # HTTP (Jetty)
+  servicePort: 80
+  serviceTargetPort: 3000
+  nodePort: 30124
+
+  # gRPC (Netty)
+#  servicePortGrpc: 9090
+#  serviceTargetPortGrpc: 9090
+
+  imagePullSecrets: regcred
