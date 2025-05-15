@@ -11,5 +11,5 @@ jobs:
       environment: "dev"                  # Pass the environment (e.g., dev, prod)
       docker_image: "ec-political-party-frontend-dev"   # Docker image name
       dockerfile: "Dockerfile.dev"        # Dockerfile to use
-      product_name: "ec-political-party-frontend-dev"   # Product name for DefectDojo
-      engagement_name: "ec-political-party-frontend-dev-trivy" # Engagement name for DefectDojo
+#      product_name: "ec-configuration-service-dev"   # Product name for DefectDojo
+#      engagement_name: "ec-configuration-service-dev-trivy" # Engagement name for DefectDojo
