@@ -1,5 +1,6 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 import { Header, Table, DownloadButtons } from '@pentabd/ui';
 
@@ -10,9 +11,10 @@ import { politicalPartyTableColumns } from './constants';
 import { getParams } from '@utils';
 import SearchInput from '@components/SearchInput';
 
+const SEARCH_KEY = 'nameBn';
+
 function PoliticalParty() {
   const { t } = useTranslation();
-  const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const params = getParams(searchParams);
 
@@ -31,13 +33,16 @@ function PoliticalParty() {
     loading: downloadLoading,
   } = useGetPoliticalPartyList();
 
-  // useEffect(() => {
-  //   getPoliticalPartyList({ page: 0 });
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, []);
+  useEffect(() => {
+    getPoliticalPartyList({ page: 0 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleTableSearch = (searchItems: any) => {
-    console.log('searchItems:', searchItems);
+    getPoliticalPartyList({
+      ...searchItems?.searchItems,
+      page: searchItems?.page,
+    });
   };
   // download function
   const onClickDownload = () => {
@@ -56,15 +61,15 @@ function PoliticalParty() {
 
       <Table
         headerExtension={{
-          leftComponents: [<SearchInput callback={handleTableSearch} />],
+          leftComponents: [
+            <SearchInput callback={handleTableSearch} searchKey={SEARCH_KEY} />,
+          ],
           rightComponents: [
             <DownloadButtons
               key={3}
               fileName={'political-party-list'}
               columns={politicalPartyTableColumns({
                 t,
-                isDownload: true,
-                navigate,
               })}
               rows={downloadPoliticalPartyList}
               onClickDownload={onClickDownload}
@@ -73,7 +78,7 @@ function PoliticalParty() {
           ],
         }}
         rows={politicalPartyList}
-        columns={politicalPartyTableColumns({ t, navigate })}
+        columns={politicalPartyTableColumns({ t })}
         pagination={{
           language: 'bn',
           totalPage: totalPage,
